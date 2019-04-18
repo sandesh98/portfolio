@@ -7556,7 +7556,11 @@ p {
   }
 }
 
-/* This stylesheet is meant for custom styles, on top of The Peel Template */
+.sandesh {
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-decoration: none;
+}
 
 #loader {
     position: fixed;

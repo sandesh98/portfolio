@@ -8,12 +8,12 @@
                     <div class="bar"></div>
                 </div>
                 <ul class="nav-links">
-                    <li class="col-1 brand"><a href="{{ route('home.index') }}" style="font-weight: bolder; font-size: 1.3em; text-decoration: none;">Sandesh</a></li>
-                    <li class="col-1"><a href="{{ route('project.index') }}" class="nav-link undefined">Project</a>
+                    <li class="col-1 brand"><a href="{{ route('home.index') }}" class="sandesh">Sandesh</a></li>
+                    <li class="col-1"><a href="{{ route('project.index') }}" class="nav-link undefined {{ request()->is('project*') ? 'active' : '' }}">Project</a>
                     </li>
-                    <li class="col-1 col-offset-1"><a href="{{ route('profile.index') }}" class="nav-link undefined">Profile</a>
+                    <li class="col-1 col-offset-1"><a href="{{ route('profile.index') }}" class="nav-link undefined {{ request()->is('profile') ? 'active' : '' }}">Profile</a>
                     </li>
-                    <li class="col-1 col-offset-1"><a href="{{ route('contact.index') }}" class="nav-link undefined">Contact</a>
+                    <li class="col-1 col-offset-1"><a href="{{ route('contact.index') }}" class="nav-link undefined {{ request()->is('contact') ? 'active' : '' }}">Contact</a>
                     </li>
                 </ul>
             </nav>
