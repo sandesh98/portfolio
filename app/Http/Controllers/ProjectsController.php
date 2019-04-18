@@ -20,4 +20,9 @@ class ProjectsController extends Controller
     {
         return view('project.sandesh');
     }
+
+    public function csr()
+    {
+        return view('project.csr');
+    }
 }

@@ -8,14 +8,14 @@
     <div id="inner">
         <section class="nmb behind-header">
             <div class="hero">
-                <div style="background-image: url({{ asset('images/project/sandeshboedhoe/header.jpg') }})" class="bg faded"></div>
+                <div style="background-image: url({{ asset('images/project/csr/header.jpg') }})" class="bg faded"></div>
                 <div class="vcenter">
                     <div class="container mb-xl">
                         <div class="grid">
                             <div class="col-1">2016</div>
                             <div class="col-7">
-                                <div class="label">November</div>
-                                <h1 class="animatedText">Sandeshboedhoe.nl</h1>
+                                <div class="label">September</div>
+                                <h1 class="animatedText">CSR4ALL</h1>
                             </div>
                         </div>
                     </div>
@@ -26,14 +26,14 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-6 col-offset-1">
-{{--                        <div class="video-frame mb-xl">--}}
-                            <img src="{{ asset('images/project/sandeshboedhoe/preview.jpg') }}" alt="">
-{{--                        </div>--}}
+                        {{--                        <div class="video-frame mb-xl">--}}
+                        <img src="{{ asset('images/project/csr/preview.jpg') }}" alt="">
+                        {{--                        </div>--}}
                     </div>
                 </div>
                 <div class="grid content">
                     <div class="col-offset-1 col-3">
-                        <p>Dit is de website waar het allemaal mee begon. Bij het maken van de website had ik de visie om verder te komen met behulp van mijn website. De website moet mij de mogelijkheid bieden om alle projecten die ik gemaakt heb zichtbaar te maken. Ook is het de bedoeling geweest om te kunnen solliciteren met alleen mijn website.</p>
+                        <p>AA4CSR staat voor Ami Aliar 4 Sales Connection Relation. Ami is een oom van mij en hij had een idee in zijn hoofd waardoor mensen die een uitkering ontvangen hun skills kunnen uitbreiden om zo weer op de arbeidsmarkt terecht te komen.</p>
                     </div>
                     <div class="col-offset-1 col-1">
                         <div class="project-data">
@@ -50,6 +50,10 @@
                             <div class="title">Year</div>
                             <div class="desc">2016</div>
                         </div>
+                        <div class="project-data">
+                            <div class="title">Opdrachtgever</div>
+                            <div class="desc">Ami</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -59,10 +63,10 @@
                 <div class="grid content">
                     <div id="img-carousel" class="titanSlider">
                         <ul class="slides">
-                            <li class="slide"><img src="{{ asset('images/project/sandeshboedhoe/carousel/carousel-1.jpg') }}" class="fw"></li>
-                            <li class="slide"><img src="{{ asset('images/project/sandeshboedhoe/carousel/carousel-2.jpg') }}" class="fw"></li>
-                            <li class="slide"><img src="{{ asset('images/project/sandeshboedhoe/carousel/carousel-3.jpg') }}" class="fw"></li>
-                            <li class="slide"><img src="{{ asset('images/project/sandeshboedhoe/carousel/carousel-4.jpg') }}" class="fw"></li>
+                            <li class="slide"><img src="{{ asset('images/project/csr/carousel/carousel-1.jpg') }}" class="fw"></li>
+                            <li class="slide"><img src="{{ asset('images/project/csr/carousel/carousel-2.jpg') }}" class="fw"></li>
+                            <li class="slide"><img src="{{ asset('images/project/csr/carousel/carousel-3.jpg') }}" class="fw"></li>
+                            <li class="slide"><img src="{{ asset('images/project/csr/carousel/carousel-4.jpg') }}" class="fw"></li>
                         </ul>
                     </div>
                 </div>

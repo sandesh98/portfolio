@@ -22,9 +22,9 @@
             <div class="container">
                 <div id="project-grid" class="masonry-grid">
                     <!-- Project -->
-                    <a href="project-single.html" class="websites grid-item col-8">
+                    <a href="{{ route('project.csr') }}" class="websites grid-item col-8">
                         <div class="thumb">
-                            <img src="images/projects/thumb-01-wide.jpg">
+                            <img src="{{ asset('images/project/csr/project-image.jpg') }}">
                         </div>
                         <div class="caption">
                             <div class="title">AA4CSR</div>
@@ -35,7 +35,7 @@
                     <!-- Project -->
                     <a href="project-single.html" class="illustraties grid-item col-8">
                         <div class="thumb">
-                            <img src="images/projects/thumb-05-wide.jpg">
+                            <img src="{{ asset('images/project/natrajflyer/project-image.jpg') }}">
                         </div>
                         <div class="caption">
                             <div class="title">Dansacademie Natraj</div>
@@ -46,7 +46,7 @@
                     <!-- Project -->
                     <a href="project-single.html" class="websites grid-item col-8">
                         <div class="thumb">
-                            <img src="images/projects/thumb-02-wide.jpg">
+                            <img src="{{ asset('images/project/technischedienst/project-image.jpg') }}">
                         </div>
                         <div class="caption">
                             <div class="title">Technische Dienst</div>
@@ -57,7 +57,7 @@
                     <!-- Project -->
                     <a href="project-single.html" class="websites grid-item col-8">
                         <div class="thumb">
-                            <img src="images/projects/thumb-03-wide.jpg">
+                            <img src="{{ asset('images/project/dutchdiner/project-image.jpg') }}">
                         </div>
                         <div class="caption">
                             <div class="title">Dutch Diner meent</div>
@@ -68,7 +68,7 @@
                     <!-- Project -->
                     <a href="{{ route('project.chefmarketing') }}" class="websites grid-item col-8">
                         <div class="thumb">
-                            <img src="images/projects/thumb-04-wide.jpg">
+                            <img src="{{ asset('images/project/chefmarketing/project-image.jpg') }}">
                         </div>
                         <div class="caption">
                             <div class="title">Chefmarketing</div>
@@ -79,7 +79,7 @@
                     <!-- Project -->
                     <a href="{{ route('project.sandesh') }}" class="websites grid-item col-8">
                         <div class="thumb">
-                            <img src="images/projects/thumb-06-wide.jpg">
+                            <img src="{{ asset('images/project/sandeshboedhoe/project-image.jpg') }}">
                         </div>
                         <div class="caption">
                             <div class="title">Personal Website</div>
