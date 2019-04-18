@@ -35,4 +35,9 @@ class ProjectsController extends Controller
     {
         return view('project.projects.technischedienst');
     }
+
+    public function dutchdiner()
+    {
+        return view('project.projects.dutch-diner');
+    }
 }

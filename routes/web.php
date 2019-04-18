@@ -17,6 +17,7 @@ Route::get('/project', 'ProjectsController@index')->name('project.index');
 Route::get('/project/chefmarketing', 'ProjectsController@chefmarketing')->name('project.chefmarketing');
 Route::get('/project/sandesh', 'ProjectsController@sandesh')->name('project.sandesh');
 Route::get('/project/csr', 'ProjectsController@csr')->name('project.csr');
+Route::get('/project/dutchdiner', 'ProjectsController@dutchdiner')->name('project.dutchdiner');
 Route::get('/project/technischedienst', 'ProjectsController@technischedienst')->name('project.technischedienst');
 Route::get('/project/natraj-flyer', 'ProjectsController@natrajFlyer')->name('project.natraj-flyer');
 

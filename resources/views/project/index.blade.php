@@ -55,7 +55,7 @@
                     </a>
 
                     <!-- Project -->
-                    <a href="project-single.html" class="websites grid-item col-8">
+                    <a href="{{ route('project.dutchdiner') }}" class="websites grid-item col-8">
                         <div class="thumb">
                             <img src="{{ asset('images/project/dutchdiner/project-image.jpg') }}">
                         </div>
