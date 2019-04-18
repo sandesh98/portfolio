@@ -30,4 +30,9 @@ class ProjectsController extends Controller
     {
         return view('project.projects.natraj-flyer');
     }
+
+    public function technischedienst()
+    {
+        return view('project.projects.technischedienst');
+    }
 }
