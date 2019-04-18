@@ -33,7 +33,7 @@
                     </a>
 
                     <!-- Project -->
-                    <a href="project-single.html" class="illustraties grid-item col-8">
+                    <a href="{{ route('project.natraj-flyer') }}" class="illustraties grid-item col-8">
                         <div class="thumb">
                             <img src="{{ asset('images/project/natrajflyer/project-image.jpg') }}">
                         </div>
