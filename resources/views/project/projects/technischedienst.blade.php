@@ -76,7 +76,9 @@
                             <div class="title">Meer informatie</div>
                         </div>
                         <div class="body">
-                            <p>Hier komt extra informatie over de website</p>
+                            <p>In september 2017 heb ik een webapplicatie gebouwd om een van de grootste frustraties te voorkomen op de werkvloer. Klanten komen langs met bijvoorbeeld hun iMac of Macbook om deze door ons te laten herstellen. Het herstellen van een Mac is niet in 5 minuten gedaan dus kiezen we er altijd voor om deze tijdelijk in te nemen. Bij het innemen is het zowel fijn voor ons als voor de klant om een afgifte bewijs te ontvangen waarop de gegevens van de klant, het product en aanvullende informatie vermeldt staan. </p>
+                            <p>Een van de grootste ergernissen is dat de serviceformulieren altijd met de hand ingevuld moeten worden. Daarbij is er kans dat er essentiële gegevens onduidelijk geschreven worden. Wat we zelf meegemaakt hebben in Spijkenisse is dat serviceformulieren op mysterieuze wijzen verdwijnen, succes met het achterhalen van het probleem en de klant informeren.</p>
+                            <p>Mijn oplossing voor dit probleem is een webapplicatie schrijven waarin serviceformulieren online opgeslagen worden zodat deze nooit kwijt raken en informatie altijd goed en duidelijk leesbaar zijn. In Spijkenisse gebruiken we het al bijna 2 jaar met succes! De applicatie heeft handige features die interne communicatie overzichtelijk houden. Helaas vanwege de privacywetgeving heb ik de applicatie offline moeten halen en alle data moeten verwijderen</p>
                         </div>
                     </li>
                 </ul>
@@ -86,14 +88,14 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-4">
-                        <div class="vcenter link-container"><a href="project-single.html" class="prev-link">
-                                <div class="project-title">The Vault</div>
-                                <div class="link-title">Previous project</div></a></div>
+                        <div class="vcenter link-container"><a href="{{ route('project.natraj-flyer') }}" class="prev-link">
+                                <div class="project-title">Dansacademie Natraj Flyer</div>
+                                <div class="link-title">Vorige project</div></a></div>
                     </div>
                     <div class="col-4">
-                        <div class="vcenter link-container text-right"><a href="project-single.html" class="next-link">
-                                <div class="project-title">Wakey Wakey</div>
-                                <div class="link-title">Next project</div></a></div>
+                        <div class="vcenter link-container text-right"><a href="" class="next-link">
+                                <div class="project-title">Dutch Diner</div>
+                                <div class="link-title">Volgende project</div></a></div>
                     </div>
                 </div>
             </div>

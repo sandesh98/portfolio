@@ -66,7 +66,8 @@
                             <div class="title">Meer informatie</div>
                         </div>
                         <div class="body">
-                            <p>Hier komt extra informatie over de website</p>
+                            <p>Dansacademie Natraj heeft Rajni opgericht voor mensen die van traditionele Indiase dansen houdt. Rajni focust zich naast haar werk volledig op haar dansschool. Ze houdt veel optredens, ook geeft ze lessen aan anderen. Dit doet zij op verschillende locaties. De flyer was bedoeld om meer publiek te trekken maar ook om de dansschool meer bekendheid te geven.</p>
+                            <p>Het was voor mij de eerste keer om een flyer te ontwerpen. Tijdens het proces heb ik veel over Photoshop geleerd. Je zou nu denken; wie maakt er nou weer een flyer in Photoshop? Nou ik. Wel heb ik tijdens het proces geleerd dat Photoshop misschien niet het beste programma is om flyers in te maken.</p>
                         </div>
                     </li>
                 </ul>
@@ -76,14 +77,14 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-4">
-                        <div class="vcenter link-container"><a href="project-single.html" class="prev-link">
-                                <div class="project-title">The Vault</div>
-                                <div class="link-title">Previous project</div></a></div>
+                        <div class="vcenter link-container"><a href="{{ route('project.csr') }}" class="prev-link">
+                                <div class="project-title">AA4CSR</div>
+                                <div class="link-title">Vorige project</div></a></div>
                     </div>
                     <div class="col-4">
-                        <div class="vcenter link-container text-right"><a href="project-single.html" class="next-link">
-                                <div class="project-title">Wakey Wakey</div>
-                                <div class="link-title">Next project</div></a></div>
+                        <div class="vcenter link-container text-right"><a href="{{ route('project.technischedienst') }}" class="next-link">
+                                <div class="project-title">Technische Dienst</div>
+                                <div class="link-title">Volgende project</div></a></div>
                     </div>
                 </div>
             </div>

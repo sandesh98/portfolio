@@ -26,9 +26,7 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-6 col-offset-1">
-                        {{--                        <div class="video-frame mb-xl">--}}
                         <img src="{{ asset('images/project/csr/preview.jpg') }}" alt="">
-                        {{--                        </div>--}}
                     </div>
                 </div>
                 <div class="grid content">
@@ -80,7 +78,7 @@
                             <div class="title">Meer informatie</div>
                         </div>
                         <div class="body">
-                            <p>Hier komt extra informatie over de website</p>
+                            <p>AA4CSR is een ideale oplossing voor mensen die net uit de uitkering komen of die momenteel een uitkering hebben. Ami, mijn oom heeft had een idee om dat soort mensen wat skills bij te scholen. Dat zou hij doormiddel van cursussen doen waar mensen zich voor kunnen inschrijven. Het inschrijven zou via website gaan. Mensen zouden zich eerst moeten registeren en daarna zouden zij zich kunnen aanmelden voor de cursussen. Helaas heeft Ami alles offline moeten halen in verband met persoonlijke omstandigheden.</p>
                         </div>
                     </li>
                 </ul>
@@ -90,14 +88,14 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-4">
-                        <div class="vcenter link-container"><a href="project-single.html" class="prev-link">
-                                <div class="project-title">The Vault</div>
-                                <div class="link-title">Previous project</div></a></div>
+                        <div class="vcenter link-container"><a href="{{ route('project.sandesh') }}" class="prev-link">
+                                <div class="project-title">Sandesh Boedhoe</div>
+                                <div class="link-title">Vorige project</div></a></div>
                     </div>
                     <div class="col-4">
-                        <div class="vcenter link-container text-right"><a href="project-single.html" class="next-link">
-                                <div class="project-title">Wakey Wakey</div>
-                                <div class="link-title">Next project</div></a></div>
+                        <div class="vcenter link-container text-right"><a href="{{ route('project.natraj-flyer') }}" class="next-link">
+                                <div class="project-title">Dansacademie Natraj Flyer</div>
+                                <div class="link-title">Volgende project</div></a></div>
                     </div>
                 </div>
             </div>
