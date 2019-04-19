@@ -26,9 +26,7 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-6 col-offset-1">
-{{--                        <div class="video-frame mb-xl">--}}
-                            <img src="{{ asset('images/project/sandeshboedhoe/preview.jpg') }}" alt="">
-{{--                        </div>--}}
+                        <img src="{{ asset('images/project/sandeshboedhoe/preview.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="grid content">
@@ -77,6 +75,23 @@
                         </div>
                         <div class="body">
                             <p>Hier komt extra informatie over de website</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="head">
+                            <div class="title">Tools</div>
+                        </div>
+                        <div class="body">
+                            <div class="grid">
+                                <div class="col-2"><span class="label">Talen</span>
+                                    <ul class="striped inside">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Javascript</li>
+                                        <li>Bootstrap</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </li>
                 </ul>

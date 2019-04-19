@@ -81,6 +81,33 @@
                             <p>Mijn oplossing voor dit probleem is een webapplicatie schrijven waarin serviceformulieren online opgeslagen worden zodat deze nooit kwijt raken en informatie altijd goed en duidelijk leesbaar zijn. In Spijkenisse gebruiken we het al bijna 2 jaar met succes! De applicatie heeft handige features die interne communicatie overzichtelijk houden. Helaas vanwege de privacywetgeving heb ik de applicatie offline moeten halen en alle data moeten verwijderen</p>
                         </div>
                     </li>
+                    <li>
+                        <div class="head">
+                            <div class="title">Tools</div>
+                        </div>
+                        <div class="body">
+                            <div class="grid">
+                                <div class="col-2"><span class="label">Programma's</span>
+                                    <ul class="striped inside">
+                                        <li>PHPStorm</li>
+                                        <li>Trello</li>
+                                        <li>Sequel Pro</li>
+                                        <li>Terminal</li>
+                                        <li>Slack</li>
+                                    </ul>
+                                </div>
+                                <div class="col-2"><span class="label">Talen</span>
+                                    <ul class="striped inside">
+                                        <li>PHP</li>
+                                        <li>Laravel</li>
+                                        <li>HTML</li>
+                                        <li>CSS / Sass</li>
+                                        <li>Javascript / jQuery</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>

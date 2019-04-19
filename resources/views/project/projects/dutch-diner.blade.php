@@ -84,6 +84,20 @@
                             <p>Wie Rotterdam kent, kent ons mooie en unieke pand aan de Meent. Het staat er na vele jaren nog prachtig bij. Toch is het voortbestaan van ons pand niet altijd zeker geweest. Enkele jaren geleden zou het pand weggehaald worden. Daar hebben wij een stokje voor gestoken, zodat u nog steeds kunt genieten van die heerlijke ouderwetse poffertjes en pannenkoeken.</p>
                         </div>
                     </li>
+                    <li>
+                        <div class="head">
+                            <div class="title">Tools</div>
+                        </div>
+                        <div class="body">
+                            <div class="grid">
+                                <div class="col-2"><span class="label">Talen</span>
+                                    <ul class="striped inside">
+                                        <li>Wordpress</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>

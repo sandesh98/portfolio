@@ -70,6 +70,20 @@
                             <p>Het was voor mij de eerste keer om een flyer te ontwerpen. Tijdens het proces heb ik veel over Photoshop geleerd. Je zou nu denken; wie maakt er nou weer een flyer in Photoshop? Nou ik. Wel heb ik tijdens het proces geleerd dat Photoshop misschien niet het beste programma is om flyers in te maken.</p>
                         </div>
                     </li>
+                    <li>
+                        <div class="head">
+                            <div class="title">Tools</div>
+                        </div>
+                        <div class="body">
+                            <div class="grid">
+                                <div class="col-2"><span class="label">Programma's</span>
+                                    <ul class="striped inside">
+                                        <li>Photoshop</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
