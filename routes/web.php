@@ -20,6 +20,7 @@ Route::get('/project/csr', 'ProjectsController@csr')->name('project.csr');
 Route::get('/project/dutchdiner', 'ProjectsController@dutchdiner')->name('project.dutchdiner');
 Route::get('/project/technischedienst', 'ProjectsController@technischedienst')->name('project.technischedienst');
 Route::get('/project/natraj-flyer', 'ProjectsController@natrajFlyer')->name('project.natraj-flyer');
+Route::get('project/guess-and-win', 'ProjectsController@guessAndWin')->name('project.guess-and-win');
 
 
 Route::get('/profile', 'ProfileController@index')->name('profile.index');

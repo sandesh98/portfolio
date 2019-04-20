@@ -40,4 +40,9 @@ class ProjectsController extends Controller
     {
         return view('project.projects.dutch-diner');
     }
+
+    public function guessAndWin()
+    {
+        return view('project.projects.guess-and-win');
+    }
 }
