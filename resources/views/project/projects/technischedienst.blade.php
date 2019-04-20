@@ -120,7 +120,7 @@
                                 <div class="link-title">Vorige project</div></a></div>
                     </div>
                     <div class="col-4">
-                        <div class="vcenter link-container text-right"><a href="" class="next-link">
+                        <div class="vcenter link-container text-right"><a href="{{ route('project.dutchdiner') }}" class="next-link">
                                 <div class="project-title">Dutch Diner</div>
                                 <div class="link-title">Volgende project</div></a></div>
                     </div>

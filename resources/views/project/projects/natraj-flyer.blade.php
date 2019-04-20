@@ -78,7 +78,7 @@
                             <div class="grid">
                                 <div class="col-2"><span class="label">Programma's</span>
                                     <ul class="striped inside">
-                                        <li>Photoshop</li>
+                                        <li>Adobe Photoshop</li>
                                     </ul>
                                 </div>
                             </div>

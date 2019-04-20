@@ -76,7 +76,9 @@
                             <div class="title">Meer informatie</div>
                         </div>
                         <div class="body">
-                            <p>Aanvullende informatie over het project</p>
+                            <p>Een van de onderdelen op de Hogeschool Rotterdam is projecten maken. We hebben de opdracht gekregen om een bordspel te maken. Of het nou een bestaand of nieuw bordspel is maakte de opdrachtgever niet veel uit. Wat wel belangrijk was is dat het spel een digitaal component moest bevatten. Het lastigste van het project is dat het spel ook speelbaar moet zijn zonder de digitale component. </p>
+                            <p>Mijn projectleden en ik hebben ervoor gekozen om het bekende spel 30 Seconds na te maken en onze eigen draai eraan te geven. Het bord, de kaarten, de dobbelsteen, de pionnen en het concept hebben overgenomen uit het originele spel. Onze eigen draai bevatten special en powerup kaarten die ervoor zorgen dat het spel nog spannender wordt. De kaarten kunnen in jou voor en/of nadeel uitkomen.</p>
+                            <p>De digitale component vervangt alles behalve de pionnen en bordspel. Voor de rest gaan beurten, kaarten en pionnen doormiddel van het digitale component.</p>
                         </div>
                     </li>
                     <li>
@@ -88,19 +90,29 @@
                                 <div class="col-2"><span class="label">Programma's</span>
                                     <ul class="striped inside">
                                         <li>PHPStorm</li>
-                                        <li>Trello</li>
-                                        <li>Sequel Pro</li>
                                         <li>Terminal</li>
                                         <li>Slack</li>
+                                        <li>Adobe Photoshop</li>
+                                        <li>Adobe Illustrator</li>
+                                        <li>Adobe Premiere</li>
+                                        <li>Adobe XD</li>
                                     </ul>
                                 </div>
                                 <div class="col-2"><span class="label">Talen</span>
                                     <ul class="striped inside">
-                                        <li>PHP</li>
-                                        <li>Laravel</li>
+                                        <li>Vue</li>
                                         <li>HTML</li>
-                                        <li>CSS / Sass</li>
-                                        <li>Javascript / jQuery</li>
+                                        <li>CSS</li>
+                                        <li>Bootstrap</li>
+                                    </ul>
+                                </div>
+                                <div class="col-2"><span class="label">Projectleden</span>
+                                    <ul class="striped inside">
+                                        <li>Achraf Chettou</li>
+                                        <li>Max de Bruin</li>
+                                        <li>Nick Arema</li>
+                                        <li>Sandesh Boedhoe</li>
+                                        <li>Thomas van de Bovenkamp</li>
                                     </ul>
                                 </div>
                             </div>

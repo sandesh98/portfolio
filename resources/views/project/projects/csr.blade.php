@@ -102,7 +102,7 @@
                                     <ul class="striped inside">
                                         <li>Atom</li>
                                         <li>Sublime Text</li>
-                                        <li>Photoshop</li>
+                                        <li>Adobe Photoshop</li>
                                     </ul>
                                 </div>
                                 <div class="col-2"><span class="label">Talen</span>
@@ -124,8 +124,8 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-4">
-                        <div class="vcenter link-container"><a href="{{ route('project.sandesh') }}" class="prev-link">
-                                <div class="project-title">Sandesh Boedhoe</div>
+                        <div class="vcenter link-container"><a href="{{ route('project.guess-and-win') }}" class="prev-link">
+                                <div class="project-title">Guess and Win</div>
                                 <div class="link-title">Vorige project</div>
                             </a></div>
                     </div>

@@ -74,7 +74,8 @@
                             <div class="title">Meer informatie</div>
                         </div>
                         <div class="body">
-                            <p>Hier komt extra informatie over de website</p>
+                            <p>De website waar het allemaal mee begon. Dit is mijn eerste portfolio website die ik helemaal zelfontworpen en gemaakt heb. Ook was het de eerste keer dat ik met domeinnamen en hostings ging spelen. Op het begin was het eng en lastig om alles werkend te krijgen maar met de hulp van Internet en klasgenoten hebben we alles werkend gekregen.</p>
+                            <p>Het fijne aan de website is dat ik geen aparte CV hoef te maken aangezien alle gegevens op mijn website vermeld staan. Zo ik heb bijvoorbeeld gesolliciteerd bij Amac en stage kunnen regelen doormiddel van mijn website.</p>
                         </div>
                     </li>
                     <li>
@@ -83,6 +84,11 @@
                         </div>
                         <div class="body">
                             <div class="grid">
+                                <div class="col-2"><span class="label">Programma's</span>
+                                    <ul class="striped inside">
+                                        <li>Atom</li>
+                                    </ul>
+                                </div>
                                 <div class="col-2"><span class="label">Talen</span>
                                     <ul class="striped inside">
                                         <li>HTML</li>
@@ -101,14 +107,14 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-4">
-                        <div class="vcenter link-container"><a href="project-single.html" class="prev-link">
-                                <div class="project-title">The Vault</div>
-                                <div class="link-title">Previous project</div></a></div>
+                        <div class="vcenter link-container"><a href="{{ route('project.chefmarketing') }}" class="prev-link">
+                                <div class="project-title">Chefmarketing</div>
+                                <div class="link-title">Vorige project</div></a></div>
                     </div>
                     <div class="col-4">
-                        <div class="vcenter link-container text-right"><a href="project-single.html" class="next-link">
-                                <div class="project-title">Wakey Wakey</div>
-                                <div class="link-title">Next project</div></a></div>
+                        <div class="vcenter link-container text-right"><a href="{{ route('project.guess-and-win') }}" class="next-link">
+                                <div class="project-title">Guess and Win</div>
+                                <div class="link-title">Volgende project</div></a></div>
                     </div>
                 </div>
             </div>
