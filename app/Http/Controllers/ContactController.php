@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Notifaction;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
@@ -13,6 +14,8 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
-        dd('hit!');
+        Notifaction::create($request->all());
+
+        return back();
     }
 }

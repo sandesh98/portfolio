@@ -13,7 +13,8 @@
                         <div class="col-2"><a href="mailto:sandeshb981@gmail.com">sandeshb981@gmail.com</a></div>
                         <div class="col-2"><span class="label label-white">06 81342775</span></div>
                     </div>
-                    <form action="{{ route('contact.store') }}" class="vbottom-desktop grid default-form no-spacing lined-form mb-xl">
+                    <form action="{{ route('contact.store') }}" method="post" class="vbottom-desktop grid default-form no-spacing lined-form mb-xl">
+                        @csrf
                         <div class="col-3">
                             <input required type="text" placeholder="Naam" name="name" class="form-control">
                         </div>
