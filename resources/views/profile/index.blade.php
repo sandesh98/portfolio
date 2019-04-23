@@ -1,3 +1,4 @@
+
 @extends('layout.master')
 
 @section('main')
@@ -22,12 +23,12 @@
                     <div class="col-3">
                         <div class="content-block">
                             <h2>Hi, mijn naam is Sandesh</h2>
-                            <p>Mijn volledige naam is Sandesh Boedhoe. Ik ben 20 jaar oud en woonachtig in Spijkenisse. Sinds kort ben ik begonnen met de opleiding Informatica op Hogeschool Rotterdam. Ik volg deze opleiding omdat ik later graag binnen een bedrijf werkzaam zou willen zijn als web developer. Het is mijn droom om met een groot team gespecialiseerde mensen aan de slag te gaan. </p>
+                            <p>Ik ben 20 jaar oud en woonachtig in Spijkenisse. In mijn vrije tijd programmeer ik vaak. Mijn favorieten projecten zijn CMS-systemen maken met behulp van Laravel. Ook hou ik ervan om zo nu en dan te gamen of met vrienden af te spreken. </p>
                             <p>Zelf zou ik mij meer willen specialiseren op het gebied van backend. Zowel op mijn stage als in mijn vrije tijd heb ik veel met het framework Laravel gewerkt. </p>
                         </div>
                         <div class="content-block">
                             <h3>Werk</h3>
-                            <p>Buiten de opleiding ben ik werkzaam bij de Amac in Spijkenisse. Amac is een (APR) Apple Premium Reseller dus het verkopen van Apple staat op nummer 1. Het is een leuke bijbaan omdat ik het genoegen heb om met leuke collega’s te werken maar ook omdat ik het genoege heb op premium apparaten te verkopen. Het begon allemaal bij Dixons ook in Spijkenisse, dat was mijn eerste bijbaan. Wat beiden winkels gemeen hebben is dat we altijd als eerst de nieuwste snufjes krijgen om uit te testen. En dat maakt het werken in de retail toch wel leuk.</p>
+                            <p>Ik ben werkzaam bij Amac in Spijkenisse. Amac is een (APR) Apple Premium Reseller dus het verkopen van Apple staat op nummer 1. Het is een leuke bijbaan omdat ik het genoegen heb om met leuke collega’s te werken maar ook omdat ik het genoege heb op premium apparaten te verkopen. Het begon allemaal bij Dixons ook in Spijkenisse, dat was mijn eerste bijbaan. Wat beiden winkels gemeen hebben is dat we altijd als eerst de nieuwste snufjes krijgen om uit te testen. En dat maakt het werken in de retail toch wel leuk.</p>
                         </div>
                         <div class="content-block">
                             <h4>Extra weetjes</h4>
@@ -54,7 +55,7 @@
                     </div>
                     <div class="col-2 col-offset-1">
                         <div class="list-block">
-                            <h3 class="stripe">Opleidingen</h3><span class="label">2018 - 2022</span>
+                            <h3 class="stripe">Opleidingen</h3><span class="label">2018 - 2019</span>
                             <ul class="striped">
                                 <li>Hogeschool Rotterdam <br>
                                     Informatica <br>

@@ -66,17 +66,6 @@
                     </a>
 
                     <!-- Project -->
-                    <a href="{{ route('project.chefmarketing') }}" class="websites grid-item col-8">
-                        <div class="thumb">
-                            <img src="{{ asset('images/project/chefmarketing/project-image.jpg') }}">
-                        </div>
-                        <div class="caption">
-                            <div class="title">Chefmarketing</div>
-                            <div class="subtitle">Website</div>
-                        </div>
-                    </a>
-
-                    <!-- Project -->
                     <a href="{{ route('project.sandesh') }}" class="websites grid-item col-8">
                         <div class="thumb">
                             <img src="{{ asset('images/project/sandeshboedhoe/project-image.jpg') }}">
