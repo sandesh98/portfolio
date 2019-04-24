@@ -110,8 +110,8 @@
                                 <div class="link-title">Vorige project</div></a></div>
                     </div>
                     <div class="col-4">
-                        <div class="vcenter link-container text-right"><a href="{{ route('project.chefmarketing') }}" class="next-link">
-                                <div class="project-title">Chefmarketing</div>
+                        <div class="vcenter link-container text-right"><a href="{{ route('project.sandesh') }}" class="next-link">
+                                <div class="project-title">Sandeshboedhoe.nl</div>
                                 <div class="link-title">Volgende project</div></a></div>
                     </div>
                 </div>
