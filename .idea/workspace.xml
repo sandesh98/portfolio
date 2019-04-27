@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="713fd843-3dbc-4a4e-b7e8-bdc5ba720ce8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/project/projects/sandesh.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/projects/sandesh.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="713fd843-3dbc-4a4e-b7e8-bdc5ba720ce8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,12 +266,12 @@
       <workItem from="1555674781548" duration="1426000" />
       <workItem from="1555763158710" duration="766000" />
       <workItem from="1556047129936" duration="3256000" />
-      <workItem from="1556091933653" duration="238000" />
+      <workItem from="1556091933653" duration="394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25513000" />
+    <option name="totallyTimeSpent" value="25669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />

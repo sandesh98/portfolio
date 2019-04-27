@@ -10,7 +10,7 @@
                     <div class="container">
                         <div class="grid mb-md">
                             <div class="col-8">
-                                <h1 class="animatedText">Profile</h1>
+                                <h1 class="animatedText">Profiel</h1>
                             </div>
                         </div>
                     </div>
