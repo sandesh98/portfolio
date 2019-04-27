@@ -6,7 +6,7 @@
             <div class="container mb-md">
                 <div class="grid">
                     <div class="col-3">
-                        <h2 class="grid-title">Projects</h2>
+                        <h2 class="grid-title">Projecten</h2>
                     </div>
                     <div class="col-5 text-right">
                         <nav id="filters">
