@@ -26,3 +26,7 @@ Route::get('project/guess-and-win', 'ProjectsController@guessAndWin')->name('pro
 Route::get('/profile', 'ProfileController@index')->name('profile.index');
 Route::get('/contact', 'ContactController@index')->name('contact.index');
 Route::post('/contact', 'ContactController@store')->name('contact.store');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
