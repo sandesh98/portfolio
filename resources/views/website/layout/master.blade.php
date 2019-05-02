@@ -15,8 +15,8 @@
 </head>
 <body>
 <div id="wrapper" class="animsition">
-    @include('layout.loader')
-    @include('layout.navbar')
+    @include('website.layout.loader')
+    @include('website.layout.navbar')
     @yield('main')
 </div>
 <script src="{{ asset('website/js/vendor.js') }}"></script>

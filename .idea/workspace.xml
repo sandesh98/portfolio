@@ -2,103 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="713fd843-3dbc-4a4e-b7e8-bdc5ba720ce8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/animsition.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/css/animsition.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/core.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/css/core.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/elements.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/css/elements.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/hkgrotesk-bold-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/hkgrotesk-bold-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/hkgrotesk-bold-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/hkgrotesk-bold-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/hkgrotesk-light-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/hkgrotesk-light-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/hkgrotesk-light-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/hkgrotesk-light-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/hkgrotesk-medium-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/hkgrotesk-medium-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/hkgrotesk-medium-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/hkgrotesk-medium-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/hkgrotesk-regular-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/hkgrotesk-regular-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/hkgrotesk-regular-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/hkgrotesk-regular-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/ionicons.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/ionicons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/ionicons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/ionicons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/fonts/ionicons.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/contact/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/contact/01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/favicon/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/favicon/android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/favicon/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/favicon/android-chrome-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/favicon/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/favicon/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/favicon/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/favicon/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/favicon/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/favicon/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/favicon/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/favicon/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/home/sandeshboedhoe.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/home/sandeshboedhoe.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/profile/sandeshboedhoe.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/profile/sandeshboedhoe.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/chefmarketing/project-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/chefmarketing/project-image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/csr/carousel/carousel-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/csr/carousel/carousel-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/csr/carousel/carousel-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/csr/carousel/carousel-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/csr/carousel/carousel-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/csr/carousel/carousel-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/csr/carousel/carousel-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/csr/carousel/carousel-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/csr/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/csr/header.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/csr/preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/csr/preview.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/csr/project-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/csr/project-image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/dutchdiner/carousel/carousel-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/dutchdiner/carousel/carousel-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/dutchdiner/carousel/carousel-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/dutchdiner/carousel/carousel-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/dutchdiner/carousel/carousel-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/dutchdiner/carousel/carousel-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/dutchdiner/carousel/carousel-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/dutchdiner/carousel/carousel-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/dutchdiner/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/dutchdiner/header.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/dutchdiner/preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/dutchdiner/preview.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/dutchdiner/project-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/dutchdiner/project-image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/guessandwin/carousel/carousel-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/guessandwin/carousel/carousel-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/guessandwin/carousel/carousel-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/guessandwin/carousel/carousel-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/guessandwin/carousel/carousel-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/guessandwin/carousel/carousel-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/guessandwin/carousel/carousel-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/guessandwin/carousel/carousel-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/guessandwin/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/guessandwin/header.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/guessandwin/project-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/guessandwin/project-image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/natrajflyer/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/natrajflyer/header.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/natrajflyer/preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/natrajflyer/preview.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/natrajflyer/project-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/natrajflyer/project-image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/sandeshboedhoe/carousel/carousel-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/sandeshboedhoe/carousel/carousel-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/sandeshboedhoe/carousel/carousel-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/sandeshboedhoe/carousel/carousel-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/sandeshboedhoe/carousel/carousel-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/sandeshboedhoe/carousel/carousel-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/sandeshboedhoe/carousel/carousel-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/sandeshboedhoe/carousel/carousel-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/sandeshboedhoe/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/sandeshboedhoe/header.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/sandeshboedhoe/preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/sandeshboedhoe/preview.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/sandeshboedhoe/project-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/sandeshboedhoe/project-image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/technischedienst/carousel/carousel-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/technischedienst/carousel/carousel-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/technischedienst/carousel/carousel-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/technischedienst/carousel/carousel-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/technischedienst/carousel/carousel-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/technischedienst/carousel/carousel-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/technischedienst/carousel/carousel-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/technischedienst/carousel/carousel-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/technischedienst/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/technischedienst/header.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/technischedienst/preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/technischedienst/preview.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project/technischedienst/project-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/images/project/technischedienst/project-image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/js/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/js/vendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/img-scroller/img-scroller.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/modules/img-scroller/img-scroller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/tera-lightbox/images/arrow-left.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/modules/tera-lightbox/images/arrow-left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/tera-lightbox/images/arrow-right.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/modules/tera-lightbox/images/arrow-right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/tera-lightbox/tera-lightbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/modules/tera-lightbox/tera-lightbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/titan-slider/slide-left-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/modules/titan-slider/slide-left-dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/titan-slider/slide-left.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/modules/titan-slider/slide-left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/titan-slider/slide-right-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/modules/titan-slider/slide-right-dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/titan-slider/slide-right.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/modules/titan-slider/slide-right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/titan-slider/titan-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/website/modules/titan-slider/titan-slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contact/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/project/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/project/projects/chefmarketing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/projects/chefmarketing.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/project/projects/csr.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/projects/csr.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/project/projects/dutch-diner.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/projects/dutch-diner.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/project/projects/guess-and-win.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/projects/guess-and-win.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/project/projects/natraj-flyer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/projects/natraj-flyer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/project/projects/sandesh.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/projects/sandesh.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/project/projects/technischedienst.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/projects/technischedienst.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contact/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/contact/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/home/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/loader.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/layout/loader.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/layout/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/layout/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/profile/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/project/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/project/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/project/projects/chefmarketing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/project/projects/chefmarketing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/project/projects/csr.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/project/projects/csr.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/project/projects/dutch-diner.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/project/projects/dutch-diner.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/project/projects/guess-and-win.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/project/projects/guess-and-win.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/project/projects/natraj-flyer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/project/projects/natraj-flyer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/project/projects/sandesh.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/project/projects/sandesh.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/project/projects/technischedienst.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/project/projects/technischedienst.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,22 +48,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/contact/index.blade.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/csr.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="85" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/project/projects/natraj-flyer.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/dutch-diner.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="391">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+              <folding>
+                <element signature="e#276#366#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/guess-and-win.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
               <folding>
                 <element signature="e#276#367#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/natraj-flyer.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/sandesh.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
+              <folding>
+                <element signature="e#276#370#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/technischedienst.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
+              <folding>
+                <element signature="e#276#372#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,25 +134,21 @@
       <list>
         <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/resources/views/layout/loader.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" />
         <option value="$PROJECT_DIR$/resources/views/project/chefmarketing.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/project/csr.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/project/sandesh.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/css/custom.css" />
         <option value="$PROJECT_DIR$/resources/views/layout/navbar.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_23_130130_create_notifactions_table.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/public/js/custom.js" />
         <option value="$PROJECT_DIR$/app/Notifaction.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
         <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/master.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/home/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/project/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/project/projects/chefmarketing.blade.php" />
@@ -196,6 +160,21 @@
         <option value="$PROJECT_DIR$/resources/views/project/projects/guess-and-win.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/profile/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/contact/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/home/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/layout/master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/project/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/project/projects/chefmarketing.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/project/projects/csr.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/project/projects/dutch-diner.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/project/projects/guess-and-win.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/project/projects/natraj-flyer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/project/projects/sandesh.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/project/projects/technischedienst.blade.php" />
       </list>
     </option>
   </component>
@@ -309,28 +288,15 @@
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -348,13 +314,14 @@
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -362,6 +329,7 @@
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="projects" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -384,11 +352,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/website" />
       <recent name="$PROJECT_DIR$/public/website" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/resources/views/project/projects" />
       <recent name="$PROJECT_DIR$/resources/assets/images/project/sandeshboedhoe/carousel" />
-      <recent name="$PROJECT_DIR$/resources/assets/images/project/sandeshboedhoe" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/assets/images/project/dutchdiner" />
@@ -431,12 +399,12 @@
       <workItem from="1555763158710" duration="766000" />
       <workItem from="1556047129936" duration="3256000" />
       <workItem from="1556091933653" duration="394000" />
-      <workItem from="1556799185501" duration="774000" />
+      <workItem from="1556799185501" duration="1152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27083000" />
+    <option name="totallyTimeSpent" value="27461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -468,8 +436,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/assets/images/projects/thumb-01-tallest.jpg" />
-    <entry file="file://$PROJECT_DIR$/resources/assets/images/projects/thumb-01-taller.jpg" />
     <entry file="file://$PROJECT_DIR$/resources/assets/images/projects/thumb-11.png" />
     <entry file="file://$PROJECT_DIR$/resources/assets/images/projects/thumb-14.png" />
     <entry file="file://$PROJECT_DIR$/public/website/images/project/natrajflyer/project-image.jpg">
@@ -515,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="141" selection-start-line="15" selection-start-column="141" selection-end-line="15" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/website/images/project/csr/preview.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -530,13 +489,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/website/images/project/dutchdiner/project-image.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/dashboard.css" />
     <entry file="file://$PROJECT_DIR$/.env">
@@ -588,16 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="e#40#60#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Notifaction.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -629,20 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-587">
@@ -650,125 +578,158 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/project/projects/chefmarketing.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="76" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/project/projects/csr.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1633">
-          <caret line="65" column="74" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
-          <caret line="67" column="74" selection-start-line="67" selection-start-column="74" selection-end-line="67" selection-end-column="74" />
-          <caret line="69" column="74" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
-          <caret line="71" column="74" selection-start-line="71" selection-start-column="74" selection-end-line="71" selection-end-column="74" />
-          <folding>
-            <element signature="e#274#349#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/project/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="908">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-          <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
-          <caret line="59" column="56" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
-          <caret line="70" column="56" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
-          <caret line="81" column="56" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/profile/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/website/profile/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2818">
           <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/project/projects/guess-and-win.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/website/layout/navbar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="908">
-          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
-          <caret line="61" column="74" selection-start-line="61" selection-start-column="74" selection-end-line="61" selection-end-column="74" />
-          <caret line="62" column="74" selection-start-line="62" selection-start-column="74" selection-end-line="62" selection-end-column="74" />
-          <caret line="63" column="74" selection-start-line="63" selection-start-column="74" selection-end-line="63" selection-end-column="74" />
-          <caret line="64" column="74" selection-start-line="64" selection-start-column="74" selection-end-line="64" selection-end-column="74" />
-          <folding>
-            <element signature="e#276#359#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="15" column="141" selection-start-line="15" selection-start-column="141" selection-end-line="15" selection-end-column="141" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/project/projects/sandesh.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="908">
-          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
-          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-          <caret line="59" column="74" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
-          <caret line="60" column="74" selection-start-line="60" selection-start-column="74" selection-end-line="60" selection-end-column="74" />
-          <caret line="61" column="74" selection-start-line="61" selection-start-column="74" selection-end-line="61" selection-end-column="74" />
-          <caret line="62" column="74" selection-start-line="62" selection-start-column="74" selection-end-line="62" selection-end-column="74" />
-          <folding>
-            <element signature="e#276#362#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="1035">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/project/projects/dutch-diner.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
-          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-          <caret line="65" column="74" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
-          <caret line="66" column="74" selection-start-line="66" selection-start-column="74" selection-end-line="66" selection-end-column="74" />
-          <caret line="67" column="74" selection-start-line="67" selection-start-column="74" selection-end-line="67" selection-end-column="74" />
-          <caret line="68" column="74" selection-start-line="68" selection-start-column="74" selection-end-line="68" selection-end-column="74" />
-          <folding>
-            <element signature="e#276#358#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/project/projects/technischedienst.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="908">
-          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
-          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-          <caret line="59" column="74" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
-          <caret line="60" column="74" selection-start-line="60" selection-start-column="74" selection-end-line="60" selection-end-column="74" />
-          <caret line="61" column="74" selection-start-line="61" selection-start-column="74" selection-end-line="61" selection-end-column="74" />
-          <caret line="62" column="74" selection-start-line="62" selection-start-column="74" selection-end-line="62" selection-end-column="74" />
-          <folding>
-            <element signature="e#276#364#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/project/projects/natraj-flyer.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProfileController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#40#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DashboardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/chefmarketing.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#276#334#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/project/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/layout/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/contact/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="85" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/home/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#122#208#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/csr.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/dutch-diner.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="e#276#366#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/guess-and-win.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
           <folding>
             <element signature="e#276#367#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/contact/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/natraj-flyer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="85" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/sandesh.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#276#370#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/technischedienst.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#276#372#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -8,41 +8,41 @@ class ProjectsController extends Controller
 {
     public function index()
     {
-        return view('project.index');
+        return view('website.project.index');
     }
 
     public function chefmarketing()
     {
-        return view('project.projects.chefmarketing');
+        return view('website.project.projects.chefmarketing');
     }
 
     public function sandesh()
     {
-        return view('project.projects.sandesh');
+        return view('website.project.projects.sandesh');
     }
 
     public function csr()
     {
-        return view('project.projects.csr');
+        return view('website.project.projects.csr');
     }
 
     public function natrajFlyer()
     {
-        return view('project.projects.natraj-flyer');
+        return view('website.project.projects.natraj-flyer');
     }
 
     public function technischedienst()
     {
-        return view('project.projects.technischedienst');
+        return view('website.project.projects.technischedienst');
     }
 
     public function dutchdiner()
     {
-        return view('project.projects.dutch-diner');
+        return view('website.project.projects.dutch-diner');
     }
 
     public function guessAndWin()
     {
-        return view('project.projects.guess-and-win');
+        return view('website.project.projects.guess-and-win');
     }
 }

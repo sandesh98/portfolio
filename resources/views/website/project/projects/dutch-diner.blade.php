@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('website.layout.master')
 
 @push('script')
     <script>$('#img-carousel').titanSlider({carousel : true, autoplay : true});</script>

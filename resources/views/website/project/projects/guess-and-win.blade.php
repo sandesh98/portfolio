@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('website.layout.master')
 
 @push('script')
     <script>$('#img-carousel').titanSlider({carousel : true, autoplay : true});</script>
@@ -8,14 +8,14 @@
     <div id="inner">
         <section class="nmb behind-header">
             <div class="hero">
-                <div style="background-image: url({{ asset('website/images/project/technischedienst/header.jpg') }})" class="bg faded"></div>
+                <div style="background-image: url({{ asset('website/images/project/guessandwin/header.jpg') }})" class="bg faded"></div>
                 <div class="vcenter">
                     <div class="container mb-xl">
                         <div class="grid">
-                            <div class="col-1">2017</div>
+                            <div class="col-1">2019</div>
                             <div class="col-7">
-                                <div class="label">September</div>
-                                <h1 class="animatedText">Technische Dienst</h1>
+                                <div class="label">Januari</div>
+                                <h1 class="animatedText">Guess and Win</h1>
                             </div>
                         </div>
                     </div>
@@ -26,27 +26,29 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-6 col-offset-1">
-                        <img src="{{ asset('website/images/project/technischedienst/preview.jpg') }}" alt="">
+                        <div class="video-frame mb-xl">
+                            <iframe width="640" height="360" src="https://www.youtube.com/embed/5ncVYaM9XRo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
                 <div class="grid content">
                     <div class="col-offset-1 col-3">
-                        <p>Technische Dienst is een webapplicatie die ik uit eigen initiatief heb geschreven om het inname proces binnen Amac Spijkenisse een stuk makkelijker te maken. Wanneer klanten hun Apple product bij ons achterlaten is het fijn dat zij een formulier meekrijgen waarop alles zwart op wit staat.</p>
+                        <p>Achraf, Max, Nick, Sandesh en Thomas hebben een bordspel gemaakt voor ons eerste project. Het was de bedoeling dat je in het project met behulp van Scrum methodiek een bordspel ging maken. Dat is gelukt dus toen moesten we een soort reclamefilmpje en/of uitlegfilmpje maken om het te promoten en soort van ui te leggen. Dat is deze video geworden!</p>
                     </div>
                     <div class="col-offset-1 col-1">
                         <div class="project-data">
-                            <div class="title">Maker</div>
-                            <div class="desc">Sandesh Boedhoe</div>
-                        </div>
-                        <div class="project-data">
                             <div class="title">Type</div>
                             <div class="desc">Web</div>
+                        </div>
+                        <div class="project-data">
+                            <div class="title">Opdrachtgever</div>
+                            <div class="desc">Hogeschool Rotterdam</div>
                         </div>
                     </div>
                     <div class="col-1">
                         <div class="project-data">
                             <div class="title">Jaar</div>
-                            <div class="desc">2017</div>
+                            <div class="desc">2019</div>
                         </div>
                     </div>
                 </div>
@@ -57,10 +59,10 @@
                 <div class="grid content">
                     <div id="img-carousel" class="titanSlider">
                         <ul class="slides">
-                            <li class="slide"><img src="{{ asset('website/images/project/technischedienst/carousel/carousel-1.jpg') }}" class="fw"></li>
-                            <li class="slide"><img src="{{ asset('website/images/project/technischedienst/carousel/carousel-2.jpg') }}" class="fw"></li>
-                            <li class="slide"><img src="{{ asset('website/images/project/technischedienst/carousel/carousel-3.jpg') }}" class="fw"></li>
-                            <li class="slide"><img src="{{ asset('website/images/project/technischedienst/carousel/carousel-4.jpg') }}" class="fw"></li>
+                            <li class="slide"><img src="{{ asset('website/images/project/guessandwin/carousel/carousel-1.jpg') }}" class="fw"></li>
+                            <li class="slide"><img src="{{ asset('website/images/project/guessandwin/carousel/carousel-2.jpg') }}" class="fw"></li>
+                            <li class="slide"><img src="{{ asset('website/images/project/guessandwin/carousel/carousel-3.jpg') }}" class="fw"></li>
+                            <li class="slide"><img src="{{ asset('website/images/project/guessandwin/carousel/carousel-4.jpg') }}" class="fw"></li>
                         </ul>
                     </div>
                 </div>
@@ -74,9 +76,9 @@
                             <div class="title">Meer informatie</div>
                         </div>
                         <div class="body">
-                            <p>In september 2017 heb ik een webapplicatie gebouwd om een van de grootste frustraties te voorkomen op de werkvloer. Klanten komen langs met bijvoorbeeld hun iMac of Macbook om deze door ons te laten herstellen. Het herstellen van een Mac is niet in 5 minuten gedaan dus kiezen we er altijd voor om deze tijdelijk in te nemen. Bij het innemen is het zowel fijn voor ons als voor de klant om een afgifte bewijs te ontvangen waarop de gegevens van de klant, het product en aanvullende informatie vermeldt staan. </p>
-                            <p>Een van de grootste ergernissen is dat de serviceformulieren altijd met de hand ingevuld moeten worden. Daarbij is er kans dat er essentiële gegevens onduidelijk geschreven worden. Wat we zelf meegemaakt hebben in Spijkenisse is dat serviceformulieren op mysterieuze wijzen verdwijnen, succes met het achterhalen van het probleem en de klant informeren.</p>
-                            <p>Mijn oplossing voor dit probleem is een webapplicatie schrijven waarin serviceformulieren online opgeslagen worden zodat deze nooit kwijt raken en informatie altijd goed en duidelijk leesbaar zijn. In Spijkenisse gebruiken we het al bijna 2 jaar met succes! De applicatie heeft handige features die interne communicatie overzichtelijk houden. Helaas vanwege de privacywetgeving heb ik de applicatie offline moeten halen en alle data moeten verwijderen</p>
+                            <p>Een van de onderdelen op de Hogeschool Rotterdam is projecten maken. We hebben de opdracht gekregen om een bordspel te maken. Of het nou een bestaand of nieuw bordspel is maakte de opdrachtgever niet veel uit. Wat wel belangrijk was is dat het spel een digitaal component moest bevatten. Het lastigste van het project is dat het spel ook speelbaar moet zijn zonder de digitale component. </p>
+                            <p>Mijn projectleden en ik hebben ervoor gekozen om het bekende spel 30 Seconds na te maken en onze eigen draai eraan te geven. Het bord, de kaarten, de dobbelsteen, de pionnen en het concept hebben overgenomen uit het originele spel. Onze eigen draai bevatten special en powerup kaarten die ervoor zorgen dat het spel nog spannender wordt. De kaarten kunnen in jou voor en/of nadeel uitkomen.</p>
+                            <p>De digitale component vervangt alles behalve de pionnen en bordspel. Voor de rest gaan beurten, kaarten en pionnen doormiddel van het digitale component.</p>
                         </div>
                     </li>
                     <li>
@@ -88,19 +90,29 @@
                                 <div class="col-2"><span class="label">Programma's</span>
                                     <ul class="striped inside">
                                         <li>PHPStorm</li>
-                                        <li>Trello</li>
-                                        <li>Sequel Pro</li>
                                         <li>Terminal</li>
                                         <li>Slack</li>
+                                        <li>Adobe Photoshop</li>
+                                        <li>Adobe Illustrator</li>
+                                        <li>Adobe Premiere</li>
+                                        <li>Adobe XD</li>
                                     </ul>
                                 </div>
                                 <div class="col-2"><span class="label">Talen</span>
                                     <ul class="striped inside">
-                                        <li>PHP</li>
-                                        <li>Laravel</li>
+                                        <li>Vue</li>
                                         <li>HTML</li>
-                                        <li>CSS / Sass</li>
-                                        <li>Javascript / jQuery</li>
+                                        <li>CSS</li>
+                                        <li>Bootstrap</li>
+                                    </ul>
+                                </div>
+                                <div class="col-2"><span class="label">Projectleden</span>
+                                    <ul class="striped inside">
+                                        <li>Achraf Chettou</li>
+                                        <li>Max de Bruin</li>
+                                        <li>Nick Arema</li>
+                                        <li>Sandesh Boedhoe</li>
+                                        <li>Thomas van de Bovenkamp</li>
                                     </ul>
                                 </div>
                             </div>
@@ -118,7 +130,7 @@
                                 <div class="link-title">Vorige project</div></a></div>
                     </div>
                     <div class="col-4">
-                        <div class="vcenter link-container text-right"><a href="{{ route('project.dutchdiner') }}" class="next-link">
+                        <div class="vcenter link-container text-right"><a href="" class="next-link">
                                 <div class="project-title">Dutch Diner</div>
                                 <div class="link-title">Volgende project</div></a></div>
                     </div>
