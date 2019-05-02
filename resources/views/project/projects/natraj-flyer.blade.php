@@ -8,7 +8,7 @@
     <div id="inner">
         <section class="nmb behind-header">
             <div class="hero">
-                <div style="background-image: url({{ asset('images/project/natrajflyer/header.jpg') }})" class="bg faded"></div>
+                <div style="background-image: url({{ asset('website/images/project/natrajflyer/header.jpg') }})" class="bg faded"></div>
                 <div class="vcenter">
                     <div class="container mb-xl">
                         <div class="grid">
@@ -26,9 +26,7 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-6 col-offset-1">
-                        {{--                        <div class="video-frame mb-xl">--}}
-                        <img src="{{ asset('images/project/natrajflyer/preview.jpg') }}" alt="">
-                        {{--                        </div>--}}
+                        <img src="{{ asset('website/images/project/natrajflyer/preview.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="grid content">

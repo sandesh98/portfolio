@@ -8,7 +8,7 @@
     <div id="inner">
         <section class="nmb behind-header">
             <div class="hero">
-                <div style="background-image: url({{ asset('images/project/guessandwin/header.jpg') }})" class="bg faded"></div>
+                <div style="background-image: url({{ asset('website/images/project/guessandwin/header.jpg') }})" class="bg faded"></div>
                 <div class="vcenter">
                     <div class="container mb-xl">
                         <div class="grid">
@@ -59,10 +59,10 @@
                 <div class="grid content">
                     <div id="img-carousel" class="titanSlider">
                         <ul class="slides">
-                            <li class="slide"><img src="{{ asset('images/project/guessandwin/carousel/carousel-1.jpg') }}" class="fw"></li>
-                            <li class="slide"><img src="{{ asset('images/project/guessandwin/carousel/carousel-2.jpg') }}" class="fw"></li>
-                            <li class="slide"><img src="{{ asset('images/project/guessandwin/carousel/carousel-3.jpg') }}" class="fw"></li>
-                            <li class="slide"><img src="{{ asset('images/project/guessandwin/carousel/carousel-4.jpg') }}" class="fw"></li>
+                            <li class="slide"><img src="{{ asset('website/images/project/guessandwin/carousel/carousel-1.jpg') }}" class="fw"></li>
+                            <li class="slide"><img src="{{ asset('website/images/project/guessandwin/carousel/carousel-2.jpg') }}" class="fw"></li>
+                            <li class="slide"><img src="{{ asset('website/images/project/guessandwin/carousel/carousel-3.jpg') }}" class="fw"></li>
+                            <li class="slide"><img src="{{ asset('website/images/project/guessandwin/carousel/carousel-4.jpg') }}" class="fw"></li>
                         </ul>
                     </div>
                 </div>

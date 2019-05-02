@@ -8,7 +8,7 @@
     <div id="inner">
         <section class="nmb behind-header">
             <div class="hero">
-                <div style="background-image: url(images/hero/05.jpg);" class="bg faded"></div>
+                <div style="background-image: url(website/images/hero/05.jpg);" class="bg faded"></div>
                 <div class="vcenter">
                     <div class="container mb-xl">
                         <div class="grid">

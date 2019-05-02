@@ -3,7 +3,7 @@
 @section('main')
     <div id="inner">
         <section class="behind-header desktop">
-            <div style="background-image: url(images/contact/01.jpg);" class="bg faded"></div>
+            <div style="background-image: url({{ asset('website/images/contact/01.jpg') }});" class="bg faded"></div>
             <div class="vbottom desktop fh">
                 <div class="container">
                     <div class="grid mb-xl">
