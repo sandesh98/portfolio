@@ -1,5 +1,4 @@
-
-@extends('layout.master')
+@extends('website.layout.master')
 
 @section('main')
     <div id="inner">
