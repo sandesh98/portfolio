@@ -1,32 +1,27 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+Route::namespace('Website')->group(function() {
 
-Route::get('/', 'Website\HomeController@index')->name('home.index');
+    Route::prefix('project')->name('project.')->group(function() {
 
-Route::get('/project', 'Website\ProjectsController@index')->name('project.index');
-//Route::get('/project/chefmarketing', 'ProjectsController@chefmarketing')->name('project.chefmarketing');
-Route::get('/project/sandesh', 'Website\ProjectsController@sandesh')->name('project.sandesh');
-Route::get('/project/csr', 'Website\ProjectsController@csr')->name('project.csr');
-Route::get('/project/dutchdiner', 'Website\ProjectsController@dutchdiner')->name('project.dutchdiner');
-Route::get('/project/technischedienst', 'Website\ProjectsController@technischedienst')->name('project.technischedienst');
-Route::get('/project/natraj-flyer', 'Website\ProjectsController@natrajFlyer')->name('project.natraj-flyer');
-Route::get('project/guess-and-win', 'Website\ProjectsController@guessAndWin')->name('project.guess-and-win');
+        Route::get('/', 'ProjectsController@index')->name('index');
+        Route::get('/sandesh', 'ProjectsController@sandesh')->name('sandesh');
+        Route::get('/csr', 'ProjectsController@csr')->name('csr');
+        Route::get('/dutchdiner', 'ProjectsController@dutchdiner')->name('dutchdiner');
+        Route::get('/technischedienst', 'ProjectsController@technischedienst')->name('technischedienst');
+        Route::get('/natraj-flyer', 'ProjectsController@natrajFlyer')->name('natraj-flyer');
+        Route::get('/guess-and-win', 'ProjectsController@guessAndWin')->name('guess-and-win');
 
+    });
 
-Route::get('/profile', 'Website\ProfileController@index')->name('profile.index');
-Route::get('/contact', 'Website\ContactController@index')->name('contact.index');
-Route::post('/contact', 'Website\ContactController@store')->name('contact.store');
+    Route::name('contact.')->group(function() {
+        Route::get('/contact', 'ContactController@index')->name('index');
+        Route::post('/contact', 'ContactController@store')->name('store');
+    });
+
+    Route::get('/', 'HomeController@index')->name('home.index');
+    Route::get('/profile', 'ProfileController@index')->name('profile.index');
+
+});
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
