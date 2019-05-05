@@ -24,4 +24,6 @@ Route::namespace('Website')->group(function() {
 
 });
 
+Route::get('/dashboard', 'Dashboard\HomeController@index')->name('dashboard.index');
+
 Auth::routes();
