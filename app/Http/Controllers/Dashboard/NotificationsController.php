@@ -19,4 +19,9 @@ class NotificationsController extends Controller
 
         return view('dashboard.notification.index', compact('notifications'));
     }
+
+    public function show(Notifaction $notifaction)
+    {
+        return view('dashboard.notification.show', compact('notifaction'));
+    }
 }

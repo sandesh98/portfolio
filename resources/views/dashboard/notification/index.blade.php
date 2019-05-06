@@ -16,6 +16,7 @@
                         <th>naam</th>
                         <th>Bericht</th>
                         <th>Ontvangen</th>
+                        <th>Bekijken</th>
                     </tr>
                     </thead>
                     <tfoot>
@@ -24,6 +25,7 @@
                         <th>Naam</th>
                         <th>Bericht</th>
                         <th>Ontvangen</th>
+                        <th>Bekijken</th>
                     </tr>
                     </tfoot>
                     <tbody>
@@ -33,6 +35,7 @@
                         <td>{{ $notification->name }}</td>
                         <td>{{ Str::limit($notification->message, 20) }}</td>
                         <td>{{ $notification->created_at->toFormattedDateString() }}</td>
+                        <td><a href="{{ route('notification.show', $notification->id) }}"><i class="fa fa-arrow-alt-circle-right"></i></a></td>
                     </tr>
                     @endforeach
                     </tbody>
