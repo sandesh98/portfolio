@@ -43,7 +43,12 @@
                                 <form class="user" method="post" action="{{ route('password.email') }}">
                                     @csrf
                                     <div class="form-group">
-                                        <input type="email" name="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
+                                        <input type="email" name="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Vul email in ..." value="{{ old('email') }}" autofocus>
+                                        @if ($errors->has('email'))
+                                            <div class="text-center text-primary">
+                                                <strong>{{ $errors->first('email') }}</strong>
+                                            </div>
+                                        @endif
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-user btn-block">
                                         Reset Password

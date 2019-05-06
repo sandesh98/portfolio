@@ -43,23 +43,29 @@
                                     @csrf
                                     <input type="hidden" name="token" value="{{ $token }}">
                                     <div class="form-group">
-                                        <input type="email" name="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
+                                        <input type="email" name="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Vul email in ..." value="{{ old('email') }}" autofocus>
+                                        @if ($errors->has('email'))
+                                            <div class="text-center text-primary">
+                                                <strong>{{ $errors->first('email') }}</strong>
+                                            </div>
+                                        @endif
                                     </div>
                                     <div class="form-group">
-                                        <input type="password" name="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
+                                        <input type="password" name="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Wachtwoord">
+                                        @if ($errors->has('password'))
+                                            <div class="text-center text-primary">
+                                                <strong>{{ $errors->first('password') }}</strong>
+                                            </div>
+                                        @endif
                                     </div>
                                     <div class="form-group">
-                                        <input type="password" name="password_confirmation" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
+                                        <input type="password" name="password_confirmation" class="form-control form-control-user" id="exampleInputPassword" placeholder="Herhaal wachtwoord">
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-user btn-block">
                                         Inloggen
                                     </button>
                                     <hr>
                                 </form>
-                                <hr>
-                                <div class="text-center">
-                                    <a class="small" href="{{ route('password.request') }}">Forgot Password?</a>
-                                </div>
                             </div>
                         </div>
                     </div>
