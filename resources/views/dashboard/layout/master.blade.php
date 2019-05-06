@@ -17,6 +17,7 @@
 
     <!-- Custom styles for this template-->
     <link href="{{ asset('dashboard/css/sb-admin-2.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('dashboard/vendor/datatables/dataTables.bootstrap4.min.css') }}" rel="stylesheet">
 
 </head>
 
@@ -94,6 +95,9 @@
 
 <!-- Custom scripts for all pages-->
 <script src="{{ asset('dashboard/js/sb-admin-2.min.js') }}"></script>
+<script src="{{ asset('dashboard/vendor/datatables/jquery.dataTables.min.js') }}"></script>
+<script src="{{ asset('dashboard/vendor/datatables/dataTables.bootstrap4.min.js') }}"></script>
+@stack('script')
 
 </body>
 

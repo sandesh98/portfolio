@@ -24,6 +24,11 @@ Route::namespace('Website')->group(function() {
 
 });
 
-Route::get('/dashboard', 'Dashboard\HomeController@index')->name('dashboard.index');
+Route::namespace('Dashboard')->prefix('dashboard')->group(function() {
+
+    Route::get('/', 'HomeController@index')->name('dashboard.index');
+    Route::get('/notifications', 'NotificationsController@index')->name('notification.index');
+
+});
 
 Auth::routes();

@@ -2,17 +2,21 @@
 
 namespace App\Http\Controllers\Dashboard;
 
+use App\Notifaction;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class HomeController extends Controller
+class NotificationsController extends Controller
 {
     public function __construct()
     {
         $this->middleware('auth');
     }
+
     public function index()
     {
-        return view('dashboard.home.index');
+        $notifications = Notifaction::all();
+
+        return view('dashboard.notification.index', compact('notifications'));
     }
 }
