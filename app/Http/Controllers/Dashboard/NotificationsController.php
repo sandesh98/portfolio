@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Dashboard;
 
-use App\Notifaction;
+use App\Notification;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -15,13 +15,13 @@ class NotificationsController extends Controller
 
     public function index()
     {
-        $notifications = Notifaction::all();
+        $notifications = Notification::all();
 
         return view('dashboard.notification.index', compact('notifications'));
     }
 
-    public function show(Notifaction $notifaction)
+    public function show(Notification $notification)
     {
-        return view('dashboard.notification.show', compact('notifaction'));
+        return view('dashboard.notification.show', compact('notification'));
     }
 }

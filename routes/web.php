@@ -20,7 +20,11 @@ Route::namespace('Website')->group(function() {
 
 Route::namespace('Dashboard')->prefix('dashboard')->group(function() {
     Route::get('/', 'HomeController@index')->name('dashboard.index');
-    Route::get('/notifications', 'NotificationsController@index')->name('notification.index');
+
+    Route::prefix('notifications')->name('notification.')->group(function() {
+        Route::get('/', 'NotificationsController@index')->name('index');
+        Route::get('/{notification}', 'NotificationsController@show')->name('show');
+    });
 });
 
 Route::namespace('Auth')->group(function() {
