@@ -13,7 +13,8 @@
 
     <!-- Custom fonts for this template-->
     <link href="{{ asset('dashboard/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="{{ asset('dashboard/css/sb-admin-2.min.css') }}" rel="stylesheet">
@@ -43,7 +44,9 @@
                                     @csrf
                                     <input type="hidden" name="token" value="{{ $token }}">
                                     <div class="form-group">
-                                        <input type="email" name="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Vul email in ..." value="{{ old('email') }}" autofocus>
+                                        <input type="email" name="email" class="form-control form-control-user"
+                                               id="exampleInputEmail" aria-describedby="emailHelp"
+                                               placeholder="Vul email in ..." value="{{ old('email') }}" autofocus>
                                         @if ($errors->has('email'))
                                             <div class="text-center text-primary">
                                                 <strong>{{ $errors->first('email') }}</strong>
@@ -51,7 +54,8 @@
                                         @endif
                                     </div>
                                     <div class="form-group">
-                                        <input type="password" name="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Wachtwoord">
+                                        <input type="password" name="password" class="form-control form-control-user"
+                                               id="exampleInputPassword" placeholder="Wachtwoord">
                                         @if ($errors->has('password'))
                                             <div class="text-center text-primary">
                                                 <strong>{{ $errors->first('password') }}</strong>
@@ -59,7 +63,9 @@
                                         @endif
                                     </div>
                                     <div class="form-group">
-                                        <input type="password" name="password_confirmation" class="form-control form-control-user" id="exampleInputPassword" placeholder="Herhaal wachtwoord">
+                                        <input type="password" name="password_confirmation"
+                                               class="form-control form-control-user" id="exampleInputPassword"
+                                               placeholder="Herhaal wachtwoord">
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-user btn-block">
                                         Inloggen

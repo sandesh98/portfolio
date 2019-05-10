@@ -13,7 +13,8 @@
 
     <!-- Custom fonts for this template-->
     <link href="{{ asset('dashboard/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="{{ asset('dashboard/css/sb-admin-2.min.css') }}" rel="stylesheet">
@@ -38,12 +39,15 @@
                             <div class="p-5">
                                 <div class="text-center">
                                     <h1 class="h4 text-gray-900 mb-2">Forgot Your Password?</h1>
-                                    <p class="mb-4">We get it, stuff happens. Just enter your email address below and we'll send you a link to reset your password!</p>
+                                    <p class="mb-4">We get it, stuff happens. Just enter your email address below and
+                                        we'll send you a link to reset your password!</p>
                                 </div>
                                 <form class="user" method="post" action="{{ route('password.email') }}">
                                     @csrf
                                     <div class="form-group">
-                                        <input type="email" name="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Vul email in ..." value="{{ old('email') }}" autofocus>
+                                        <input type="email" name="email" class="form-control form-control-user"
+                                               id="exampleInputEmail" aria-describedby="emailHelp"
+                                               placeholder="Vul email in ..." value="{{ old('email') }}" autofocus>
                                         @if ($errors->has('email'))
                                             <div class="text-center text-primary">
                                                 <strong>{{ $errors->first('email') }}</strong>
