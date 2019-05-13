@@ -16,7 +16,7 @@
                 <dd class="col-sm-9">{{ $notification->name }}</dd>
 
                 <dt class="col-sm-3 text-truncate">Email</dt>
-                <dd class="col-sm-9">{{ $notification->email }}</dd>
+                <dd class="col-sm-9"><a href="mailto:{{ $notification->email }}">{{ $notification->email }}</a></dd>
 
                 <dt class="col-sm-3 text-truncate">Bericht</dt>
                 <dd class="col-sm-9">{{ $notification->message }}</dd>
