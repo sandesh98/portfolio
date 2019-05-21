@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="713fd843-3dbc-4a4e-b7e8-bdc5ba720ce8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/website/project/projects/brand-in-nederland.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/project/projects/brand-in-nederland.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/website/project/projects/natraj-flyer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/project/projects/natraj-flyer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/website/project/projects/technischedienst.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/project/projects/technischedienst.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/website/project/projects/guess-and-win.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/project/projects/guess-and-win.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,68 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/brand-in-nederland.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="118" column="75" selection-start-line="118" selection-start-column="75" selection-end-line="118" selection-end-column="75" />
-              <folding>
-                <element signature="e#282#365#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/technischedienst.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="120" column="105" selection-start-line="120" selection-start-column="105" selection-end-line="120" selection-end-column="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/natraj-flyer.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="97" column="77" selection-start-line="97" selection-start-column="77" selection-end-line="97" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Website/ProjectsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/website/project/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-312">
-              <caret line="47" column="87" selection-start-line="47" selection-start-column="87" selection-end-line="47" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/csr.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="29" column="26" selection-end-line="142" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="89" />
+            <state relative-caret-position="593">
+              <caret line="38" column="96" selection-start-line="38" selection-start-column="96" selection-end-line="38" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -137,7 +78,6 @@
         <option value="$PROJECT_DIR$/resources/views/website/project/projects/chefmarketing.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/website/project/projects/csr.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/website/project/projects/dutch-diner.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/website/project/projects/guess-and-win.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/website/project/projects/sandesh.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Website/HomeController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Website/ProfileController.php" />
@@ -168,8 +108,9 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/website/project/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/website/project/projects/natraj-flyer.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/website/project/projects/brand-in-nederland.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/website/project/projects/technischedienst.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/project/projects/guess-and-win.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/project/projects/brand-in-nederland.blade.php" />
       </list>
     </option>
   </component>
@@ -436,12 +377,12 @@
       <workItem from="1557162021979" duration="933000" />
       <workItem from="1557749847465" duration="2950000" />
       <workItem from="1558379880059" duration="2623000" />
-      <workItem from="1558462230408" duration="2033000" />
+      <workItem from="1558462230408" duration="2270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49833000" />
+    <option name="totallyTimeSpent" value="50070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -731,9 +672,28 @@
     <entry file="file://$PROJECT_DIR$/public/website/images/project/csr/project-image.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/website/images/project/csr/header.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/website/images/project/dutchdiner/preview.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/website/images/project/csr/preview.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/website/images/project/brandinnederland/preview.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/natraj-flyer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="97" column="77" selection-start-line="97" selection-start-column="77" selection-end-line="97" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Website/ProjectsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
+        <state relative-caret-position="747">
           <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
         </state>
       </provider>
@@ -752,32 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/website/images/project/csr/header.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/guess-and-win.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="116" column="38" lean-forward="true" selection-start-line="108" selection-start-column="32" selection-end-line="116" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/website/images/project/dutchdiner/preview.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/website/images/project/csr/preview.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/website/images/project/brandinnederland/preview.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/natraj-flyer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="97" column="77" selection-start-line="97" selection-start-column="77" selection-end-line="97" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -785,20 +719,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/brand-in-nederland.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/guess-and-win.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="118" column="75" selection-start-line="118" selection-start-column="75" selection-end-line="118" selection-end-column="75" />
-          <folding>
-            <element signature="e#282#365#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="465">
+          <caret line="36" column="87" selection-start-line="36" selection-start-column="87" selection-end-line="36" selection-end-column="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/technischedienst.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
+        <state relative-caret-position="2749">
           <caret line="120" column="105" selection-start-line="120" selection-start-column="105" selection-end-line="120" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/brand-in-nederland.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="38" column="96" selection-start-line="38" selection-start-column="96" selection-end-line="38" selection-end-column="96" />
         </state>
       </provider>
     </entry>

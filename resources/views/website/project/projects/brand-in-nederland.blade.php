@@ -36,7 +36,7 @@
                             brand is
                         </p>
                         <a href="http://brandinnederland.nl/">brandinnderland.nl</a><br>
-                        <a href="https://github.com/sandesh98/branden-in-vlaardingen">Github</a>
+                        <a href="https://github.com/sandesh98/branden-in-vlaardingen">Link naar Github</a>
                     </div>
                     <div class="col-offset-1 col-1">
                         <div class="project-data">
