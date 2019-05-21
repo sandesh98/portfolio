@@ -21,6 +21,7 @@
             </div>
             <div class="container">
                 <div id="project-grid" class="masonry-grid">
+
                     <!-- Project -->
                     <a href="{{ route('project.csr') }}" class="websites grid-item col-8">
                         <div class="thumb">
@@ -40,6 +41,17 @@
                         <div class="caption">
                             <div class="title">Dansacademie Natraj</div>
                             <div class="subtitle">Flyer</div>
+                        </div>
+                    </a>
+
+                    <!-- Project -->
+                    <a href="{{ route('project.brand-in-nederland') }}" class="websites grid-item col-8">
+                        <div class="thumb">
+                            <img src="{{ asset('website/images/project/brandinnederland/project-image.jpg') }}">
+                        </div>
+                        <div class="caption">
+                            <div class="title">Brand in Nederland</div>
+                            <div class="subtitle">website</div>
                         </div>
                     </a>
 

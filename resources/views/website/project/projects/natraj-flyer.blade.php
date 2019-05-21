@@ -94,8 +94,8 @@
                                 <div class="link-title">Vorige project</div></a></div>
                     </div>
                     <div class="col-4">
-                        <div class="vcenter link-container text-right"><a href="{{ route('project.technischedienst') }}" class="next-link">
-                                <div class="project-title">Technische Dienst</div>
+                        <div class="vcenter link-container text-right"><a href="{{ route('project.brand-in-nederland') }}" class="next-link">
+                                <div class="project-title">Brand in Nederland</div>
                                 <div class="link-title">Volgende project</div></a></div>
                     </div>
                 </div>
