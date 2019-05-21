@@ -103,6 +103,11 @@
                                         <li>Javascript / jQuery</li>
                                     </ul>
                                 </div>
+                                <div class="col-2"><span class="label">Projectleden</span>
+                                    <ul class="striped inside">
+                                        <li>Darrell van den Bos</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </li>
