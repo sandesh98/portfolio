@@ -118,8 +118,8 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-4">
-                        <div class="vcenter link-container"><a href="{{ route('project.natraj-flyer') }}" class="prev-link">
-                                <div class="project-title">Dansacademie Natraj Flyer</div>
+                        <div class="vcenter link-container"><a href="{{ route('project.brand-in-nederland') }}" class="prev-link">
+                                <div class="project-title">Brand in Nederland</div>
                                 <div class="link-title">Vorige project</div></a></div>
                     </div>
                     <div class="col-4">

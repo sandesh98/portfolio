@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="713fd843-3dbc-4a4e-b7e8-bdc5ba720ce8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/website/images/project/brandinnederland/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/website/images/project/brandinnederland/project-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/website/project/projects/brand-in-nederland.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Website/ProjectsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Website/ProjectsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/website/project/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/project/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/website/project/projects/brand-in-nederland.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/project/projects/brand-in-nederland.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/website/project/projects/natraj-flyer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/project/projects/natraj-flyer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/website/project/projects/technischedienst.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/project/projects/technischedienst.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,14 +32,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/brand-in-nederland.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="29" column="83" selection-start-line="29" selection-start-column="83" selection-end-line="29" selection-end-column="83" />
+            <state relative-caret-position="632">
+              <caret line="118" column="75" selection-start-line="118" selection-start-column="75" selection-end-line="118" selection-end-column="75" />
               <folding>
                 <element signature="e#282#365#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/technischedienst.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="517">
+              <caret line="120" column="105" selection-start-line="120" selection-start-column="105" selection-end-line="120" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/natraj-flyer.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="655">
+              <caret line="97" column="77" selection-start-line="97" selection-start-column="77" selection-end-line="97" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -78,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="207">
+              <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -124,7 +138,6 @@
         <option value="$PROJECT_DIR$/resources/views/website/project/projects/csr.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/website/project/projects/dutch-diner.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/website/project/projects/guess-and-win.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/website/project/projects/natraj-flyer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/website/project/projects/sandesh.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Website/HomeController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Website/ProfileController.php" />
@@ -154,8 +167,9 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Website/ProjectsController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/website/project/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/website/project/projects/technischedienst.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/project/projects/natraj-flyer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/website/project/projects/brand-in-nederland.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/project/projects/technischedienst.blade.php" />
       </list>
     </option>
   </component>
@@ -422,12 +436,12 @@
       <workItem from="1557162021979" duration="933000" />
       <workItem from="1557749847465" duration="2950000" />
       <workItem from="1558379880059" duration="2623000" />
-      <workItem from="1558462230408" duration="1670000" />
+      <workItem from="1558462230408" duration="2033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49470000" />
+    <option name="totallyTimeSpent" value="49833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -459,13 +473,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Hash.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -731,13 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/website/project/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-312">
@@ -762,13 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/technischedienst.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="107" column="63" selection-start-line="107" selection-start-column="63" selection-end-line="107" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/website/images/project/dutchdiner/preview.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -778,13 +771,34 @@
     <entry file="file://$PROJECT_DIR$/public/website/images/project/brandinnederland/preview.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/natraj-flyer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="97" column="77" selection-start-line="97" selection-start-column="77" selection-end-line="97" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/brand-in-nederland.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="29" column="83" selection-start-line="29" selection-start-column="83" selection-end-line="29" selection-end-column="83" />
+        <state relative-caret-position="632">
+          <caret line="118" column="75" selection-start-line="118" selection-start-column="75" selection-end-line="118" selection-end-column="75" />
           <folding>
             <element signature="e#282#365#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/project/projects/technischedienst.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="120" column="105" selection-start-line="120" selection-start-column="105" selection-end-line="120" selection-end-column="105" />
         </state>
       </provider>
     </entry>

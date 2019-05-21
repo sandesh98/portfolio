@@ -107,16 +107,16 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-4">
-                        <div class="vcenter link-container"><a href="{{ route('project.guess-and-win') }}"
+                        <div class="vcenter link-container"><a href="{{ route('project.natraj-flyer') }}"
                                                                class="prev-link">
-                                <div class="project-title">Guess and Win</div>
+                                <div class="project-title">Dansacademie Natraj Flyer</div>
                                 <div class="link-title">Vorige project</div>
                             </a></div>
                     </div>
                     <div class="col-4">
-                        <div class="vcenter link-container text-right"><a href="{{ route('project.natraj-flyer') }}"
+                        <div class="vcenter link-container text-right"><a href="{{ route('project.technischedienst') }}"
                                                                           class="next-link">
-                                <div class="project-title">Dansacademie Natraj Flyer</div>
+                                <div class="project-title">Technischedienst</div>
                                 <div class="link-title">Volgende project</div>
                             </a></div>
                     </div>
