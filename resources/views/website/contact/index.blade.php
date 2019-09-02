@@ -13,7 +13,7 @@
                         <div class="col-2"><a href="mailto:sandeshb981@gmail.com">sandeshb981@gmail.com</a></div>
                         <div class="col-2"><span class="label label-white">06 81342775</span></div>
                     </div>
-                    <form class="vbottom-desktop grid default-form no-spacing lined-form mb-xl" method="POST">
+                    <form class="vbottom-desktop grid default-form no-spacing lined-form mb-xl" method="POST" id="form">
                         @csrf
                         <div class="col-3">
                             <input required type="text" placeholder="Naam" id="name" name="name" class="form-control">
@@ -67,6 +67,8 @@
                     },
                     success: function (data) {
                         $('#response').html(data);
+
+                        $('#form')[0].reset();
                     },
                     error: function () {
                         $('#response').html('Vul de velden correct in');
