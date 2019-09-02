@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Website;
 use App\Notification;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -21,7 +22,9 @@ class ContactController extends Controller
             'message' => ['required']
         ]);
 
-        Notification::create($request->all());
+        $notification = Notification::create($request->all());
+
+        Mail::to('sandeshb981@gmail.com')->send(new \App\Mail\Notification($notification));
 
         return response()->json('Bericht verstuurd!');
     }
