@@ -15,8 +15,14 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
+        $this->validate($request, [
+            'name' => ['required'],
+            'email' => ['required', 'email'],
+            'message' => ['required']
+        ]);
+
         Notification::create($request->all());
 
-        return back();
+        return response()->json('Bericht verstuurd!');
     }
 }
