@@ -8,7 +8,7 @@
                 <div class="container">
                     <div class="grid mb-xl">
                         <div class="col-4">
-                            <h3 class="mt-0">Laat een </h3>
+                            <h3 class="mt-0">Laat een bericht achter.</h3>
                         </div>
                         <div class="col-2"><a href="mailto:sandeshb981@gmail.com">sandeshb981@gmail.com</a></div>
                         <div class="col-2"><span class="label label-white">06 81342775</span></div>
