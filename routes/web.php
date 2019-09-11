@@ -26,6 +26,11 @@ Route::namespace('Dashboard')->prefix('dashboard')->group(function() {
         Route::get('/', 'NotificationsController@index')->name('index');
         Route::get('/{notification}', 'NotificationsController@show')->name('show');
     });
+
+    Route::prefix('navbar')->name('navbar.')->group(function() {
+        Route::get('/', 'NavbarController@edit')->name('edit');
+        Route::put('/', 'NavbarController@update')->name('update');
+    });
 });
 
 Route::namespace('Auth')->group(function() {
