@@ -54,10 +54,10 @@
                     </div>
                     <div class="col-2 col-offset-1">
                         <div class="list-block">
-                            <h3 class="stripe">Opleidingen</h3><span class="label">2018 - 2019</span>
+                            <h3 class="stripe">Opleidingen</h3><span class="label">2019 - heden</span>
                             <ul class="striped">
                                 <li>Hogeschool Rotterdam <br>
-                                    Informatica <br>
+                                    Communicatie en Multimedia Design <br>
                                     HBO
                                 </li>
                             </ul><span class="label">2015 - 2018</span>
