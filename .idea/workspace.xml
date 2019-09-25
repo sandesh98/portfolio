@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="713fd843-3dbc-4a4e-b7e8-bdc5ba720ce8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +123,11 @@
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1QILKTPtijuDKjDdJ5btXRJMYt5" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectId" id="1QMrhx5xYIhTW3M2cGFRMJ93Hat" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -200,9 +200,13 @@
       <workItem from="1557749847465" duration="2950000" />
       <workItem from="1558379880059" duration="2623000" />
       <workItem from="1558462230408" duration="2270000" />
-      <workItem from="1567453102382" duration="1524000" />
-      <workItem from="1567498293431" duration="920000" />
-      <workItem from="1567581648705" duration="221000" />
+      <workItem from="1567591431769" duration="137000" />
+      <workItem from="1567596955641" duration="33000" />
+      <workItem from="1567765330024" duration="4458000" />
+      <workItem from="1567875501809" duration="2000" />
+      <workItem from="1568016289092" duration="776000" />
+      <workItem from="1568641365544" duration="56000" />
+      <workItem from="1569411210435" duration="168000" />
     </task>
     <servers />
   </component>

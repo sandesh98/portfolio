@@ -8,7 +8,9 @@
     <meta name="author" content="">
     <title>Sandesh Boedhoe</title>
     <link href="{{ asset('dashboard/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
     <link href="{{ asset('dashboard/css/sb-admin-2.min.css') }}" rel="stylesheet">
     <link href="{{ asset('dashboard/vendor/datatables/dataTables.bootstrap4.min.css') }}" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('website/images/favicon/apple-touch-icon.png') }}">
@@ -23,8 +25,8 @@
 <div id="wrapper">
 
     <!-- Sidebar -->
-    @include('dashboard.layout.sidebar')
-    <!-- End of Sidebar -->
+@include('dashboard.layout.sidebar')
+<!-- End of Sidebar -->
 
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
@@ -33,14 +35,17 @@
         <div id="content">
 
             <!-- Topbar -->
-            @include('dashboard.layout.navbar')
-            <!-- End of Topbar -->
+        @include('dashboard.layout.navbar')
+        <!-- End of Topbar -->
 
             <!-- Begin Page Content -->
             <div class="container-fluid">
 
                 <!-- Page Heading -->
-                <h1 class="h3 mb-4 text-gray-800">@yield('title')</h1>
+                <div class="d-flex justify-content-between align-items-center py-3">
+
+
+                </div>
                 @yield('main')
             </div>
             <!-- /.container-fluid -->
@@ -49,8 +54,8 @@
         <!-- End of Main Content -->
 
         <!-- Footer -->
-        @include('dashboard.layout.footer')
-        <!-- End of Footer -->
+    @include('dashboard.layout.footer')
+    <!-- End of Footer -->
 
     </div>
     <!-- End of Content Wrapper -->
@@ -64,7 +69,8 @@
 </a>
 
 <!-- Logout Modal-->
-<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -76,7 +82,8 @@
             <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                <a class="btn btn-primary" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
+                <a class="btn btn-primary" href="{{ route('logout') }}"
+                   onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                     @csrf
                 </form>
