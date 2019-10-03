@@ -68,7 +68,7 @@
 
     <!-- Nav Item - Charts -->
     <li class="nav-item {{ request()->is('dashboard/notifications*') ? 'active' : '' }}">
-        <a class="nav-link" href="{{ route('notification.index') }}">
+        <a class="nav-link" href="">
             <i class="fas fa-fw fa-envelope"></i>
             <span>Notificaties</span></a>
     </li>
