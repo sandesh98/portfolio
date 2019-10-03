@@ -19,7 +19,7 @@ Route::namespace('Website')->group(function() {
     Route::get('/profile', 'ProfileController@index')->name('profile.index');
 });
 
-Route::namespace('Dashboard')->prefix('dashboard')->group(function() {
+Route::namespace('Dashboard')->prefix('panel')->group(function() {
     Route::get('/', 'HomeController@index')->name('dashboard.index');
 
     Route::prefix('notifications')->name('notification.')->group(function() {
