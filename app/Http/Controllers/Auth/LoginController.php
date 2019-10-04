@@ -25,8 +25,6 @@ class LoginController extends Controller
         return route('dashboard.index');
     }
 
-    protected $redirectTo = '/dashboard';
-
     /**
      * Create a new controller instance.
      *

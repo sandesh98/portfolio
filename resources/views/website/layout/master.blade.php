@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('website/css/animsition.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('website/css/core.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('website/css/custom.css') }}">
