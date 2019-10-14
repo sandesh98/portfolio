@@ -17,6 +17,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('website/images/favicon/favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('website/images/favicon/favicon-16x16.png') }}">
 
+
+    <script src="https://cdn.tiny.cloud/1/y7dj32xe98eaish382baa0d3ztdb87acnqsy9nd9osdqvbf6/tinymce/5/tinymce.min.js"></script>
 </head>
 
 <body id="page-top">
@@ -40,12 +42,6 @@
 
             <!-- Begin Page Content -->
             <div class="container-fluid">
-
-                <!-- Page Heading -->
-                <div class="d-flex justify-content-between align-items-center py-3">
-
-
-                </div>
                 @yield('main')
             </div>
             <!-- /.container-fluid -->

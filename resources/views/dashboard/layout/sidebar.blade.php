@@ -36,6 +36,7 @@
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Custom Components:</h6>
                 <a class="collapse-item" href="{{ route('navbar.edit') }}">Navigatie</a>
+                <a class="collapse-item" href="{{ route('profile.edit') }}">Profiel</a>
             </div>
         </div>
     </li>
