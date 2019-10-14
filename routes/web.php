@@ -1,4 +1,3 @@
-
 <?php
 
 Route::namespace('Website')->group(function() {
