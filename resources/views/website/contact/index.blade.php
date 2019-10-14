@@ -51,19 +51,15 @@
                     }
                 });
 
-                const name = $('#name').val();
-                const email = $('#email').val();
-                const message = $('#message').val();
-
                 $.ajax({
                     type: "POST",
                     url: "{{ route('contact.store') }}",
                     dataType: "json",
                     data: {
                         _token: "{{ csrf_token() }}",
-                        name: name,
-                        email: email,
-                        message: message,
+                        name: $('#name').val(),
+                        email: $('#email').val(),
+                        message: $('#message').val(),
                     },
                     success: function (data) {
                         $('#response').html(data);
