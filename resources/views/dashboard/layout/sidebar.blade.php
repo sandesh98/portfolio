@@ -29,7 +29,7 @@
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-            <i class="fas fa-fw fa-cog"></i>
+            <i class="fas fa-fw fa-pager"></i>
             <span>Pagina's</span>
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -45,16 +45,15 @@
     <!-- add 'active' class to set active color in sidebar -->
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-            <i class="fas fa-fw fa-wrench"></i>
-            <span>Kleuren</span>
+            <i class="fas fa-fw fa-cog"></i>
+            <span>Instellingen</span>
         </a>
         <!-- Add the 'show' class to collapse the menu -->
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Custom Utilities:</h6>
                 <!-- Add 'active' to set the menu item link to active -->
-                <a class="collapse-item" href="utilities-color.html">Colors</a>
-                <a class="collapse-item" href="utilities-color.html">Colors</a>
+                <a class="collapse-item" href="{{ route('dashboard.password.edit') }}">Wachtwoord</a>
             </div>
         </div>
     </li>
@@ -69,7 +68,7 @@
 
     <!-- Nav Item - Charts -->
     <li class="nav-item {{ request()->is('dashboard/notifications*') ? 'active' : '' }}">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="{{ route('notification.index') }}">
             <i class="fas fa-fw fa-envelope"></i>
             <span>Notificaties</span></a>
     </li>
