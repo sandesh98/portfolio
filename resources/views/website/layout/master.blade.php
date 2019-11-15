@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="Welkom op mijn website! Mijn naam is Sandesh Boedhoe">
+    <meta name="author" content="Sandesh Boedhoe">
     <link rel="stylesheet" type="text/css" href="{{ asset('website/css/animsition.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('website/css/core.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('website/css/custom.css') }}">

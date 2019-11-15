@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="713fd843-3dbc-4a4e-b7e8-bdc5ba720ce8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/layout/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/layout/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/website/layout/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/layout/master.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +31,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="portfolio" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -125,10 +129,6 @@
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
-  </component>
   <component name="ProjectId" id="1QMrhx5xYIhTW3M2cGFRMJ93Hat" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -209,7 +209,15 @@
       <workItem from="1568016289092" duration="776000" />
       <workItem from="1568641365544" duration="56000" />
       <workItem from="1569411210435" duration="380000" />
-      <workItem from="1570091124972" duration="78000" />
+      <workItem from="1570091124972" duration="253000" />
+      <workItem from="1571052839468" duration="665000" />
+      <workItem from="1571075653543" duration="292000" />
+      <workItem from="1571086047375" duration="3000" />
+      <workItem from="1571293853718" duration="142000" />
+      <workItem from="1571420083230" duration="2536000" />
+      <workItem from="1573057909233" duration="1131000" />
+      <workItem from="1573813945169" duration="414000" />
+      <workItem from="1573814504661" duration="159000" />
     </task>
     <servers />
   </component>
