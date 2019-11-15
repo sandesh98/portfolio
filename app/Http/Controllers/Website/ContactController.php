@@ -24,7 +24,7 @@ class ContactController extends Controller
 
         $notification = Notification::create($request->all());
 
-        Mail::to('sandeshb981@gmail.com')->send(new \App\Mail\Notification($notification));
+//        Mail::to('sandeshb981@gmail.com')->send(new \App\Mail\Notification($notification));
 
         return response()->json('Bericht verstuurd!');
     }
