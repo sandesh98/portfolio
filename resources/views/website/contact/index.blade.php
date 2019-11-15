@@ -33,3 +33,43 @@
         </section>
     </div>
 @endsection
+<<<<<<< HEAD
+=======
+
+@push('script')
+    <script>
+        $(document).ready(function () {
+
+            $('#submit').click(function (e) {
+                e.preventDefault();
+
+                $.ajaxSetup({
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    }
+                });
+
+                $.ajax({
+                    type: "POST",
+                    url: "{{ route('contact.store') }}",
+                    dataType: "json",
+                    data: {
+                        _token: "{{ csrf_token() }}",
+                        name: $('#name').val(),
+                        email: $('#email').val(),
+                        message: $('#message').val(),
+                    },
+                    success: function (data) {
+                        $('#response').html(data);
+
+                        $('#form')[0].reset();
+                    },
+                    error: function () {
+                        $('#response').html('Vul de velden correct in');
+                    }
+                });
+            });
+        });
+    </script>
+@endpush
+>>>>>>> 223302aad932cff6ecc136c647e5ee50a4acb688

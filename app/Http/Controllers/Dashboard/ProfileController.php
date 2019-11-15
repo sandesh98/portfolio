@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers\Dashboard;
 
+use App\Http\Controllers\Controller;
 use App\Text;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 
-class NavbarController extends Controller
+class ProfileController extends Controller
 {
     public function __construct()
     {
@@ -15,16 +15,15 @@ class NavbarController extends Controller
 
     public function edit()
     {
-        $text = Text::first();
-
-        return view('dashboard.navbar.edit', compact('text'));
+        return view('dashboard.profile.edit');
     }
 
     public function update(Request $request)
     {
+        Text::first()->update(
+            $request->only(['about_me'])
+        );
 
-        Text::first()->update($request->all());
-
-        return back();
+        return redirect()->back();
     }
 }

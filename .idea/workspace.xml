@@ -4,7 +4,10 @@
     <list default="true" id="713fd843-3dbc-4a4e-b7e8-bdc5ba720ce8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/dashboard/layout/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/layout/master.blade.php" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/resources/views/website/layout/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/website/layout/master.blade.php" afterDir="false" />
+=======
+>>>>>>> 223302aad932cff6ecc136c647e5ee50a4acb688
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,6 +130,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
     </include_path>
   </component>
   <component name="ProjectId" id="1QMrhx5xYIhTW3M2cGFRMJ93Hat" />
@@ -216,8 +220,12 @@
       <workItem from="1571293853718" duration="142000" />
       <workItem from="1571420083230" duration="2536000" />
       <workItem from="1573057909233" duration="1131000" />
+<<<<<<< HEAD
       <workItem from="1573813945169" duration="414000" />
       <workItem from="1573814504661" duration="159000" />
+=======
+      <workItem from="1573813945169" duration="191000" />
+>>>>>>> 223302aad932cff6ecc136c647e5ee50a4acb688
     </task>
     <servers />
   </component>

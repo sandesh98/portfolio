@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers\Dashboard;
 
-use App\Text;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\User;
+use Illuminate\Http\Request;
 
-class NavbarController extends Controller
+class PasswordController extends Controller
 {
     public function __construct()
     {
@@ -15,16 +15,13 @@ class NavbarController extends Controller
 
     public function edit()
     {
-        $text = Text::first();
-
-        return view('dashboard.navbar.edit', compact('text'));
+        return view('dashboard.password.edit');
     }
 
     public function update(Request $request)
     {
+        User::first()->update(['password' => bcrypt($request->password)]);
 
-        Text::first()->update($request->all());
-
-        return back();
+        return redirect()->back();
     }
 }

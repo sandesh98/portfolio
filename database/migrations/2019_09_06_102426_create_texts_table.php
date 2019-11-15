@@ -16,6 +16,10 @@ class CreateTextsTable extends Migration
         Schema::create('texts', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('title');
+            $table->string('navbar_item1');
+            $table->string('navbar_item2');
+            $table->string('navbar_item3');
+            $table->text('about_me');
             $table->timestamps();
         });
     }

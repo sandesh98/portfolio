@@ -31,6 +31,16 @@ Route::namespace('Dashboard')->prefix('panel')->group(function() {
         Route::get('/', 'NavbarController@edit')->name('edit');
         Route::put('/', 'NavbarController@update')->name('update');
     });
+
+    Route::prefix('profile')->name('profile.')->group(function() {
+       Route::get('/', 'ProfileController@edit')->name('edit');
+       Route::put('/', 'ProfileController@update')->name('update');
+    });
+
+    Route::prefix('password')->name('dashboard.password.')->group(function() {
+       Route::get('/', 'PasswordController@edit')->name('edit');
+       Route::put('/', 'PasswordController@update')->name('update');
+    });
 });
 
 Route::namespace('Auth')->group(function() {
