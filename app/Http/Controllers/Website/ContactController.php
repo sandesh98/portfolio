@@ -16,15 +16,9 @@ class ContactController extends Controller
     public function store(Request $request)
     {
         Notification::create($request->all());
-
-<<<<<<< HEAD
-        return back();
-=======
-        $notification = Notification::create($request->all());
-
+        
 //        Mail::to('sandeshb981@gmail.com')->send(new \App\Mail\Notification($notification));
 
         return response()->json('Bericht verstuurd!');
->>>>>>> 223302aad932cff6ecc136c647e5ee50a4acb688
     }
 }
