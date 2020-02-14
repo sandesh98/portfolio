@@ -24,4 +24,13 @@ class NotificationsController extends Controller
     {
         return view('dashboard.notification.show', compact('notification'));
     }
+
+    public function delete(Notification $notification)
+    {
+        $notification->delete();
+
+        $notifications = Notification::all();
+        
+        return view('dashboard.notification.index', compact('notifications'));
+    }
 }

@@ -29,7 +29,7 @@
                     </tr>
                     </tfoot>
                     <tbody>
-                    @foreach($notifications as $notification)
+                    @foreach($notifications ?? '' as $notification)
                     <tr>
                         <td>{{ $notification->id }}</td>
                         <td>{{ $notification->name }}</td>

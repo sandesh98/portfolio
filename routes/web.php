@@ -25,6 +25,7 @@ Route::namespace('Dashboard')->prefix('panel')->group(function() {
     Route::prefix('notifications')->name('notification.')->group(function() {
         Route::get('/', 'NotificationsController@index')->name('index');
         Route::get('/{notification}', 'NotificationsController@show')->name('show');
+        Route::delete('/{notification}', 'NotificationsController@delete')->name('delete');
     });
 
     Route::prefix('navbar')->name('navbar.')->group(function() {
