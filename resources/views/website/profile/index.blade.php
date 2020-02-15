@@ -71,17 +71,17 @@
                         <div class="list-block">
                             <h3 class="stripe">Werk</h3>
 
-                            <span class="label">Okt 2018 - Heden</span>
-                            <ul class="striped">
-                                <li>Atlantis<br>
-                                    Administratie
-                                </li>
-                            </ul>
-
                             <span class="label">Sep 2016 - Heden</span>
                             <ul class="striped">
                                 <li>Amac<br>
                                     Medior Sales Adviser
+                                </li>
+                            </ul>
+
+                            <span class="label">Okt 2018 - Jan 2020</span>
+                            <ul class="striped">
+                                <li>Atlantis<br>
+                                    Administratie
                                 </li>
                             </ul>
 
