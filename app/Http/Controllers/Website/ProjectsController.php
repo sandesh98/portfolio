@@ -46,9 +46,14 @@ class ProjectsController extends Controller
     {
         return view('website.project.projects.guess-and-win');
     }
-	
+
     public function brandInNederland()
     {
-	return view('website.project.projects.brand-in-nederland');
+	    return view('website.project.projects.brand-in-nederland');
+    }
+
+    public function deCafeKoers()
+    {
+        return view('website.project.projects.de-cafe-koers');
     }
 }
