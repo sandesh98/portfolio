@@ -99,6 +99,17 @@
                         </div>
                     </a>
 
+                    <!-- Project -->
+                    <a href="{{ route('project.de-cafe-koers') }}" class="websites grid-item col-8">
+                        <div class="thumb">
+                            <img src="{{ asset('website/images/project/decafekoers/project-image.png') }}">
+                        </div>
+                        <div class="caption">
+                            <div class="title">School Project - De Café Koers</div>
+                            <div class="subtitle">Website</div>
+                        </div>
+                    </a>
+
                 </div>
             </div>
         </section>
