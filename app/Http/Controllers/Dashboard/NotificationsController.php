@@ -29,8 +29,6 @@ class NotificationsController extends Controller
     {
         $notification->delete();
 
-        $notifications = Notification::all();
-
-        return view('dashboard.notification.index', compact('notifications'));
+        return redirect()->route('notification.index');
     }
 }
