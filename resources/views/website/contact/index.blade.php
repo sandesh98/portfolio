@@ -16,31 +16,33 @@
                     <form action="{{ route('contact.store') }}" method="post" class="vbottom-desktop grid default-form no-spacing lined-form mb-xl">
                         @csrf
                         <div class="col-3">
-                            <input required type="text" placeholder="Naam" name="name" class="form-control">
+                            <input required type="text" placeholder="Naam" name="name" id="name" class="form-control">
                         </div>
                         <div class="col-3">
-                            <input required type="email" placeholder="Email" name="email" class="form-control">
+                            <input required type="email" placeholder="Email" name="email" id="email" class="form-control">
                         </div>
                         <div class="col-3">
-                            <textarea required placeholder="Bericht" name="message" class="small form-control"></textarea>
+                            <textarea required placeholder="Bericht" name="message" id="message" class="small form-control"></textarea>
                         </div>
                         <div class="col-3">
                             <input id="send" type="submit" value="Verzenden" class="btn btn-primary">
                         </div>
                     </form>
+
+                    <div class="text-center">
+                        <h3 id="response"></h3>
+                    </div>
                 </div>
             </div>
         </section>
     </div>
 @endsection
-<<<<<<< HEAD
-=======
 
 @push('script')
     <script>
         $(document).ready(function () {
 
-            $('#submit').click(function (e) {
+            $('#send').click(function (e) {
                 e.preventDefault();
 
                 $.ajaxSetup({
@@ -72,4 +74,3 @@
         });
     </script>
 @endpush
->>>>>>> 223302aad932cff6ecc136c647e5ee50a4acb688
