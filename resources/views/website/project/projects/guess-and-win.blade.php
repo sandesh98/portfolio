@@ -126,13 +126,13 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-4">
-                        <div class="vcenter link-container"><a href="{{ route('project.natraj-flyer') }}" class="prev-link">
-                                <div class="project-title">Dansacademie Natraj Flyer</div>
+                        <div class="vcenter link-container"><a href="{{ route('project.sandesh') }}" class="prev-link">
+                                <div class="project-title">Personal website</div>
                                 <div class="link-title">Vorige project</div></a></div>
                     </div>
                     <div class="col-4">
-                        <div class="vcenter link-container text-right"><a href="" class="next-link">
-                                <div class="project-title">Dutch Diner</div>
+                        <div class="vcenter link-container text-right"><a href="{{ route('project.de-cafe-koers') }}" class="next-link">
+                                <div class="project-title">De Café Koers</div>
                                 <div class="link-title">Volgende project</div></a></div>
                     </div>
                 </div>
