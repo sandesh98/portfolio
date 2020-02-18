@@ -56,7 +56,7 @@
                                 </li>
                             </ul><span class="label">2015 - 2018</span>
                             <ul class="striped">
-                                <li>Techniek Collega Rotterdam <br>
+                                <li>Techniek College Rotterdam <br>
                                     Applicatie- en mediaontwikkelaar <br>
                                     MBO
                                 </li>
