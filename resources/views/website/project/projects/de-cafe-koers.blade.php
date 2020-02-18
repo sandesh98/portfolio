@@ -57,7 +57,7 @@
                 <div class="grid content">
                     <div id="img-carousel" class="titanSlider">
                         <ul class="slides">
-                            <li class="slide"><img src="{{ asset('website/images/project/decafekoers/carousel/carousel-1.png') }}"
+                            <li class="slide"><img src="{{ asset('website/images/project/decafekoers/carousel/carousel-1.jpg') }}"
                                                    class="fw"></li>
                             <li class="slide"><img src="{{ asset('website/images/project/decafekoers/carousel/carousel-2.jpg') }}"
                                                    class="fw"></li>
@@ -100,11 +100,11 @@
 
                                 <div class="col-2"><span class="label">Projectleden</span>
                                     <ul class="striped inside">
-                                        <li>Daniel</li>
-                                        <li>Henri</li>
-                                        <li>Ravelli</li>
-                                        <li>Sandesh</li>
-                                        <li>Volkan</li>
+                                        <li>Daniel Guseinov</li>
+                                        <li>Henri van der Stelt</li>
+                                        <li>Ravelli Winklaar</li>
+                                        <li>Sandesh Boedhoe</li>
+                                        <li>Volkan Bakar</li>
                                     </ul>
                                 </div>
                             </div>
