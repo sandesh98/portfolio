@@ -39,8 +39,6 @@
                                     <h3>Certifacten</h3>
                                     <ul class="striped">
                                         <li>Apple Product Professional</li>
-                                        <li>Adobe Photoshop Certifacte</li>
-                                        <li>Adobe Premier Certifacte</li>
                                     </ul>
                                 </div>
                             </div>
