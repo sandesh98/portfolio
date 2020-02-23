@@ -55,5 +55,3 @@ Route::namespace('Auth')->group(function() {
     Route::get('password/reset/{token}', 'ResetPasswordController@showResetForm')->name('password.reset');
     Route::post('password/reset', 'ResetPasswordController@reset')->name('password.update');
 });
-
-URL::forceScheme('https');
