@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Text;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
@@ -30,8 +31,6 @@ class AppServiceProvider extends ServiceProvider
 
         View::share('text', Text::first());
 
-        if($this->app->environment('production')) {
-            \URL::forceScheme('https');
-        }
+        URL::forceScheme('https');
     }
 }
