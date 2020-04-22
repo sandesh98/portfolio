@@ -56,4 +56,9 @@ class ProjectsController extends Controller
     {
         return view('website.project.projects.de-cafe-koers');
     }
+
+    public function sportmaatje()
+    {
+        return view('website.project.projects.sportmaatje');
+    }
 }
