@@ -27,14 +27,14 @@
                 <div class="grid content">
                     <div class="col-6 col-offset-1">
                         <div class="video-frame mb-xl">
-                            <iframe width="640" height="360" src="https://www.youtube.com/embed/YV9tVtNcMg0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="640" height="360" src="https://www.youtube.com/embed/S5715C7ddG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
                 <div class="grid content">
                     <div class="col-offset-1 col-3">
                         <p>Achraf, Max, Nick, Sandesh en Thomas hebben een bordspel gemaakt voor ons eerste project. Het was de bedoeling dat je in het project met behulp van Scrum methodiek een bordspel ging maken. Dat is gelukt dus toen moesten we een soort reclamefilmpje en/of uitlegfilmpje maken om het te promoten en soort van ui te leggen. Dat is deze video geworden!</p>
-                        <a href="https://github.com/sandesh98/Guess-and-Win">Link naar Adobe XD</a>
+                        <a href="https://github.com/sandesh98/Guess-and-Win" target="_blank">Link naar Adobe XD</a>
                     </div>
                     <div class="col-offset-1 col-1">
                         <div class="project-data">
@@ -64,10 +64,10 @@
                 <div class="grid content">
                     <div id="img-carousel" class="titanSlider">
                         <ul class="slides">
-                            <li class="slide"><img src="{{ asset('website/images/project/guessandwin/carousel/carousel-1.jpg') }}" class="fw"></li>
-                            <li class="slide"><img src="{{ asset('website/images/project/guessandwin/carousel/carousel-2.jpg') }}" class="fw"></li>
-                            <li class="slide"><img src="{{ asset('website/images/project/guessandwin/carousel/carousel-3.jpg') }}" class="fw"></li>
-                            <li class="slide"><img src="{{ asset('website/images/project/guessandwin/carousel/carousel-4.jpg') }}" class="fw"></li>
+                            <li class="slide"><img src="{{ asset('website/images/project/sportmaatje/carousel/carousel-1.jpg') }}" class="fw"></li>
+                            <li class="slide"><img src="{{ asset('website/images/project/sportmaatje/carousel/carousel-2.jpg') }}" class="fw"></li>
+                            <li class="slide"><img src="{{ asset('website/images/project/sportmaatje/carousel/carousel-3.jpg') }}" class="fw"></li>
+                            <li class="slide"><img src="{{ asset('website/images/project/sportmaatje/carousel/carousel-4.jpg') }}" class="fw"></li>
                         </ul>
                     </div>
                 </div>
@@ -94,30 +94,15 @@
                             <div class="grid">
                                 <div class="col-2"><span class="label">Programma's</span>
                                     <ul class="striped inside">
-                                        <li>PHPStorm</li>
-                                        <li>Terminal</li>
-                                        <li>Slack</li>
-                                        <li>Adobe Photoshop</li>
-                                        <li>Adobe Illustrator</li>
-                                        <li>Adobe Premiere</li>
                                         <li>Adobe XD</li>
-                                    </ul>
-                                </div>
-                                <div class="col-2"><span class="label">Talen</span>
-                                    <ul class="striped inside">
-                                        <li>Vue</li>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>Bootstrap</li>
                                     </ul>
                                 </div>
                                 <div class="col-2"><span class="label">Projectleden</span>
                                     <ul class="striped inside">
-                                        <li>Achraf Chettou</li>
-                                        <li>Max de Bruin</li>
-                                        <li>Nick Arema</li>
+                                        <li>Anne Bruin</li>
                                         <li>Sandesh Boedhoe</li>
-                                        <li>Thomas van de Bovenkamp</li>
+                                        <li>Seyda Kocaer</li>
+                                        <li>Tristan Bijl</li>
                                     </ul>
                                 </div>
                             </div>
