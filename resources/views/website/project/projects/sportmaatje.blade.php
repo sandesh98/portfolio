@@ -95,6 +95,7 @@
                                 <div class="col-2"><span class="label">Programma's</span>
                                     <ul class="striped inside">
                                         <li>Adobe XD</li>
+                                        <li>Adobe Illustrator</li>
                                     </ul>
                                 </div>
                                 <div class="col-2"><span class="label">Projectleden</span>
@@ -120,8 +121,8 @@
                                 <div class="link-title">Vorige project</div></a></div>
                     </div>
                     <div class="col-4">
-                        <div class="vcenter link-container text-right"><a href="{{ route('project.de-cafe-koers') }}" class="next-link">
-                                <div class="project-title">De Café Koers</div>
+                        <div class="vcenter link-container text-right"><a href="{{ route('project.guess-and-win') }}" class="next-link">
+                                <div class="project-title">Guess and Win</div>
                                 <div class="link-title">Volgende project</div></a></div>
                     </div>
                 </div>

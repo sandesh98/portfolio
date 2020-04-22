@@ -126,8 +126,8 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-4">
-                        <div class="vcenter link-container"><a href="{{ route('project.sandesh') }}" class="prev-link">
-                                <div class="project-title">Personal website</div>
+                        <div class="vcenter link-container"><a href="{{ route('project.sportmaatje') }}" class="prev-link">
+                                <div class="project-title">Sportmaatje</div>
                                 <div class="link-title">Vorige project</div></a></div>
                     </div>
                     <div class="col-4">
