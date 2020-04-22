@@ -34,6 +34,7 @@
                 <div class="grid content">
                     <div class="col-offset-1 col-3">
                         <p>Het maken van de website voor Dutch Diner Meent was een van mijn stage opdrachten bij Collab Group. De website is geheel in wordpress gemaakt zodat het voor de eigenaar makkelijk is om wijzigingen aan te brengen.</p>
+                        <a href="http://www.dutchdiner-meent.nl/" target="_blank">Link naar de website</a>
                     </div>
                     <div class="col-offset-1 col-1">
                         <div class="project-data">

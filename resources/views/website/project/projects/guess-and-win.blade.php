@@ -34,7 +34,7 @@
                 <div class="grid content">
                     <div class="col-offset-1 col-3">
                         <p>Achraf, Max, Nick, Sandesh en Thomas hebben een bordspel gemaakt voor ons eerste project. Het was de bedoeling dat je in het project met behulp van Scrum methodiek een bordspel ging maken. Dat is gelukt dus toen moesten we een soort reclamefilmpje en/of uitlegfilmpje maken om het te promoten en soort van ui te leggen. Dat is deze video geworden!</p>
-                        <a href="https://github.com/sandesh98/Guess-and-Win">Link naar Github</a>
+                        <a href="https://github.com/sandesh98/Guess-and-Win" target="_blank">Link naar Github</a>
                     </div>
                     <div class="col-offset-1 col-1">
                         <div class="project-data">

@@ -33,7 +33,7 @@
                 </div>
                 <div class="grid content">
                     <div class="col-offset-1 col-3">
-                        <p>Achraf, Max, Nick, Sandesh en Thomas hebben een bordspel gemaakt voor ons eerste project. Het was de bedoeling dat je in het project met behulp van Scrum methodiek een bordspel ging maken. Dat is gelukt dus toen moesten we een soort reclamefilmpje en/of uitlegfilmpje maken om het te promoten en soort van ui te leggen. Dat is deze video geworden!</p>
+                        <p>Sportmaatje is een app speciaal voor eenzame ouderen tussen de leeftijd 55 en 65 jaar oud. De app moet ouderen stimuleren om een maatje te vinden en vervolgens met de maatje af te spreken om te gaan sportenx</p>
                         <a href="https://github.com/sandesh98/Guess-and-Win" target="_blank">Link naar Adobe XD</a>
                     </div>
                     <div class="col-offset-1 col-1">
@@ -81,9 +81,9 @@
                             <div class="title">Meer informatie</div>
                         </div>
                         <div class="body">
-                            <p>Een van de onderdelen op de Hogeschool Rotterdam is projecten maken. We hebben de opdracht gekregen om een bordspel te maken. Of het nou een bestaand of nieuw bordspel is maakte de opdrachtgever niet veel uit. Wat wel belangrijk was is dat het spel een digitaal component moest bevatten. Het lastigste van het project is dat het spel ook speelbaar moet zijn zonder de digitale component. </p>
-                            <p>Mijn projectleden en ik hebben ervoor gekozen om het bekende spel 30 Seconds na te maken en onze eigen draai eraan te geven. Het bord, de kaarten, de dobbelsteen, de pionnen en het concept hebben overgenomen uit het originele spel. Onze eigen draai bevatten special en powerup kaarten die ervoor zorgen dat het spel nog spannender wordt. De kaarten kunnen in jou voor en/of nadeel uitkomen.</p>
-                            <p>De digitale component vervangt alles behalve de pionnen en bordspel. Voor de rest gaan beurten, kaarten en pionnen doormiddel van het digitale component.</p>
+                            <p>Sportmaatje is een app voor ouderen, zowel man als vrouw, tussen de leeftijd 55 en 65 jaar oud die eenzaam zijn. De app is een middel om de drempel om sociale contacten met andere te verlagen.</p>
+                            <p>De gebruiker maakt gemakkelijk een account in de Sportmaatjes app en heeft direct toegang tot velen functies. Zo kan de gebruiker maatjes vinden op basis van gedeelte interesses en deelnemen aan groepsevenementen om nieuwe maatjes en workouts te ontdekken. Ook kan de gebruiker gemakkelijk een workout inplannen met een maatje. Om de sociale contacten met dat maatje te behouden kan de gebruiker gebruik maken van de herhaal functie waarin de twee maatjes dezelfde workout nog een keer inplannen op een later moment. Wanneer de gebruiker klaar is met sporten kunnen ze de app nog steeds gebruiken voor de socials sectie waarin ze inspiratie op kunnen doen over bijvoorbeeld een gezonder levensstijl.</p>
+                            <p>Mijn teamgenoten en ik hebben deze prototype kunnen maken door veel te onderzoeken en veel te testen bij ons doelgroep.</p>
                         </div>
                     </li>
                     <li>
