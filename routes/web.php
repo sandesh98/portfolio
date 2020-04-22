@@ -10,7 +10,8 @@ Route::namespace('Website')->group(function() {
         Route::get('/natraj-flyer', 'ProjectsController@natrajFlyer')->name('natraj-flyer');
         Route::get('/guess-and-win', 'ProjectsController@guessAndWin')->name('guess-and-win');
         Route::get('/de-cafe-koers', 'ProjectsController@deCafeKoers')->name('de-cafe-koers');
-	Route::get('/brand-in-nederland', 'ProjectsController@brandInNederland')->name('brand-in-nederland');
+//	Route::get('/brand-in-nederland', 'ProjectsController@brandInNederland')->name('brand-in-nederland');
+        Route::get('sportmaatje', 'ProjectsController@sportmaatje')->name('sportmaatje');
     });
     Route::name('contact.')->group(function() {
         Route::get('/contact', 'ContactController@index')->name('index');
