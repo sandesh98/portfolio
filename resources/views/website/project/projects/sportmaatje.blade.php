@@ -34,7 +34,7 @@
                 <div class="grid content">
                     <div class="col-offset-1 col-3">
                         <p>Sportmaatje is een app speciaal voor eenzame ouderen tussen de leeftijd 55 en 65 jaar oud. De app moet ouderen stimuleren om een maatje te vinden en vervolgens met de maatje af te spreken om te gaan sportenx</p>
-                        <a href="https://github.com/sandesh98/Guess-and-Win" target="_blank">Link naar Adobe XD</a>
+                        <a href="https://xd.adobe.com/view/637c77ce-6377-4cad-5b3b-3fb5003b6987-154d/" target="_blank">Link naar Adobe XD</a>
                     </div>
                     <div class="col-offset-1 col-1">
                         <div class="project-data">
