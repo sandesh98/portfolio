@@ -66,6 +66,23 @@
                                 </li>
                             </ul>
                         </div>
+
+                        <div class="list-block">
+                            <h3 class="stripe">Programming</h3>
+                            <ul class="striped">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>PHP</li>
+                                <li>Laravel</li>
+                                <li>Vue</li>
+                                <li>Javascript</li>
+                                <li>MySQL</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-2">
                         <div class="list-block">
                             <h3 class="stripe">Werk</h3>
 
@@ -123,30 +140,6 @@
                                 <li>Dixons<br>
                                     Stagiar / Student
                                 </li>
-                            </ul>
-
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="list-block">
-                            <h3 class="stripe">Programming</h3>
-                            <ul class="striped">
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>PHP</li>
-                                <li>Laravel</li>
-                                <li>Vue</li>
-                                <li>Javascript</li>
-                                <li>MySQL</li>
-                                <li>Bootstrap</li>
-                            </ul>
-                        </div>
-                        <div class="list-block">
-                            <h3 class="stripe">Tools</h3>
-                            <ul class="striped">
-                                <li>PHPStorm</li>
-                                <li>Adobe Photoshop</li>
-                                <li>Spotify</li>
                             </ul>
                         </div>
                     </div>
