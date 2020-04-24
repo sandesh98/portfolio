@@ -1,7 +1,7 @@
 <?php
 
 Route::namespace('Website')->group(function() {
-    Route::prefix('project')->name('project.')->group(function() {
+    Route::prefix('projecten')->name('project.')->group(function() {
         Route::get('/', 'ProjectsController@index')->name('index');
         Route::get('/sandesh', 'ProjectsController@sandesh')->name('sandesh');
         Route::get('/csr', 'ProjectsController@csr')->name('csr');
@@ -18,7 +18,7 @@ Route::namespace('Website')->group(function() {
         Route::post('/contact', 'ContactController@store')->name('store');
     });
     Route::get('/', 'HomeController@index')->name('home.index');
-    Route::get('/profile', 'ProfileController@index')->name('profile.index');
+    Route::get('/profiel', 'ProfileController@index')->name('profile.index');
 });
 
 Route::namespace('Dashboard')->prefix('panel')->group(function() {
