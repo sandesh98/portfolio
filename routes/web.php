@@ -1,8 +1,8 @@
 <?php
 
 Route::namespace('Website')->group(function() {
-    Route::prefix('projecten')->name('project.')->group(function() {
-        Route::get('/', 'ProjectsController@index')->name('index');
+
+    Route::name('project.')->group(function() {
         Route::get('/sandesh', 'ProjectsController@sandesh')->name('sandesh');
         Route::get('/csr', 'ProjectsController@csr')->name('csr');
         Route::get('/dutchdiner', 'ProjectsController@dutchdiner')->name('dutchdiner');
@@ -10,15 +10,18 @@ Route::namespace('Website')->group(function() {
         Route::get('/natraj-flyer', 'ProjectsController@natrajFlyer')->name('natraj-flyer');
         Route::get('/guess-and-win', 'ProjectsController@guessAndWin')->name('guess-and-win');
         Route::get('/de-cafe-koers', 'ProjectsController@deCafeKoers')->name('de-cafe-koers');
-//	Route::get('/brand-in-nederland', 'ProjectsController@brandInNederland')->name('brand-in-nederland');
         Route::get('sportmaatje', 'ProjectsController@sportmaatje')->name('sportmaatje');
+//	Route::get('/brand-in-nederland', 'ProjectsController@brandInNederland')->name('brand-in-nederland');
     });
+
     Route::name('contact.')->group(function() {
         Route::get('/contact', 'ContactController@index')->name('index');
         Route::post('/contact', 'ContactController@store')->name('store');
     });
+
     Route::get('/', 'HomeController@index')->name('home.index');
     Route::get('/profiel', 'ProfileController@index')->name('profile.index');
+    Route::get('/projecten', 'ProjectsController@index')->name('project.index');
 });
 
 Route::namespace('Dashboard')->prefix('panel')->group(function() {
