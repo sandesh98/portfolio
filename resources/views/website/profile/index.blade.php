@@ -67,6 +67,66 @@
                             </ul>
                         </div>
 
+                        <div class="list-block d-none d-sm-block d-md-block"> {{--alleen zichtbaar bij sm sreen--}}
+                            <h3 class="stripe">Werk</h3>
+
+                            <span class="label">Sep 2016 - Heden</span>
+                            <ul class="striped">
+                                <li>Amac<br>
+                                    Medior Sales Adviser
+                                </li>
+                            </ul>
+
+                            <span class="label">Okt 2018 - Jan 2020</span>
+                            <ul class="striped">
+                                <li>Atlantis<br>
+                                    Administratie
+                                </li>
+                            </ul>
+
+                            <span class="label">Jan 2018 - Jun 2018</span>
+                            <ul class="striped">
+                                <li>Collab Group<br>
+                                    Stagiair / Student
+                                </li>
+                            </ul>
+
+                            <span class="label">Okt 2016 - Feb 2017</span>
+                            <ul class="striped">
+                                <li>Computer.nl<br>
+                                    Stagiair / Student
+                                </li>
+                            </ul>
+
+                            <span class="label">Mei 2016 - Aug 2016</span>
+                            <ul class="striped">
+                                <li>Krom Spijkenisse<br>
+                                    Afwashulp
+                                </li>
+                            </ul>
+
+                            <span class="label">Sep 2014 - Sep 2015</span>
+                            <ul class="striped">
+                                <li>Dixons<br>
+                                    Verkoopmedewerker
+                                </li>
+                            </ul>
+
+                            <span class="label">Jun 2014 - Jun 2014</span>
+                            <ul class="striped">
+                                <li>Panoramaflat<br>
+                                    Vrijwillegerswerk
+                                </li>
+                            </ul>
+
+                            <span class="label">Apr 2014 - Apr 2014</span>
+                            <ul class="striped">
+                                <li>Dixons<br>
+                                    Stagiar / Student
+                                </li>
+                            </ul>
+                        </div>
+
                         <div class="list-block">
                             <h3 class="stripe">Programming</h3>
                             <ul class="striped">
@@ -83,7 +143,7 @@
 
                     </div>
                     <div class="col-2">
-                        <div class="list-block">
+                        <div class="list-block d-sm-none d-md-none"> {{--alleen zichtbaar bij groter dan sm sreen--}}
                             <h3 class="stripe">Werk</h3>
 
                             <span class="label">Sep 2016 - Heden</span>

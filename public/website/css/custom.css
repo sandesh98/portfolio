@@ -12,3 +12,27 @@ input, input:before, input:after {
     -ms-user-select: initial;
     user-select: initial;
 }
+
+.d-none{
+    display:none!important
+}
+
+@media (max-width:768px){
+    .d-md-none{
+        display:none!important
+    }
+    .d-md-block{
+        display:block!important
+    }
+}
+
+@media (max-width:576px){
+    .d-sm-none{
+        display:none!important
+    }
+    .d-sm-block{
+        display:block!important
+    }
+}
+
+
