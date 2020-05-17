@@ -138,6 +138,7 @@
                                 <li>Javascript</li>
                                 <li>MySQL</li>
                                 <li>Bootstrap</li>
+                                <li>Dart</li>
                             </ul>
                         </div>
 
