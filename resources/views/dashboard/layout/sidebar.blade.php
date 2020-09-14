@@ -27,19 +27,19 @@
     </div>
 
     <!-- Nav Item - Pages Collapse Menu -->
-    <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-            <i class="fas fa-fw fa-pager"></i>
-            <span>Pagina's</span>
-        </a>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-                <h6 class="collapse-header">Custom Components:</h6>
-                <a class="collapse-item" href="{{ route('navbar.edit') }}">Navigatie</a>
-                <a class="collapse-item" href="{{ route('profile.edit') }}">Profiel</a>
-            </div>
-        </div>
-    </li>
+{{--    <li class="nav-item">--}}
+{{--        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">--}}
+{{--            <i class="fas fa-fw fa-pager"></i>--}}
+{{--            <span>Pagina's</span>--}}
+{{--        </a>--}}
+{{--        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">--}}
+{{--            <div class="bg-white py-2 collapse-inner rounded">--}}
+{{--                <h6 class="collapse-header">Custom Components:</h6>--}}
+{{--                <a class="collapse-item" href="{{ route('navbar.edit') }}">Navigatie</a>--}}
+{{--                <a class="collapse-item" href="{{ route('profile.edit') }}">Profiel</a>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </li>--}}
 
     <!-- Nav Item - Utilities Collapse Menu -->
     <!-- add 'active' class to set active color in sidebar -->

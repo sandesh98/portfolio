@@ -8,25 +8,25 @@
         <div class="card-header py-3">
             <h6 class="m-0 font-weight-bold text-primary">Introductie text</h6>
         </div>
-        <form action="{{ route('profile.update') }}" method="POST">
+{{--        <form action="{{ route('profile.update') }}" method="POST">--}}
 
-            @csrf
+{{--            @csrf--}}
 
-            @method('PUT')
+{{--            @method('PUT')--}}
 
-            <div class="card-body">
-                <div class="input-group">
-                    <textarea class="about_me" name="about_me">{{ $text->about_me }}</textarea>
-                </div>
+{{--            <div class="card-body">--}}
+{{--                <div class="input-group">--}}
+{{--                    <textarea class="about_me" name="about_me">{{ $text->about_me }}</textarea>--}}
+{{--                </div>--}}
 
-                <button type="submit" class="btn btn-success btn-icon-split mt-3">
-                    <span class="icon text-white-50">
-                      <i class="fas fa-check"></i>
-                    </span>
-                    <span class="text">Opslaan</span>
-                </button>
-            </div>
-        </form>
+{{--                <button type="submit" class="btn btn-success btn-icon-split mt-3">--}}
+{{--                    <span class="icon text-white-50">--}}
+{{--                      <i class="fas fa-check"></i>--}}
+{{--                    </span>--}}
+{{--                    <span class="text">Opslaan</span>--}}
+{{--                </button>--}}
+{{--            </div>--}}
+{{--        </form>--}}
     </div>
 @endsection
 

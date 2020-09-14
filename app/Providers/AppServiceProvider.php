@@ -29,8 +29,6 @@ class AppServiceProvider extends ServiceProvider
     {
         Schema::defaultStringLength(191);
 
-        View::share('text', Text::first());
-
         URL::forceScheme('https');
     }
 }
