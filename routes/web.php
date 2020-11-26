@@ -20,7 +20,7 @@ Route::namespace('Website')->group(function() {
     });
 
     Route::get('/', 'HomeController@index')->name('home.index');
-    Route::get('/profiel', 'ProfileController@index')->name('profile.index');
+    Route::get('/over-mij', 'ProfileController@index')->name('profile.index');
     Route::get('/projecten', 'ProjectsController@index')->name('project.index');
 });
 

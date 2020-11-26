@@ -11,7 +11,7 @@
                     <li class="col-1 brand"><a href="{{ route('home.index') }}" class="sandesh">Sandesh</a></li>
                     <li class="col-1"><a href="{{ route('project.index') }}" class="nav-link undefined {{ request()->is('project*') ? 'active' : '' }}">Projecten</a>
                     </li>
-                    <li class="col-1 col-offset-1"><a href="{{ route('profile.index') }}" class="nav-link undefined {{ request()->is('profile') ? 'active' : '' }}">Profiel</a>
+                    <li class="col-1 col-offset-1"><a href="{{ route('profile.index') }}" class="nav-link undefined {{ request()->is('profile') ? 'active' : '' }}">Over mij</a>
                     </li>
                     <li class="col-1 col-offset-1"><a href="{{ route('contact.index') }}" class="nav-link undefined {{ request()->is('contact') ? 'active' : '' }}">Contact</a>
                     </li>
