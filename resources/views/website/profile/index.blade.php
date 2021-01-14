@@ -40,7 +40,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-1-3">
-                                    <h3>Certifacten</h3>
+                                    <h3>Certificaten</h3>
                                     <ul class="striped">
                                         <li>Apple Product Professional</li>
                                     </ul>
