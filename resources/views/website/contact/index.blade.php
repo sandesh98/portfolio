@@ -11,7 +11,7 @@
                             <h3 class="mt-0">Laat een bericht achter</h3>
                         </div>
                         <div class="col-2"><a href="mailto:sandeshb981@gmail.com">sandeshb981@gmail.com</a></div>
-                        <div class="col-2"><span class="label label-white">06 81342775</span></div>
+                        <div class="col-2"><span class="label label-white">Spijkenisse</span></div>
                     </div>
                     <form action="{{ route('contact.store') }}" method="post" id="form" class="vbottom-desktop grid default-form no-spacing lined-form mb-xl">
                         @csrf
