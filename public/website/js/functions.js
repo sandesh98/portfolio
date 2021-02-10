@@ -14,8 +14,8 @@
   $(".animsition").animsition({
     inClass: 'fade-in transition-in',
     outClass: 'fade-out transition-out',
-    inDuration: 600,
-    outDuration: 600,
+    inDuration: 50,
+    outDuration: 50,
     linkElement: '.transition-link',
     // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
     loading: false,
