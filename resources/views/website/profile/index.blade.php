@@ -4,7 +4,7 @@
     <div id="inner">
         <section class="mb-xl">
             <div class="hero behind-header small">
-                <div style="background-image: url({{ asset('website/images/profile/sandeshboedhoe.jpeg') }});" class="bg faded"></div>
+                <div style="background-image: url({{ asset('website/images/profile/sandeshboedhoe.jpeg') }}); background-position: center top;" class="bg faded"></div>
                 <div class="vbottom">
                     <div class="container">
                         <div class="grid mb-md">
@@ -25,6 +25,7 @@
                             <p>Ik ben 22 jaar oud en woon in Spijkenisse. Mijn hobby’s zijn programmeren, gamen met vrienden en ik vind het ontzettend leuk om te poolen. Eén van mijn eigenschappen is dat ik een persoon ben die niet stil kan staan. Zo ben ik momenteel bezig met een website, samen met een oud klasgenoot waarin wij mensen willen helpen om de iPhone te vinden die het beste bij hun past. Deze website maken wij in de programmeertaal Laravel. Laravel is een framework gebaseerd op PHP en ik gebruik het ondertussen al vier jaar.</p>
                             <h3>School</h3>
                             <p>Op het moment ben ik een tweede jaar Communicatie en Multimedia Design student aan de Hogeschool Rotterdam. Het leukste aan de opleiding vind ik de samenwerking met mijn klasgenoten. Dit komt omdat je gebruik maakt van de individuele kwaliteiten en elkaar daarom goed kan aanvullen tijdens een project. Gedurende het tweede schooljaar moeten wij aan twee projecten werken. Waar ik altijd trots op ben bij het uitvoeren van een project is het ontwerpproces bedenken en deze vervolgens uitvoeren. </p>
+                            <p>Tijdens een project vind ik het houden van een interview en het testen van een prototype het leukste onderdeel. Dit is één van de onderdelen die ik graag tijdens mijn stage zou willen uitoefenen. Ook wil ik mijn programmeer kennis in de praktijk uitvoeren.</p>
                             <h3>Werk</h3>
                             <p>Ik ben bijna vijf jaar in dienst bij Amac in Spijkenisse. Amac de grootste Apple Premium Reseller van Europa. Het leukste aan mijn werk naar mijn mening is dat ik premium producten mag verkopen aan klanten. Mijn motivatie haal ik contact met mensen en mijn collega’s. Het achterhalen van de wensen en behoefte van een klant geeft mij kick. Hetzelfde geldt voor interviews afnemen bij de doelgroep en stakeholders.</p>
                         </div>
