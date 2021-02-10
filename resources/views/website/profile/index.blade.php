@@ -22,10 +22,11 @@
                     <div class="col-3">
                         <div class="content-block">
                             <h2>Hi, mijn naam is Sandesh</h2>
-                            <p>Ik ben 22 jaar oud en woonachtig in Spijkenisse. In mijn vrije tijd programmeer ik vaak. Mijn favorieten projecten zijn CMS-systemen maken met behulp van Laravel. Ook hou ik ervan om zo nu en dan te gamen of met vrienden af te spreken. </p>
-                            <p>Zelf zou ik mij meer willen specialiseren op het gebied van backend. Zowel op mijn stage als in mijn vrije tijd heb ik veel met het framework Laravel gewerkt. </p>
+                            <p>Ik ben 22 jaar oud en woon in Spijkenisse. Mijn hobby’s zijn programmeren, gamen met vrienden en ik vind het ontzettend leuk om te poolen. Eén van mijn eigenschappen is dat ik een persoon ben die niet stil kan staan. Zo ben ik momenteel bezig met een website, samen met een oud klasgenoot waarin wij mensen willen helpen om de iPhone te vinden die het beste bij hun past. Deze website maken wij in de programmeertaal Laravel. Laravel is een framework gebaseerd op PHP en ik gebruik het ondertussen al vier jaar.</p>
+                            <h3>School</h3>
+                            <p>Op het moment ben ik een tweede jaar Communicatie en Multimedia Design student aan de Hogeschool Rotterdam. Het leukste aan de opleiding vind ik de samenwerking met mijn klasgenoten. Dit komt omdat je gebruik maakt van de individuele kwaliteiten en elkaar daarom goed kan aanvullen tijdens een project. Gedurende het tweede schooljaar moeten wij aan twee projecten werken. Waar ik altijd trots op ben bij het uitvoeren van een project is het ontwerpproces bedenken en deze vervolgens uitvoeren. </p>
                             <h3>Werk</h3>
-                            <p>Ik ben werkzaam bij Amac in Spijkenisse. Amac is een (APR) Apple Premium Reseller dus het verkopen van Apple staat op nummer 1. Het is een leuke bijbaan omdat ik het genoegen heb om met leuke collega’s te werken maar ook omdat ik het genoege heb op premium apparaten te verkopen. Het begon allemaal bij Dixons ook in Spijkenisse, dat was mijn eerste bijbaan. Wat beiden winkels gemeen hebben is dat we altijd als eerst de nieuwste snufjes krijgen om uit te testen. En dat maakt het werken in de retail toch wel leuk.</p>
+                            <p>Ik ben bijna vijf jaar in dienst bij Amac in Spijkenisse. Amac de grootste Apple Premium Reseller van Europa. Het leukste aan mijn werk naar mijn mening is dat ik premium producten mag verkopen aan klanten. Mijn motivatie haal ik contact met mensen en mijn collega’s. Het achterhalen van de wensen en behoefte van een klant geeft mij kick. Hetzelfde geldt voor interviews afnemen bij de doelgroep en stakeholders.</p>
                         </div>
                         <div class="content-block">
                             <h4>Extra weetjes</h4>
@@ -132,17 +133,22 @@
                         </div>
 
                         <div class="list-block">
-                            <h3 class="stripe">Programming</h3>
+                            <h3 class="stripe">Coding</h3>
                             <ul class="striped">
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>PHP</li>
+                                <span class="label">Comfortabel met</span>
                                 <li>Laravel</li>
-                                <li>Vue</li>
-                                <li>Javascript</li>
+                                <li>PHP</li>
                                 <li>MySQL</li>
                                 <li>Bootstrap</li>
-                                <li>Dart</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <div class="mt-20">
+                                    <span class="label">In aanraking gekomen met</span>
+                                    <li>Vue</li>
+                                    <li>LiveWire</li>
+                                    <li>Dart</li>
+                                </div>
                             </ul>
                         </div>
 
