@@ -14,8 +14,8 @@
   $(".animsition").animsition({
     inClass: 'fade-in transition-in',
     outClass: 'fade-out transition-out',
-    inDuration: 50,
-    outDuration: 50,
+    inDuration: 100,
+    outDuration: 100,
     linkElement: '.transition-link',
     // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
     loading: false,
@@ -173,7 +173,7 @@
         $loader.find('.loadbar .inner').css({'width' : '100%'});
         $body.addClass('loaded init-load');
         $loader.find('section').delay(500).fadeOut(500);
-        $loader.delay(1000).fadeOut(1000);
+        $loader.delay(50).fadeOut(1000);
         TweenLite.to($inner, 1, {autoAlpha: 1, y: 0, delay: 1, ease:Power3.easeOut});
         TweenLite.to(window, .5, {scrollTo: '#wrapper', ease:Power3.easeInOut});
         if($(window).width() > 951){
