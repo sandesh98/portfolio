@@ -89,14 +89,20 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-4">
-                        <div class="vcenter link-container"><a href="{{ route('project.csr') }}" class="prev-link">
-                                <div class="project-title">AA4CSR</div>
-                                <div class="link-title">Vorige project</div></a></div>
+                        <div class="vcenter link-container">
+                            <a href="{{ route('project.de-cafe-koers') }}" class="prev-link">
+                                <div class="project-title">De Café Koers</div>
+                                <div class="link-title">Vorige project</div>
+                            </a>
+                        </div>
                     </div>
                     <div class="col-4">
-                        <div class="vcenter link-container text-right"><a href="{{ route('project.technischedienst') }}" class="next-link">
-                                <div class="project-title">Technische Dienst</div>
-                                <div class="link-title">Volgende project</div></a></div>
+                        <div class="vcenter link-container text-right">
+                            <a href="{{ route('project.dutchdiner') }}" class="next-link">
+                                <div class="project-title">Dutch Diner</div>
+                                <div class="link-title">Volgende project</div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

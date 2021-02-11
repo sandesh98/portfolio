@@ -66,4 +66,9 @@ class ProjectsController extends Controller
     {
         return view('website.project.projects.abc-hulplijn');
     }
+
+    public function pscateringservices()
+    {
+        return view('website.project.projects.pscateringservices');
+    }
 }

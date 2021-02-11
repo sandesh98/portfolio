@@ -116,14 +116,19 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-4">
-                        <div class="vcenter link-container"><a href="{{ route('project.sandesh') }}" class="prev-link">
-                                <div class="project-title">Personal website</div>
-                                <div class="link-title">Vorige project</div></a></div>
+                        <div class="vcenter link-container">
+                            <a href="{{ route('project.pscateringservices') }}" class="prev-link">
+                                <div class="project-title">P.S. Catering Services</div>
+                                <div class="link-title">Vorige project</div>
+                            </a>
+                        </div>
                     </div>
                     <div class="col-4">
                         <div class="vcenter link-container text-right"><a href="{{ route('project.guess-and-win') }}" class="next-link">
                                 <div class="project-title">Guess and Win</div>
-                                <div class="link-title">Volgende project</div></a></div>
+                                <div class="link-title">Volgende project</div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -32,6 +32,7 @@
                 <div class="grid content">
                     <div class="col-offset-1 col-3">
                         <p>ABC-Hulplijn is een concept speciaal voor middelbare scholieren met Dyslexie. De app zorgt ervoor dat zij zich zeker en tegelijkertijd zelfstandig voelen. De opdracht is bedacht door middelbare scholieren onder leiding van Hogeschool Rotterdam.</p>
+                        <a href="https://www.figma.com/file/i5oAmZ4AUB275rQxf1nI0U/Prototype-abc-hulplijn?node-id=0%3A1" target="_blank">Link naar Figma prototype</a>
                     </div>
                     <div class="col-offset-1 col-1">
                         <div class="project-data">
@@ -118,17 +119,20 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-4">
-                        <div class="vcenter link-container"><a href="{{ route('project.guess-and-win') }}" class="prev-link">
-                                <div class="project-title">Guess and Win</div>
+                        <div class="vcenter link-container">
+                            <a href="{{ route('project.dutchdiner') }}" class="prev-link">
+                                <div class="project-title">Dutch Diner</div>
                                 <div class="link-title">Vorige project</div>
-                            </a></div>
+                            </a>
+                        </div>
                     </div>
                     <div class="col-4">
-                        <div class="vcenter link-container text-right"><a href="{{ route('project.csr') }}"
-                                                                          class="next-link">
-                                <div class="project-title">CSR</div>
+                        <div class="vcenter link-container text-right">
+                            <a href="{{ route('project.pscateringservices') }}" class="next-link">
+                                <div class="project-title">P.S. Catering Services</div>
                                 <div class="link-title">Volgende project</div>
-                            </a></div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
