@@ -26,14 +26,12 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-6 col-offset-1">
-                        <div class="video-frame mb-xl">
-                            <iframe width="640" height="360" src="https://www.youtube.com/embed/5ncVYaM9XRo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                        <img src="{{ asset('website/images/project/guessandwin/preview.jpg') }}" alt="Preview afbeelding">
                     </div>
                 </div>
                 <div class="grid content">
                     <div class="col-offset-1 col-3">
-                        <p>Achraf, Max, Nick, Sandesh en Thomas hebben een bordspel gemaakt voor ons eerste project. Het was de bedoeling dat je in het project met behulp van Scrum methodiek een bordspel ging maken. Dat is gelukt dus toen moesten we een soort reclamefilmpje en/of uitlegfilmpje maken om het te promoten en soort van ui te leggen. Dat is deze video geworden!</p>
+                        <p>Achraf, Max, Nick, Thomas en ik hebben een bordspel gemaakt voor ons eerste project. Het project had twee belangrijke eisen. Zo moesten wij gebruik maken van de Scrum methodiek en het bordspel moest een digitaal component bevatten.</p>
                         <a href="https://github.com/sandesh98/Guess-and-Win" target="_blank">Link naar Github</a>
                     </div>
                     <div class="col-offset-1 col-1">
@@ -77,9 +75,10 @@
                             <div class="title">Meer informatie</div>
                         </div>
                         <div class="body">
-                            <p>Een van de onderdelen op de Hogeschool Rotterdam is projecten maken. We hebben de opdracht gekregen om een bordspel te maken. Of het nou een bestaand of nieuw bordspel is maakte de opdrachtgever niet veel uit. Wat wel belangrijk was is dat het spel een digitaal component moest bevatten. Het lastigste van het project is dat het spel ook speelbaar moet zijn zonder de digitale component. </p>
-                            <p>Mijn projectleden en ik hebben ervoor gekozen om het bekende spel 30 Seconds na te maken en onze eigen draai eraan te geven. Het bord, de kaarten, de dobbelsteen, de pionnen en het concept hebben overgenomen uit het originele spel. Onze eigen draai bevatten special en powerup kaarten die ervoor zorgen dat het spel nog spannender wordt. De kaarten kunnen in jou voor en/of nadeel uitkomen.</p>
-                            <p>De digitale component vervangt alles behalve de pionnen en bordspel. Voor de rest gaan beurten, kaarten en pionnen doormiddel van het digitale component.</p>
+                            <p>Guess and Win heb ik in de tijd gemaakt waarin ik de opleiding Informatica op Hogeschool Rotterdam volgde. Uiteindelijk ben ik gestopt met de opleiding omdat ze mij niet beviel.</p>
+                            <p>Vanuit de Hogeschool hebben wij de opdracht gekregen om een bordspel te maken. Dit mocht een huidig bordspel zijn of een eigen verzonnen bordspel. Wij hebben voor het bordspel 30 Seconds gekozen en onze eigen draai eraan gegeven. Wij hebben de goeie aspecten op een rijtje gezet en deze overgenomen naar ons eigen spel. Het concept van het bord hebben wij overgenomen samen met de pionnen, de speelkaarten en de dobbelsteen. Wij hebben onze eigen draai gegeven door zogenoemde special en powerup kaarten toe te voegen om het spel nog interessanter en spannender te maken. De kaarten kunnen in je voor- en nadeel werken.</p>
+                            <p>De digitale component dat wij toegevoegd hebben is in de vorm van een website. De gebruiker kan het spel zonder speelkaarten, dobbelsteen en powerup kaarten spelen doormiddel van de website. De website houdt bij hoever iedereen is, toont de woorden die geraden moeten worden en verteld hoeveel stappen een team mag zetten nadat de dobbelsteen digitaal gedobbeld is.</p>
+                            <p>Het spel hebben wij volledig uit kunnen werken en laten bedrukken door een drukkerij. Hierdoor zag het spel er professioneel uit. Maar vanwege tijdsnood hebben wij helaas geen doos kunnen maken waar alles netjes in past.</p>
                         </div>
                     </li>
                     <li>

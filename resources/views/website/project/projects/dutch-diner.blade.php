@@ -26,9 +26,7 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-6 col-offset-1">
-                        {{--                        <div class="video-frame mb-xl">--}}
-                        <img src="{{ asset('website/images/project/dutchdiner/preview.jpg') }}" alt="">
-                        {{--                        </div>--}}
+                        <img src="{{ asset('website/images/project/dutchdiner/preview.jpg') }}" alt="Preview afbeelding">
                     </div>
                 </div>
                 <div class="grid content">
