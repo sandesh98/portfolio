@@ -33,7 +33,7 @@
                 </div>
                 <div class="grid content">
                     <div class="col-offset-1 col-3">
-                        <p>Sportmaatje is een app speciaal voor eenzame ouderen tussen de leeftijd 55 en 65 jaar oud. De app moet ouderen stimuleren om een maatje te vinden en vervolgens met de maatje af te spreken om te gaan sportenx</p>
+                        <p>Sportmaatje is een app speciaal voor eenzame ouderen tussen de leeftijd 55 en 65 jaar oud. De app moet ouderen stimuleren om een maatje te vinden en vervolgens met de maatje af te spreken om te gaan sporten.</p>
                         <a href="https://xd.adobe.com/view/637c77ce-6377-4cad-5b3b-3fb5003b6987-154d/" target="_blank">Link naar Adobe XD</a>
                     </div>
                     <div class="col-offset-1 col-1">
@@ -81,9 +81,9 @@
                             <div class="title">Meer informatie</div>
                         </div>
                         <div class="body">
-                            <p>Sportmaatje is een app voor ouderen, zowel man als vrouw, tussen de leeftijd 55 en 65 jaar oud die eenzaam zijn. De app is een middel om de drempel om sociale contacten met andere te verlagen.</p>
-                            <p>De gebruiker maakt gemakkelijk een account in de Sportmaatjes app en heeft direct toegang tot vele functies. Zo kan de gebruiker maatjes vinden op basis van gedeelde interesses en deelnemen aan groepsevenementen om nieuwe maatjes en workouts te ontdekken. Ook kan de gebruiker gemakkelijk een workout inplannen met een maatje. Om de sociale contacten met dat maatje te behouden kan de gebruiker gebruik maken van de herhaal functie waarin de twee maatjes dezelfde workout nog een keer inplannen op een later moment. Wanneer de gebruiker klaar is met sporten kunnen ze de app nog steeds gebruiken voor de socials sectie waarin ze inspiratie op kunnen doen over bijvoorbeeld een gezonder levensstijl.</p>
-                            <p>Mijn teamgenoten en ik hebben deze prototype kunnen maken door veel te onderzoeken en veel te testen bij ons doelgroep.</p>
+                            <p>Samen met mijn projectgroepje hebben wij onder leiding van Online Departement en Hogeschool Rotterdam het idee Sportmaatje uitgewerkt. Sportmaatje is tijdens een voorgaand project bedacht. Tijdens dit project hebben wij het idee opgepakt en uitgewerkt tot een concept. </p>
+                            <p>Mijn rol binnen het team was Teamcaptain. Voor mij is een teamcaptain iemand die het overzicht en zijn hoofd koel moet blijven houden. Een teamcaptain heeft niet meer te zeggen dan de rest van het team.  Sportmaatje is een app voor ouderen, zowel man als vrouw, tussen de leeftijd 55 en 65 jaar oud die eenzaam zijn. De app is een middel om de drempel om sociale contacten met andere eenzame ouderen te verlagen. Door de verschillende functies van de app kunnen gebruikers nieuwe workouts ontdekken en nieuwe sportmaatjes leren kennen.</p>
+                            <p>Ter voorbereiding van het concept zijn mijn team en ik eerst aan de slag gegaan met een kort onderzoek. Dit onderzoek bestond uit het afnemen van interviews bij de doelgroep om het onderzoek van het voorgaande project te kunnen bevestigen. Daarna zijn wij aan de slag gegaan met wireframes maken. Voor het structureren van de navigatie hebben wij de Cardsorting methode toegepast samen met de doelgroep. Wij hebben een goed beeld gekregen van een ideale Wireframe doordat wij deze veel hebben getoond aan de doelgroep. Vervolgens zijn we verder gemaakt met het ontwikkelen van een prototype. Hiervoor hebben wij in totaal vier iteraties doorlopen. De testen varieerde van AB-testen tot instructies laten uitvoeren. Tot slot moesten wij een videopresentatie maken en deze aan alle CMD-studenten en docenten tonen.</p>
                         </div>
                     </li>
                     <li>
