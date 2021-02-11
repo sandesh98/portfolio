@@ -31,7 +31,7 @@
                 </div>
                 <div class="grid content">
                     <div class="col-offset-1 col-3">
-                        <p>Kick-off project voor alle eerstejaars CMD-studenten van de Hogeschool Rotterdam. We kregen de opdracht om een spel voor andere eerstejaars studenten te verzinnen zodat ze elkaar en de school beter leren kennen.</p>
+                        <p>ABC-Hulplijn is een concept speciaal voor middelbare scholieren met Dyslexie. De app zorgt ervoor dat zij zich zeker en tegelijkertijd zelfstandig voelen. De opdracht is bedacht door middelbare scholieren onder leiding van Hogeschool Rotterdam.</p>
                     </div>
                     <div class="col-offset-1 col-1">
                         <div class="project-data">
@@ -82,8 +82,16 @@
                             <div class="title">Meer informatie</div>
                         </div>
                         <div class="body">
-                            <p>Hogeschool Rotterdam heeft ons de opdracht gegeven om onderzoek te doen naar een andere opleiding en een spel te verzinnen voor eerstejaars studenten zodat ze niet alleen elkaar maar ook de school leren kennen tijden de introductieweek. Doormiddel van verschillende onderzoeken en het bijwonen van workshops heb ik kennis opgedaan om het ideale spel voor deze studenten te verzinnen.</p>
-                            <p>Samen met mijn projectgroep hebben we voor eerstejaars bedrijfskunde studenten gekozen. Het spel dat we verzonnen hebben heet: De Café Koers. De bedoeling is om van café naar café te gaan en daar een pitching game te spelen. Er zijn twee kaarten die tegelijkertijd getrokken moeten worden, en het is de bedoeling om een product of dienst te verzinnen van de combinatie kaarten. Vervolgens is het de bedoeling om het verzonnen idee te pitchen aan de groep. </p>
+                            <p>Mijn team en ik hebben de opdracht gekregen om de online leeromgeving tussen docenten en leerlingen doormiddel van digitale middelen optimaal te ondersteunen.</p>
+                            <p>Eerst zijn we begonnen met het kiezen van een doelgroep. Door semigestructureerd interviews te houden met middelbare scholieren en deze resultaten de evalueren, hebben mijn team en ik een paar doelgroepen vast weten te stellen. Doormiddel van de Prefer Matrix methode is de doelgroep gevallen op middelbare scholieren met Dyslexie.</p>
+                            <p>De volgende stap in ons ontwerpproces was het organiseren van gestructureerde interviews met middelbare scholieren met Dyslexie en deskresearch doen naar de doelgroep. Uit het onderzoek hebben wij veel interessante punten weten te achterhalen. Zo zijn wij erachter gekomen dat Dyslexie erfelijk kan zijn en dat scholen veel middelen biedt aan de doelgroep. Maar er zijn ook een paar negatieve punten naar boven gekomen. Zo ligt de werkdruk hoger op docenten omdat zij meer tijd moeten besteden aan leerlingen met Dyslexie.De leerlingen durven vaak geen vragen te stellen omdat zij zich onzeker voelen.</p>
+                            <p>Vervolgens zijn wij aan de slag gegaan het maken van wireframes in Figma. Deze wireframes hebben wij AB-getest bij de doelgroep. En van wireframe zijn wij itererend overgegeaan naar een high-fidelity prototype. </p>
+                            <p>Het eindproduct is een prototype met drie functies.</p>
+                            <ol class="ol-list-info">
+                                <li>De eerste functie is de persoonlijke spraak assistent. De functie zorgt ervoor dat de leerling een vraag kan stellen aan de assistent. De assistent geeft hier vervolgens antwoord op.</li>
+                                <li>De tweede functie is de spellingscontrole. Hier kan de leerling een woord in tikken zoals hij of zij denkt dat deze geschreven moet worden. De spellingscontrole corrigeert de fout en laat het betekenis zien van het woord.</li>
+                                <li>De laatste functie is de nakijker. Programma’s zoals Word arceren fout geschreven woorden. Echter is er geen spellingscontrole wanneer iets met pen en papier wordt geschreven. Met de nakijker scant de leerling een stuk geschreven tekst en de functie arceert spelfouten.</li>
+                            </ol>
                         </div>
                     </li>
                     <li>
@@ -94,21 +102,10 @@
                             <div class="grid">
                                 <div class="col-2"><span class="label">Programma's</span>
                                     <ul class="striped inside">
-                                        <li>Adobe XD</li>
                                         <li>Adobe Illustrator</li>
-                                        <li>Adobe Photoshop</li>
+                                        <li>Figma</li>
+                                        <li>Miro</li>
                                         <li>Trello</li>
-                                        <li>Slack</li>
-                                    </ul>
-                                </div>
-
-                                <div class="col-2"><span class="label">Projectleden</span>
-                                    <ul class="striped inside">
-                                        <li>Daniel Guseinov</li>
-                                        <li>Henri van der Stelt</li>
-                                        <li>Ravelli Winklaar</li>
-                                        <li>Sandesh Boedhoe</li>
-                                        <li>Volkan Bakar</li>
                                     </ul>
                                 </div>
                             </div>

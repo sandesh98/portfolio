@@ -39,4 +39,9 @@ input, input:before, input:after {
     margin-top: 20px;
 }
 
+.ol-list-info > li {
+    color: #979797;
+    line-height: 1.55;
+}
+
 
