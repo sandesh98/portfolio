@@ -23,12 +23,34 @@
                 <div id="project-grid" class="masonry-grid">
 
                     <!-- Project -->
+                    <a href="{{ route('project.abchulplijn') }}" class="illustraties grid-item col-8">
+                        <div class="thumb">
+                            <img src="{{ asset('website/images/project/abchulplijn/project-image.jpg') }}">
+                        </div>
+                        <div class="caption">
+                            <div class="title">Schoolproject - ABC-Hulplijn</div>
+                            <div class="subtitle">Prototype</div>
+                        </div>
+                    </a>
+
+                    <!-- Project -->
                     <a href="{{ route('project.sportmaatje') }}" class="illustraties grid-item col-8">
                         <div class="thumb">
                             <img src="{{ asset('website/images/project/sportmaatje/project-image.jpg') }}">
                         </div>
                         <div class="caption">
-                            <div class="title">School Project - Sportmaatje</div>
+                            <div class="title">Schoolproject - Sportmaatje</div>
+                            <div class="subtitle">Prototype</div>
+                        </div>
+                    </a>
+
+                    <!-- Project -->
+                    <a href="{{ route('project.de-cafe-koers') }}" class="illustraties grid-item col-8">
+                        <div class="thumb">
+                            <img src="{{ asset('website/images/project/decafekoers/project-image.png') }}">
+                        </div>
+                        <div class="caption">
+                            <div class="title">Schoolproject - De Café Koers</div>
                             <div class="subtitle">Prototype</div>
                         </div>
                     </a>
@@ -39,32 +61,21 @@
                             <img src="{{ asset('website/images/project/guessandwin/project-image.jpg') }}">
                         </div>
                         <div class="caption">
-                            <div class="title">School Project - Guess and Win</div>
-                            <div class="subtitle">Website</div>
+                            <div class="title">Schoolproject - Guess and Win</div>
+                            <div class="subtitle">Website + bordspel</div>
                         </div>
                     </a>
 
                     <!-- Project -->
-                    <a href="{{ route('project.de-cafe-koers') }}" class="illustraties grid-item col-8">
-                        <div class="thumb">
-                            <img src="{{ asset('website/images/project/decafekoers/project-image.png') }}">
-                        </div>
-                        <div class="caption">
-                            <div class="title">School Project - De Café Koers</div>
-                            <div class="subtitle">Prototype</div>
-                        </div>
-                    </a>
-
-                    <!-- Project -->
-                    <a href="{{ route('project.csr') }}" class="websites grid-item col-8">
-                        <div class="thumb">
-                            <img src="{{ asset('website/images/project/csr/project-image.jpg') }}">
-                        </div>
-                        <div class="caption">
-                            <div class="title">AA4CSR</div>
-                            <div class="subtitle">Website</div>
-                        </div>
-                    </a>
+{{--                    <a href="{{ route('project.csr') }}" class="websites grid-item col-8">--}}
+{{--                        <div class="thumb">--}}
+{{--                            <img src="{{ asset('website/images/project/csr/project-image.jpg') }}">--}}
+{{--                        </div>--}}
+{{--                        <div class="caption">--}}
+{{--                            <div class="title">AA4CSR</div>--}}
+{{--                            <div class="subtitle">Website</div>--}}
+{{--                        </div>--}}
+{{--                    </a>--}}
 
                     <!-- Project -->
                     <a href="{{ route('project.natraj-flyer') }}" class="illustraties grid-item col-8">
@@ -77,16 +88,16 @@
                         </div>
                     </a>
 
-                    <!-- Project -->
-                    <a href="{{ route('project.technischedienst') }}" class="websites grid-item col-8">
-                        <div class="thumb">
-                            <img src="{{ asset('website/images/project/technischedienst/project-image.jpg') }}">
-                        </div>
-                        <div class="caption">
-                            <div class="title">Technische Dienst</div>
-                            <div class="subtitle">Website</div>
-                        </div>
-                    </a>
+{{--                    <!-- Project -->--}}
+{{--                    <a href="{{ route('project.technischedienst') }}" class="websites grid-item col-8">--}}
+{{--                        <div class="thumb">--}}
+{{--                            <img src="{{ asset('website/images/project/technischedienst/project-image.jpg') }}">--}}
+{{--                        </div>--}}
+{{--                        <div class="caption">--}}
+{{--                            <div class="title">Technische Dienst</div>--}}
+{{--                            <div class="subtitle">Website</div>--}}
+{{--                        </div>--}}
+{{--                    </a>--}}
 
                     <!-- Project -->
                     <a href="{{ route('project.dutchdiner') }}" class="websites grid-item col-8">
@@ -94,21 +105,21 @@
                             <img src="{{ asset('website/images/project/dutchdiner/project-image.jpg') }}">
                         </div>
                         <div class="caption">
-                            <div class="title">Dutch Diner meent</div>
+                            <div class="title">Dutch Diner</div>
                             <div class="subtitle">Website</div>
                         </div>
                     </a>
 
-                    <!-- Project -->
-                    <a href="{{ route('project.sandesh') }}" class="websites grid-item col-8">
-                        <div class="thumb">
-                            <img src="{{ asset('website/images/project/sandeshboedhoe/project-image.jpg') }}">
-                        </div>
-                        <div class="caption">
-                            <div class="title">Personal Website</div>
-                            <div class="subtitle">Website</div>
-                        </div>
-                    </a>
+{{--                    <!-- Project -->--}}
+{{--                    <a href="{{ route('project.sandesh') }}" class="websites grid-item col-8">--}}
+{{--                        <div class="thumb">--}}
+{{--                            <img src="{{ asset('website/images/project/sandeshboedhoe/project-image.jpg') }}">--}}
+{{--                        </div>--}}
+{{--                        <div class="caption">--}}
+{{--                            <div class="title">Personal Website</div>--}}
+{{--                            <div class="subtitle">Website</div>--}}
+{{--                        </div>--}}
+{{--                    </a>--}}
 
                 </div>
             </div>

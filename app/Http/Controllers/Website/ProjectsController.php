@@ -61,4 +61,9 @@ class ProjectsController extends Controller
     {
         return view('website.project.projects.sportmaatje');
     }
+
+    public function abchulplijn()
+    {
+        return view('website.project.projects.abc-hulplijn');
+    }
 }
