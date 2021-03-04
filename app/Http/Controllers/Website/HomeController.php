@@ -12,4 +12,9 @@ class HomeController extends Controller
     {
         return view('website.home.index');
     }
+
+    public function bubba()
+    {
+        return view('website.home.bubba');
+    }
 }
