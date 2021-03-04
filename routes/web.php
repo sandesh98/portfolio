@@ -14,6 +14,7 @@ Route::namespace('Website')->group(function() {
         Route::get('abc-hulplijn', 'ProjectsController@abchulplijn')->name('abc-hulplijn');
         Route::get('pscateringservices', 'ProjectsController@pscateringservices')->name('pscateringservices');
 //	Route::get('/brand-in-nederland', 'ProjectsController@brandInNederland')->name('brand-in-nederland');
+
     });
 
     Route::name('contact.')->group(function() {
@@ -24,6 +25,7 @@ Route::namespace('Website')->group(function() {
     Route::get('/', 'HomeController@index')->name('home.index');
     Route::get('/over-mij', 'ProfileController@index')->name('profile.index');
     Route::get('/projecten', 'ProjectsController@index')->name('project.index');
+    Route::get('/bubba', 'Homecontroller@bubba')->name('home.bubba');
 });
 
 Route::namespace('Dashboard')->prefix('panel')->group(function() {
