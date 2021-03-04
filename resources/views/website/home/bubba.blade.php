@@ -13,7 +13,7 @@
 
         img {
             max-width: 100%;
-            height: auto;
+            height: auto; git push --set-upstream origin bubba
         }
     </style>
 </head>
