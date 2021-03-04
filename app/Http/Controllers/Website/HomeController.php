@@ -20,4 +20,3 @@ class HomeController extends Controller
 }
 
 
-kanker
