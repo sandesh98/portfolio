@@ -35,6 +35,18 @@ input, input:before, input:after {
     }
 }
 
+@media(max-width:951px){
+    .show-error {
+        margin-bottom: 0px !important;
+    }
+}
+
+.show-error {
+    color: white;
+    margin-bottom: -40px;
+}
+
+
 .mt-20 {
     margin-top: 20px;
 }
@@ -43,5 +55,4 @@ input, input:before, input:after {
     color: #979797;
     line-height: 1.55;
 }
-
 
