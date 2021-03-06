@@ -13,7 +13,7 @@
         <div class="col-3">
             <textarea wire:model.lazy="message" placeholder="Bericht" name="message" id="message" class="small form-control"></textarea>
             @error('message') <p class="show-error">{{ $message }}</p> @enderror
-            <textarea wire:model="info" required placeholder="Info" name="info" id="info" class="d-none"></textarea>
+            <input wire:model="info" placeholder="Info" name="info" class="d-none">
         </div>
         <div class="col-3">
             <input wire:click="send" id="send" type="submit" value="Verzenden" class="btn btn-primary">
