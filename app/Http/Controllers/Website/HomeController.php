@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers\Website;
 
-use App\Navbar;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 

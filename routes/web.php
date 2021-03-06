@@ -25,7 +25,7 @@ Route::namespace('Website')->group(function() {
     Route::get('/', 'HomeController@index')->name('home.index');
     Route::get('/over-mij', 'ProfileController@index')->name('profile.index');
     Route::get('/projecten', 'ProjectsController@index')->name('project.index');
-    Route::get('/bubba', 'Homecontroller@bubba')->name('home.bubba');
+    Route::get('/bubba', 'HomeController@bubba')->name('home.bubba');
 });
 
 Route::namespace('Dashboard')->prefix('panel')->group(function() {
