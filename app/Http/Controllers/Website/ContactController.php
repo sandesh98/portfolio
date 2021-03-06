@@ -13,12 +13,12 @@ class ContactController extends Controller
         return view('website.contact.index');
     }
 
-    public function store(Request $request)
-    {
-        Notification::create($request->all());
-        
-//        Mail::to('sandeshb981@gmail.com')->send(new \App\Mail\Notification($notification));
-
-        return response()->json('Bericht verstuurd!');
-    }
+//    public function store(Request $request)
+//    {
+//        Notification::create($request->all());
+//
+////        Mail::to('sandeshb981@gmail.com')->send(new \App\Mail\Notification($notification));
+//
+//        return response()->json('Bericht verstuurd!');
+//    }
 }
