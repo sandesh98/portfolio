@@ -39,6 +39,24 @@ input, input:before, input:after {
     .show-error {
         margin-bottom: 0px !important;
     }
+
+    .subtitle {
+        color: white;
+        font-size: initial;
+        font-weight: normal;
+        padding: 10px;
+        margin: 0px;
+    }
+}
+
+@media (min-width:951px) {
+    .subtitle {
+        color: white;
+        font-size: larger;
+        font-weight: 600;
+        padding: 0px;
+        margin: 0px;
+    }
 }
 
 .show-error {
