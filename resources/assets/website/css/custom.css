@@ -1,0 +1,76 @@
+.sandesh {
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+textarea, textarea:before, textarea:after,
+input, input:before, input:after {
+    -webkit-user-select: initial;
+    -khtml-user-select: initial;
+    -moz-user-select: initial;
+    -ms-user-select: initial;
+    user-select: initial;
+}
+
+.d-none{
+    display:none!important
+}
+
+@media (max-width:768px){
+    .d-md-none{
+        display:none!important
+    }
+    .d-md-block{
+        display:block!important
+    }
+}
+
+@media (max-width:576px){
+    .d-sm-none{
+        display:none!important
+    }
+    .d-sm-block{
+        display:block!important
+    }
+}
+
+@media(max-width:951px){
+    .show-error {
+        margin-bottom: 0px !important;
+    }
+
+    .subtitle {
+        color: white;
+        font-size: initial;
+        font-weight: normal;
+        padding: 10px;
+        margin: 0px;
+    }
+}
+
+@media (min-width:951px) {
+    .subtitle {
+        color: white;
+        font-size: larger;
+        font-weight: 600;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+.show-error {
+    color: white;
+    margin-bottom: -40px;
+}
+
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.ol-list-info > li {
+    color: #979797;
+    line-height: 1.55;
+}
+

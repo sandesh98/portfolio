@@ -36,7 +36,6 @@
 }
 
 #loader .indicator .loadbar .inner {
-    -webkit-transition: all 1s;
     transition: all 1s;
     position: relative;
     height: 8px;
@@ -226,7 +225,6 @@ a.arrow-btn.arrow-right:after {
     text-decoration: none;
     display: block;
     width: 100%;
-    -webkit-transition: all .4s .1s;
     transition: all .4s .1s
 }
 
@@ -251,14 +249,12 @@ a.arrow-btn.arrow-right:after {
         height: 0;
         overflow: hidden;
         opacity: 0;
-        -webkit-transition: height .4s .2s, opacity .4s;
         transition: height .4s .2s, opacity .4s
     }
 
     .next-link:hover .project-title, .prev-link:hover .project-title {
         height: 50px;
         opacity: 1;
-        -webkit-transition: height .4s, opacity .4s .2s;
         transition: height .4s, opacity .4s .2s
     }
 }
@@ -307,7 +303,6 @@ nav#filters ul li a {
     text-decoration: none;
     font-weight: 700;
     opacity: .5;
-    -webkit-transition: all .3s;
     transition: all .3s;
     padding-bottom: 8px;
     border-bottom: 4px solid transparent
@@ -344,7 +339,6 @@ form {
 }
 
 form .form-control {
-    -webkit-transition: all .3s;
     transition: all .3s
 }
 
@@ -390,7 +384,6 @@ form.default-form textarea.small {
 form.default-form .btn {
     font-weight: 600;
     text-align: left;
-    -webkit-transition: all .3s;
     transition: all .3s
 }
 
@@ -424,7 +417,6 @@ form.lined-form .form-control:focus {
 }
 
 form textarea {
-    -webkit-transition: all .3s;
     transition: all .3s
 }
 
@@ -435,11 +427,7 @@ header#main-header {
     right: 0;
     top: 0;
     margin-bottom: 80px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
     align-items: flex-end;
     z-index: 10
 }
@@ -463,7 +451,6 @@ header#main-header a.nav-link {
         width: 0;
         height: 4px;
         background: #fff;
-        -webkit-transition: all .6s;
         transition: all .6s
     }
 }
@@ -509,7 +496,6 @@ nav.main-nav ul li {
         overflow: hidden;
         -webkit-transform: translateY(-30px);
         transform: translateY(-30px);
-        -webkit-transition: opacity .3s, max-height 0s .3s, -webkit-transform .3s;
         transition: opacity .3s, max-height 0s .3s, -webkit-transform .3s;
         transition: transform .3s, opacity .3s, max-height 0s .3s;
         transition: transform .3s, opacity .3s, max-height 0s .3s, -webkit-transform .3s
@@ -522,7 +508,6 @@ nav.main-nav ul li {
     nav.main-nav ul li ul.dropdown li a.nav-link {
         font-size: 14px;
         padding-bottom: 4px;
-        -webkit-transition: all .3s;
         transition: all .3s
     }
 
@@ -535,7 +520,6 @@ nav.main-nav ul li {
     }
 
     nav.main-nav ul li:hover ul.dropdown {
-        -webkit-transition: opacity .3s, -webkit-transform .3s;
         transition: opacity .3s, -webkit-transform .3s;
         transition: transform .3s, opacity .3s;
         transition: transform .3s, opacity .3s, -webkit-transform .3s;
@@ -600,7 +584,6 @@ nav.main-nav ul li {
         height: 32px;
         cursor: pointer;
         margin: 32px auto 16px;
-        -webkit-transition: all .3s;
         transition: all .3s;
         padding-top: 16px
     }
@@ -612,7 +595,6 @@ nav.main-nav ul li {
     }
 
     section {
-        -webkit-transition: opacity 0s;
         transition: opacity 0s
     }
 
@@ -640,7 +622,6 @@ nav.main-nav ul li {
 
     body.menu-open section {
         opacity: 0;
-        -webkit-transition: opacity 1s;
         transition: opacity 1s
     }
 
@@ -659,7 +640,6 @@ nav.main-nav ul li {
 
     body.menu-open .responsive-nav .bar {
         margin: 0;
-        -webkit-transition: all .3s;
         transition: all .3s
     }
 
@@ -681,7 +661,6 @@ nav.main-nav ul li {
 }
 
 .responsive-nav .bar {
-    -webkit-transition: all .3s;
     transition: all .3s
 }
 
@@ -821,16 +800,9 @@ ul.comments li.comment .author .author-avatar img {
 }
 
 ul.comments li.comment .author .comment-info {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 52px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
     justify-content: flex-end
 }
 
@@ -881,7 +853,6 @@ ul.comments li.comment ul.comments li.comment .comment-body p {
     width: 100%;
     display: inline-block;
     vertical-align: top;
-    -webkit-transition: all 1s;
     transition: all 1s
 }
 
@@ -912,9 +883,7 @@ ul.comments li.comment ul.comments li.comment .comment-body p {
     right: 0;
     padding: 16px;
     opacity: 0;
-    -webkit-transition: all 1s;
     transition: all 1s;
-    background: -webkit-linear-gradient(top, transparent, #000);
     background: linear-gradient(180deg, transparent 0, #000)
 }
 
@@ -935,8 +904,6 @@ ul.comments li.comment ul.comments li.comment .comment-body p {
     bottom: 0;
     position: fixed;
     opacity: .35;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     overflow: hidden;
     z-index: -1
@@ -1038,7 +1005,6 @@ ul.accordion li .head .title:after {
     margin-top: -11px;
     line-height: 1;
     color: #979797;
-    -webkit-transition: color .3s;
     transition: color .3s
 }
 
@@ -1064,8 +1030,6 @@ ul.accordion li.active .title:after {
     background: #000;
     z-index: 99999999;
     display: none;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     text-align: center
 }
@@ -1075,7 +1039,6 @@ ul.accordion li.active .title:after {
     margin: auto;
     width: auto;
     height: auto;
-    -webkit-transition: all .3s;
     transition: all .3s;
     max-width: 90vw;
     max-height: 90vh
@@ -1087,7 +1050,6 @@ ul.accordion li.active .title:after {
     opacity: 0;
     -webkit-transform: scale(.95);
     transform: scale(.95);
-    -webkit-transition: opacity .8s, -webkit-transform 1s;
     transition: opacity .8s, -webkit-transform 1s;
     transition: transform 1s, opacity .8s;
     transition: transform 1s, opacity .8s, -webkit-transform 1s
@@ -1151,7 +1113,6 @@ ul.accordion li.active .title:after {
     }
 
     #lightbox .controls .galleryClose, #lightbox .controls .galleryNext, #lightbox .controls .galleryPrev {
-        -webkit-transition: all .3s;
         transition: all .3s
     }
 }
@@ -1214,7 +1175,6 @@ ul.accordion li.active .title:after {
     display: inline-block;
     cursor: pointer;
     opacity: .4;
-    -webkit-transition: all .3s;
     transition: all .3s
 }
 

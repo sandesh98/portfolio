@@ -1,5 +1,101 @@
-;(function($) {
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "/";
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ })
+/************************************************************************/
+/******/ ({
 
+/***/ "./resources/assets/website/js/functions.js":
+/*!**************************************************!*\
+  !*** ./resources/assets/website/js/functions.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+;
+
+(function ($) {
   'use strict'; // Using strict mode
 
   var $body = $('body'),
@@ -8,9 +104,7 @@
       controller = new ScrollMagic.Controller(),
       $masonry = $body.find('.masonry-grid'),
       $section = $('section');
-
   $('.nav-links a, .hero a, a.grid-item, .prev-next-container a').addClass('transition-link');
-
   $(".animsition").animsition({
     inClass: 'fade-in transition-in',
     outClass: 'fade-out transition-out',
@@ -19,43 +113,50 @@
     linkElement: '.transition-link',
     // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
     loading: false,
-    loadingParentElement: 'body', //animsition wrapper element
+    loadingParentElement: 'body',
+    //animsition wrapper element
     loadingClass: 'animsition-loading',
-    loadingInner: '', // e.g '<img src="loading.svg" />'
+    loadingInner: '',
+    // e.g '<img src="loading.svg" />'
     timeout: false,
     timeoutCountdown: 5000,
     onLoadEvent: true,
-    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    browser: ['animation-duration', '-webkit-animation-duration'],
     // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
     // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-    overlay : false,
-    overlayClass : 'animsition-overlay-slide',
-    overlayParentElement : 'body',
-    transition: function(url){ window.location.href = url; }
-  });
+    overlay: false,
+    overlayClass: 'animsition-overlay-slide',
+    overlayParentElement: 'body',
+    transition: function transition(url) {
+      window.location.href = url;
+    }
+  }); // Disable right click on images (copyright protection)
 
-
-  // Disable right click on images (copyright protection)
-  $('img').on("contextmenu",function(e){
+  $('img').on("contextmenu", function (e) {
     e.preventDefault();
   });
-
   /*
       Responsive navigation
   */
 
   var $navLinks = $('ul.nav-links > li:not(.brand)');
 
-  function responsiveMenu(){
-
-    if($(window).width() < 951){
-      if($body.hasClass('menu-open')){
-        TweenLite.to($navLinks, 2, {opacity: 1, ease: Power3.easeInOut});
+  function responsiveMenu() {
+    if ($(window).width() < 951) {
+      if ($body.hasClass('menu-open')) {
+        TweenLite.to($navLinks, 2, {
+          opacity: 1,
+          ease: Power3.easeInOut
+        });
       } else {
-        TweenLite.to($navLinks, 0, {opacity: 0, ease: Power3.easeInOut});
+        TweenLite.to($navLinks, 0, {
+          opacity: 0,
+          ease: Power3.easeInOut
+        });
       }
-      $body.on('click', '.has-dropdown', function(e){
-        if(!$(this).find('.dropdown').hasClass('dropdown-open')){
+
+      $body.on('click', '.has-dropdown', function (e) {
+        if (!$(this).find('.dropdown').hasClass('dropdown-open')) {
           $('ul.dropdown-open').removeClass('dropdown-open').slideUp();
           $(this).find('ul.dropdown').addClass('dropdown-open').slideDown();
           e.preventDefault();
@@ -63,257 +164,287 @@
         }
       });
     } else {
-      TweenLite.to($navLinks, 0, {opacity: 1, ease: Power3.easeInOut});
+      TweenLite.to($navLinks, 0, {
+        opacity: 1,
+        ease: Power3.easeInOut
+      });
     }
-
   }
 
-  $body.on('click', '.responsive-nav', function(e){
+  $body.on('click', '.responsive-nav', function (e) {
     $body.toggleClass('menu-open');
-    if($body.hasClass('menu-open')){
-      TweenMax.staggerTo($navLinks, 2, {opacity: 1, ease: Power3.easeInOut}, .2);
+
+    if ($body.hasClass('menu-open')) {
+      TweenMax.staggerTo($navLinks, 2, {
+        opacity: 1,
+        ease: Power3.easeInOut
+      }, .2);
     } else {
-      TweenLite.to($navLinks, 0, {opacity: 0, ease: Power3.easeInOut}, .2);
+      TweenLite.to($navLinks, 0, {
+        opacity: 0,
+        ease: Power3.easeInOut
+      }, .2);
     }
   });
-
   /*
       Custom modules
   */
-
   // Anchor links
-  $body.on('click', 'a.anchor', function(e) {
+
+  $body.on('click', 'a.anchor', function (e) {
     var id = $(this).attr('href');
     var link = this;
-    TweenLite.to(window, 1.5, {scrollTo: id, ease:Power3.easeInOut, onComplete: function(){
-      window.location.hash = link.hash;
-    }});
+    TweenLite.to(window, 1.5, {
+      scrollTo: id,
+      ease: Power3.easeInOut,
+      onComplete: function onComplete() {
+        window.location.hash = link.hash;
+      }
+    });
     e.preventDefault();
   });
-
   /*
       Portfolio functions
   */
-
   // Filters
-  $body.on('click', '.filter', function(e){
 
+  $body.on('click', '.filter', function (e) {
     e.preventDefault();
     e.stopPropagation();
-
     var $this = $(this),
         selected = $this.attr('data-filter'),
-        $filterContainer = $(this).closest('.filters')
-
+        $filterContainer = $(this).closest('.filters');
     $filterContainer.find('.filter.active').removeClass('active');
     $this.addClass('active');
-
-    $masonry.find('.grid-item:not(.'+selected+')').css({
-      '-webkit-transition' : 'all .35s',
-      'transition' : 'all .35s',
-      '-webkit-transform' : 'scale(0)',
-      'transform' : 'scale(0)',
-      '-webkit-opacity' : '0',
-      'opacity' : '0',
+    $masonry.find('.grid-item:not(.' + selected + ')').css({
+      '-webkit-transition': 'all .35s',
+      'transition': 'all .35s',
+      '-webkit-transform': 'scale(0)',
+      'transform': 'scale(0)',
+      '-webkit-opacity': '0',
+      'opacity': '0'
     });
-    setTimeout(function(){
-      $masonry.find('.grid-item:not(.'+selected+')').hide(0);
-      $masonry.find('.'+selected).show(0).css({
-        '-webkit-transform' : 'scale(1)',
-        '-webkit-opacity' : '1',
-        'transform' : 'scale(1)',
-        'opacity' : '1'
+    setTimeout(function () {
+      $masonry.find('.grid-item:not(.' + selected + ')').hide(0);
+      $masonry.find('.' + selected).show(0).css({
+        '-webkit-transform': 'scale(1)',
+        '-webkit-opacity': '1',
+        'transform': 'scale(1)',
+        'opacity': '1'
       });
       $masonry.packery('layout');
     }, 250);
   });
-
   init();
   autoSizeTextarea();
   initAccordion();
 
-  function init(){
-
+  function init() {
     parallaxHero();
     scrollAnimations();
-
     $masonry.packery({
       percentPosition: true,
       columnWidth: '.grid-item',
       isInitLayout: false
     });
+    $masonry.packery('layout'); // Preloader
 
-    $masonry.packery('layout');
-
-    // Preloader
-    var  $loader = $('#loader'),
-         preloader = imagesLoaded($inner, { background: '.bg' }),
-         total = 0,
-         loaded = 0,
-         totalImg = $('.bg').length + $('img').length;
-
-    preloader.on('always', function() {
+    var $loader = $('#loader'),
+        preloader = imagesLoaded($inner, {
+      background: '.bg'
+    }),
+        total = 0,
+        loaded = 0,
+        totalImg = $('.bg').length + $('img').length;
+    preloader.on('always', function () {
       total = preloader.images.length;
       $loader.find('.total').text(total);
-    }).on('progress', function() {
+    }).on('progress', function () {
       loaded++;
-      if(loaded < 2)
-        $loader.find('.description').text('image loaded');
-      else
-        $loader.find('.description').text('images loaded');
+      if (loaded < 2) $loader.find('.description').text('image loaded');else $loader.find('.description').text('images loaded');
       $loader.find('.loaded').text(loaded);
-      setTimeout(function(){
-        $loader.find('.number').text(Math.round(loaded/totalImg*100));
-        $loader.find('.loadbar .inner').css({'width' : (loaded/totalImg*100)+'%'});
-      },100*loaded);
+      setTimeout(function () {
+        $loader.find('.number').text(Math.round(loaded / totalImg * 100));
+        $loader.find('.loadbar .inner').css({
+          'width': loaded / totalImg * 100 + '%'
+        });
+      }, 100 * loaded);
       $masonry.packery('layout');
-    }).on('done', function() {
-      setTimeout(function(){
+    }).on('done', function () {
+      setTimeout(function () {
         $loader.find('.number').text('100');
-        $loader.find('.loadbar .inner').css({'width' : '100%'});
+        $loader.find('.loadbar .inner').css({
+          'width': '100%'
+        });
         $body.addClass('loaded init-load');
         $loader.find('section').delay(500).fadeOut(500);
         $loader.delay(50).fadeOut(1000);
-        TweenLite.to($inner, 1, {autoAlpha: 1, y: 0, delay: 1, ease:Power3.easeOut});
-        TweenLite.to(window, .5, {scrollTo: '#wrapper', ease:Power3.easeInOut});
-        if($(window).width() > 951){
-          TweenMax.staggerFrom($('#main-header .col-1'), 1, {autoAlpha: 0, y: -80, delay: .7, ease:Power3.easeInOut},.2);
+        TweenLite.to($inner, 1, {
+          autoAlpha: 1,
+          y: 0,
+          delay: 1,
+          ease: Power3.easeOut
+        });
+        TweenLite.to(window, .5, {
+          scrollTo: '#wrapper',
+          ease: Power3.easeInOut
+        });
+
+        if ($(window).width() > 951) {
+          TweenMax.staggerFrom($('#main-header .col-1'), 1, {
+            autoAlpha: 0,
+            y: -80,
+            delay: .7,
+            ease: Power3.easeInOut
+          }, .2);
         }
+
         animateText(.7);
-      }, 100*loaded);
-    }).on('fail', function() {
+      }, 100 * loaded);
+    }).on('fail', function () {
       $loader.find('.number').text('100');
-      $loader.find('.loadbar .inner').css({'width' : '100%'});
+      $loader.find('.loadbar .inner').css({
+        'width': '100%'
+      });
       $loader.find('.indicator').css('opacity', 1);
       $body.addClass('loaded init-load');
       $loader.delay(300).fadeOut(1000);
-      TweenLite.to($inner, 4, {autoAlpha: 1, y: 0, delay: 2, ease:Power3.easeOut});
+      TweenLite.to($inner, 4, {
+        autoAlpha: 1,
+        y: 0,
+        delay: 2,
+        ease: Power3.easeOut
+      });
     });
-
     makeLineGrid();
   }
 
-  function initAccordion(){
+  function initAccordion() {
+    // Accordion
+    var $accordion = $wrapper.find('.accordion');
 
-      // Accordion
-      var $accordion = $wrapper.find('.accordion');
-
-      if($accordion.length){
-        $('.accordion li.active .body').show(0).parent().siblings().find('.body').hide(0);
-
-        $('.accordion li').on('click', function(e){
-          var $li = $(this);
-          if($li.hasClass('active'))
-            $li.removeClass('active').find('.body').slideUp().parent();
-          else
-            $li.addClass('active').find('.body').slideDown().parent().siblings().removeClass('active').find('.body').slideUp();
-          e.preventDefault();
-        });
-      }
-
+    if ($accordion.length) {
+      $('.accordion li.active .body').show(0).parent().siblings().find('.body').hide(0);
+      $('.accordion li').on('click', function (e) {
+        var $li = $(this);
+        if ($li.hasClass('active')) $li.removeClass('active').find('.body').slideUp().parent();else $li.addClass('active').find('.body').slideDown().parent().siblings().removeClass('active').find('.body').slideUp();
+        e.preventDefault();
+      });
+    }
   }
 
-  function parallaxHero(){
+  function parallaxHero() {
     // Hero
-    var parallaxHero = new ScrollMagic.Scene({triggerElement: ".hero", offset: $(window).height()/2, duration: $('.hero').height() })
-    .setTween(".hero", {opacity: 0, y: 80})
-    .addTo(controller);
+    var parallaxHero = new ScrollMagic.Scene({
+      triggerElement: ".hero",
+      offset: $(window).height() / 2,
+      duration: $('.hero').height()
+    }).setTween(".hero", {
+      opacity: 0,
+      y: 80
+    }).addTo(controller);
   }
 
-  function scrollAnimations(){
-
+  function scrollAnimations() {
     // Custom elements
-    $wrapper.find('.list-block *, .content-block *').each(function() {
-
+    $wrapper.find('.list-block *, .content-block *').each(function () {
       // build a tween
-      var tween = TweenLite.from($(this), 1, {autoAlpha: 0, y: '+=30', ease:Power3.easeInOut});
+      var tween = TweenLite.from($(this), 1, {
+        autoAlpha: 0,
+        y: '+=30',
+        ease: Power3.easeInOut
+      }); // build a scene
 
-      // build a scene
       var scene = new ScrollMagic.Scene({
         triggerElement: this,
-        offset: -$(window).height()/2
-      })
-      .setTween(tween) // trigger a TweenLite.to tween
+        offset: -$(window).height() / 2
+      }).setTween(tween) // trigger a TweenLite.to tween
       .addTo(controller);
-
     });
-
   }
 
-  function makeLineGrid(){
-
+  function makeLineGrid() {
     var $lineCount = new Array(8),
         $gridLine = $('<div class="col-1"></div>'),
         $gridContainer = $('<div class="line-container"></div>'),
         $grid = $('<div class="container"></div>');
-
-    $.each($lineCount, function(i){
+    $.each($lineCount, function (i) {
       $grid.append($gridLine.clone());
     });
-
     $gridContainer.append($grid);
     $wrapper.append($gridContainer);
   }
 
-  function autoSizeTextarea(){
+  function autoSizeTextarea() {
     $(document).find('textarea').each(function () {
-      this.setAttribute('style', 'height:' + (this.scrollHeight-26) + 'px;overflow-y:hidden;');
+      this.setAttribute('style', 'height:' + (this.scrollHeight - 26) + 'px;overflow-y:hidden;');
     }).on('input', function () {
       this.style.height = 'auto';
-      this.style.height = (this.scrollHeight) + 'px';
+      this.style.height = this.scrollHeight + 'px';
     });
   }
 
-  function animateText($delay){
-
-    if($('.animatedText').length){
+  function animateText($delay) {
+    if ($('.animatedText').length) {
       var mySplitText = new SplitText('.animatedText'),
           splitTextTimeline = new TimelineLite();
-      mySplitText.split({type:"words, chars"});
-      splitTextTimeline.staggerFrom(mySplitText.chars, 1, {delay: $delay, autoAlpha:0,  y: -100, ease:Power3.easeInOut}, 0.05);
+      mySplitText.split({
+        type: "words, chars"
+      });
+      splitTextTimeline.staggerFrom(mySplitText.chars, 1, {
+        delay: $delay,
+        autoAlpha: 0,
+        y: -100,
+        ease: Power3.easeInOut
+      }, 0.05);
     }
-
   }
 
   var $allVideos = $("iframe[src^='//player.vimeo.com'], iframe[src^='//www.youtube.com']"),
-      $fluidEl = $("body");
+      $fluidEl = $("body"); // Figure out and save aspect ratio for each video
 
-  // Figure out and save aspect ratio for each video
-  $allVideos.each(function() {
+  $allVideos.each(function () {
+    $(this).data('aspectRatio', this.height / this.width) // and remove the hard coded width/height
+    .removeAttr('height').removeAttr('width');
+  }); // When the window is resized
 
-    $(this)
-      .data('aspectRatio', this.height / this.width)
+  $(window).resize(function () {
+    var newWidth = $fluidEl.width(); // Resize all videos according to their own aspect ratio
 
-      // and remove the hard coded width/height
-      .removeAttr('height')
-      .removeAttr('width');
-
-  });
-
-  // When the window is resized
-  $(window).resize(function() {
-
-    var newWidth = $fluidEl.width();
-
-    // Resize all videos according to their own aspect ratio
-    $allVideos.each(function() {
-
+    $allVideos.each(function () {
       var $el = $(this);
-      $el
-        .width(newWidth)
-        .height(newWidth * $el.data('aspectRatio'));
-
+      $el.width(newWidth).height(newWidth * $el.data('aspectRatio'));
     });
-
     responsiveMenu();
 
-    if($(window).width() > 949){
-      var parallaxHeader = new ScrollMagic.Scene({ triggerElement: $('#main-header'), offset: 0, duration: 200, triggerHook: 'onLeave'})
-          .setTween("#main-header", .5, {opacity: 0, y: 10, ease:Linear.ease})
-          .addTo(controller);
-    }
+    if ($(window).width() > 949) {
+      var parallaxHeader = new ScrollMagic.Scene({
+        triggerElement: $('#main-header'),
+        offset: 0,
+        duration: 200,
+        triggerHook: 'onLeave'
+      }).setTween("#main-header", .5, {
+        opacity: 0,
+        y: 10,
+        ease: Linear.ease
+      }).addTo(controller);
+    } // Kick off one resize to fix all videos on page load
 
-  // Kick off one resize to fix all videos on page load
   }).resize();
-
 })(jQuery);
+
+/***/ }),
+
+/***/ 1:
+/*!********************************************************!*\
+  !*** multi ./resources/assets/website/js/functions.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! /Users/sandesh/Sites/portfolio/resources/assets/website/js/functions.js */"./resources/assets/website/js/functions.js");
+
+
+/***/ })
+
+/******/ });
