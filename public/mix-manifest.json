@@ -1,11 +1,12 @@
 {
     "/website/js/custom.js": "/website/js/custom.js",
     "/website/js/functions.js": "/website/js/functions.js",
-    "/website/js/vendor.js": "/website/js/vendor.js",
-    "/website/css/animsition.min.css": "/website/css/animsition.min.css",
     "/website/css/core.css": "/website/css/core.css",
     "/website/css/custom.css": "/website/css/custom.css",
     "/website/css/elements.css": "/website/css/elements.css",
+    "/website/css/animsition.min.css": "/website/css/animsition.min.css",
     "/website/modules/img-scroller/img-scroller.js": "/website/modules/img-scroller/img-scroller.js",
-    "/website/modules/tera-lightbox/tera-lightbox.js": "/website/modules/tera-lightbox/tera-lightbox.js"
+    "/website/modules/tera-lightbox/tera-lightbox.js": "/website/modules/tera-lightbox/tera-lightbox.js",
+    "/website/modules/titan-slider/titan-slider.js": "/website/modules/titan-slider/titan-slider.js",
+    "/website/js/vendor.js": "/website/js/vendor.js"
 }
