@@ -13,7 +13,7 @@
                             <ul class="filters">
                                 <li><a href="#" data-filter="grid-item" class="active filter">Alles</a></li>
                                 <li><a href="#" data-filter="websites" class="filter">Websites</a></li>
-                                <li><a href="#" data-filter="illustraties" class="filter">Illustraties</a></li>
+                                <li><a href="#" data-filter="school" class="filter">Schoolprojecten</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -23,7 +23,7 @@
                 <div id="project-grid" class="masonry-grid">
 
                     <!-- Project -->
-                    <a href="{{ route('project.abc-hulplijn') }}" class="illustraties grid-item col-8">
+                    <a href="{{ route('project.abc-hulplijn') }}" class="school grid-item col-8">
                         <div class="thumb">
                             <img src="{{ asset('website/images/project/abchulplijn/project-image.jpg') }}">
                         </div>
@@ -45,7 +45,7 @@
                     </a>
 
                     <!-- Project -->
-                    <a href="{{ route('project.sportmaatje') }}" class="illustraties grid-item col-8">
+                    <a href="{{ route('project.sportmaatje') }}" class="school grid-item col-8">
                         <div class="thumb">
                             <img src="{{ asset('website/images/project/sportmaatje/project-image.jpg') }}">
                         </div>
@@ -56,7 +56,7 @@
                     </a>
 
                     <!-- Project -->
-                    <a href="{{ route('project.de-cafe-koers') }}" class="illustraties grid-item col-8">
+                    <a href="{{ route('project.de-cafe-koers') }}" class="school grid-item col-8">
                         <div class="thumb">
                             <img src="{{ asset('website/images/project/decafekoers/project-image.png') }}">
                         </div>
@@ -78,7 +78,7 @@
                     </a>
 
                     <!-- Project -->
-                    <a href="{{ route('project.natraj-flyer') }}" class="illustraties grid-item col-8">
+                    <a href="{{ route('project.natraj-flyer') }}" class="school grid-item col-8">
                         <div class="thumb">
                             <img src="{{ asset('website/images/project/natrajflyer/project-image.jpg') }}">
                         </div>
@@ -89,7 +89,7 @@
                     </a>
 
                     <!-- Project -->
-                    <a href="{{ route('project.dutchdiner') }}" class="websites grid-item col-8">
+                    <a href="{{ route('project.dutchdiner') }}" class="grid-item col-8">
                         <div class="thumb">
                             <img src="{{ asset('website/images/project/dutchdiner/project-image.jpg') }}">
                         </div>
