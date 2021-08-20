@@ -10,9 +10,10 @@ Route::namespace('Website')->group(function() {
         Route::get('/dansacademie-natraj-flyer', 'ProjectsController@natrajFlyer')->name('natraj-flyer');
         Route::get('/guess-and-win', 'ProjectsController@guessAndWin')->name('guess-and-win');
         Route::get('/de-cafe-koers', 'ProjectsController@deCafeKoers')->name('de-cafe-koers');
-        Route::get('sportmaatje', 'ProjectsController@sportmaatje')->name('sportmaatje');
-        Route::get('abc-hulplijn', 'ProjectsController@abchulplijn')->name('abc-hulplijn');
-        Route::get('pscateringservices', 'ProjectsController@pscateringservices')->name('pscateringservices');
+        Route::get('/sportmaatje', 'ProjectsController@sportmaatje')->name('sportmaatje');
+        Route::get('/abc-hulplijn', 'ProjectsController@abchulplijn')->name('abc-hulplijn');
+        Route::get('/pscateringservices', 'ProjectsController@pscateringservices')->name('pscateringservices');
+        Route::get('/anwbontheroad', 'ProjectsController@anwbontheroad')->name('anwbontheroad');
 //	Route::get('/brand-in-nederland', 'ProjectsController@brandInNederland')->name('brand-in-nederland');
 
     });
