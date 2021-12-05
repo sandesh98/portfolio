@@ -72,8 +72,8 @@ class ProjectsController extends Controller
         return view('website.project.projects.pscateringservices');
     }
 
-    public function anwbontheroad()
+    public function superspeurders()
     {
-        return view('website.project.projects.anwbontheroad');
+        return view('website.project.projects.superspeurders');
     }
 }

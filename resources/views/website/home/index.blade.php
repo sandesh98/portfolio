@@ -13,7 +13,6 @@
                                 <h1 class="animatedText" style="margin-bottom: 10px;">Sandesh Boedhoe</h1>
                                 <div class="">
                                     <p class="subtitle">Mijn naam is Sandesh en ik ben 23 jaar oud en volg de opleiding Communicatie Multimedia Design aan de Hogeschool Rotterdam.</p>
-                                    <p class="subtitle">Ik ben opzoek naar een stage in de periode van september 2021 tot en met januari 2022 als UX-designer.</p>
                                 </div>
                             </div>
                         </div>

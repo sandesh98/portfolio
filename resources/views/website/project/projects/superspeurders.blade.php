@@ -8,14 +8,14 @@
     <div id="inner">
         <section class="nmb behind-header">
             <div class="hero">
-                <div style="background-image: url({{ asset('website/images/project/abchulplijn/header.jpg') }})" class="bg faded"></div>
+                <div style="background-image: url({{ asset('website/images/project/superspeurders/header.jpg') }})" class="bg faded"></div>
                 <div class="vcenter">
                     <div class="container mb-xl">
                         <div class="grid">
                             <div class="col-1">2021</div>
                             <div class="col-7">
-                                <div class="label">Februari</div>
-                                <h1 class="animatedText">ABC-Hulplijn</h1>
+                                <div class="label">Juni</div>
+                                <h1 class="animatedText">Superspeurders</h1>
                             </div>
                         </div>
                     </div>
@@ -26,22 +26,24 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-6 col-offset-1">
-                        <img src="{{ asset('website/images/project/abchulplijn/preview.jpg') }}" alt="">
+                        <img src="{{ asset('website/images/project/superspeurders/preview.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="grid content">
                     <div class="col-offset-1 col-3">
                         <p>ABC-Hulplijn is een concept speciaal voor middelbare scholieren met Dyslexie. De app zorgt ervoor dat zij zich zeker en tegelijkertijd zelfstandig voelen. De opdracht is bedacht door middelbare scholieren onder leiding van Hogeschool Rotterdam.</p>
                         <a href="https://www.figma.com/file/i5oAmZ4AUB275rQxf1nI0U/Prototype-abc-hulplijn?node-id=0%3A1" target="_blank">Link naar Figma prototype</a>
+                        <br>
+                        <a href="http://anwbontheroad.nl/" target="_blank">Link naar de website</a>
                     </div>
                     <div class="col-offset-1 col-1">
                         <div class="project-data">
                             <div class="title">Type</div>
-                            <div class="desc">Illustratie</div>
+                            <div class="desc">Website / Illustratie</div>
                         </div>
                         <div class="project-data">
                             <div class="title">Opdrachtgever</div>
-                            <div class="desc">Middelbare scholen</div>
+                            <div class="desc">ANWB</div>
                         </div>
                     </div>
                     <div class="col-1">
@@ -106,9 +108,19 @@
                                 <div class="col-2"><span class="label">Programma's</span>
                                     <ul class="striped inside">
                                         <li>Adobe Illustrator</li>
+                                        <li>Adobe Indesign</li>
                                         <li>Figma</li>
                                         <li>Miro</li>
                                         <li>Trello</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-2"><span class="label">Website</span>
+                                    <ul class="striped inside">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Javascript</li>
+                                        <li>Alphine JS</li>
                                     </ul>
                                 </div>
                             </div>
