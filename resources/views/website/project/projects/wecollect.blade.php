@@ -64,11 +64,11 @@
                         <ul class="slides">
                             <li class="slide"><img src="{{ asset('website/images/project/wecollect/carousel/carousel-1.jpg') }}"
                                                    class="fw"></li>
-                            <li class="slide"><img src="{{ asset('website/images/project/abchulplijn/carousel/carousel-2.jpg') }}"
+                            <li class="slide"><img src="{{ asset('website/images/project/wecollect/carousel/carousel-2.jpg') }}"
                                                    class="fw"></li>
-                            <li class="slide"><img src="{{ asset('website/images/project/abchulplijn/carousel/carousel-3.jpg') }}"
+                            <li class="slide"><img src="{{ asset('website/images/project/wecollect/carousel/carousel-3.jpg') }}"
                                                    class="fw"></li>
-                            <li class="slide"><img src="{{ asset('website/images/project/abchulplijn/carousel/carousel-4.png') }}"
+                            <li class="slide"><img src="{{ asset('website/images/project/wecollect/carousel/carousel-4.jpg') }}"
                                                    class="fw"></li>
                         </ul>
                     </div>
@@ -110,6 +110,27 @@
                                         <li>Figma</li>
                                         <li>Miro</li>
                                         <li>Trello</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-2"><span class="label">Methodes</span>
+                                    <ul class="striped inside">
+                                        <li>Deskresearch</li>
+                                        <li>Destep Context Map</li>
+                                        <li>Statements Cards</li>
+                                        <li>Google Form onderzoek</li>
+                                        <li>Creatieve sessie H.G. Wells</li>
+                                        <li>Pecha Kucka presentatie</li>
+                                        <li>Reframing</li>
+                                        <li>Ontwerprichtlijnen</li>
+                                        <li>Stakeholder Map</li>
+                                        <li>Conclusie</li>
+                                        <li>Overbrug het gat methode</li>
+                                        <li>Sitemap</li>
+                                        <li>Moodboard</li>
+                                        <li>Wireframe</li>
+                                        <li>Testplan</li>
+                                        <li>Prototype</li>
                                     </ul>
                                 </div>
                             </div>
