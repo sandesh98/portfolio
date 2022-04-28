@@ -13,6 +13,7 @@ Route::namespace('Website')->group(function() {
         Route::get('sportmaatje', 'ProjectsController@sportmaatje')->name('sportmaatje');
         Route::get('abc-hulplijn', 'ProjectsController@abchulplijn')->name('abc-hulplijn');
         Route::get('pscateringservices', 'ProjectsController@pscateringservices')->name('pscateringservices');
+        Route::get('wecollect', 'ProjectsController@wecollect')->name('wecollect');
 //	Route::get('/brand-in-nederland', 'ProjectsController@brandInNederland')->name('brand-in-nederland');
 
     });

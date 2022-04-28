@@ -71,4 +71,9 @@ class ProjectsController extends Controller
     {
         return view('website.project.projects.pscateringservices');
     }
+
+    public function wecollect()
+    {
+        return view('website.project.projects.wecollect');
+    }
 }
