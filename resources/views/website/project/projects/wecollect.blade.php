@@ -31,8 +31,8 @@
                 </div>
                 <div class="grid content">
                     <div class="col-offset-1 col-3">
-                        <p>ABC-Hulplijn is een concept speciaal voor middelbare scholieren met Dyslexie. De app zorgt ervoor dat zij zich zeker en tegelijkertijd zelfstandig voelen. De opdracht is bedacht door middelbare scholieren onder leiding van Hogeschool Rotterdam.</p>
-                        <a href="https://www.figma.com/file/i5oAmZ4AUB275rQxf1nI0U/Prototype-abc-hulplijn?node-id=0%3A1" target="_blank">Link naar Figma prototype</a>
+                        <p>Wecollect geeft consumenten een overzicht van al hun actieve en inactieve apparaten die aangesloten staat op hun wifi-netwerk. Vanuit hier biedt de app verschillende mogelijkheden om hun apparaat op een verantwoorde manier te scheiden. Zo krijgen consumenten meer grip op de mogelijkheden om oud elektronica te deponeren.</p>
+                        <a href="https://www.figma.com/proto/KQyJs4PdYRHh4WRAvIbTPx/Final-product?page-id=7%3A3&node-id=43%3A785&viewport=241%2C48%2C0.36&scaling=scale-down&starting-point-node-id=43%3A785" target="_blank">Link naar Figma prototype</a>
                     </div>
                     <div class="col-offset-1 col-1">
                         <div class="project-data">
@@ -106,6 +106,7 @@
                                 <div class="col-2"><span class="label">Programma's</span>
                                     <ul class="striped inside">
                                         <li>Adobe Illustrator</li>
+                                        <li>Apple Keynote</li>
                                         <li>Figma</li>
                                         <li>Miro</li>
                                         <li>Trello</li>

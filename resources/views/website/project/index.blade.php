@@ -23,6 +23,17 @@
                 <div id="project-grid" class="masonry-grid">
 
                     <!-- Project -->
+                    <a href="{{ route('project.wecollect') }}" class="school grid-item col-8">
+                        <div class="thumb">
+                            <img src="{{ asset('website/images/project/wecollect/project-image.jpg') }}">
+                        </div>
+                        <div class="caption">
+                            <div class="title">Schoolproject - WECOLLECT</div>
+                            <div class="subtitle">Prototype</div>
+                        </div>
+                    </a>
+
+                    <!-- Project -->
                     <a href="{{ route('project.abc-hulplijn') }}" class="school grid-item col-8">
                         <div class="thumb">
                             <img src="{{ asset('website/images/project/abchulplijn/project-image.jpg') }}">
