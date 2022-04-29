@@ -8,7 +8,7 @@
     <div id="inner">
         <section class="nmb behind-header">
             <div class="hero">
-                <div style="background-image: url({{ asset('website/images/project/wecollect/header.jpg') }})" class="bg faded"></div>
+                <div style="background-image: url({{ asset('website/images/project/superspeurders/header.jpg') }})" class="bg faded"></div>
                 <div class="vcenter">
                     <div class="container mb-xl">
                         <div class="grid">
@@ -26,7 +26,7 @@
             <div class="container">
                 <div class="grid content">
                     <div class="col-6 col-offset-1">
-                        <img src="{{ asset('website/images/project/wecollect/preview.png') }}" alt="">
+                        <img src="{{ asset('website/images/project/superspeurders/preview.png') }}" alt="">
                     </div>
                 </div>
                 <div class="grid content">
