@@ -31,8 +31,8 @@
                 </div>
                 <div class="grid content">
                     <div class="col-offset-1 col-3">
-                        <p>Wecollect geeft consumenten een overzicht van al hun actieve en inactieve apparaten die aangesloten staat op hun wifi-netwerk. Vanuit hier biedt de app verschillende mogelijkheden om hun apparaat op een verantwoorde manier te scheiden. Zo krijgen consumenten meer grip op de mogelijkheden om oud elektronica te deponeren.</p>
-                        <a href="https://www.figma.com/proto/KQyJs4PdYRHh4WRAvIbTPx/Final-product?page-id=7%3A3&node-id=43%3A785&viewport=241%2C48%2C0.36&scaling=scale-down&starting-point-node-id=43%3A785" target="_blank">Link naar Figma prototype</a>
+                        <p>Superspeurders is een interactieve groepsspeurtocht te voet, waarbij kinderen doormiddel van checkpoints opdrachten uitvoeren in de eigen stad Rotterdam zo en zoveel mogelijk praktijkervaring opdoen in het verkeer.</p>
+                        <a href="https://sandesh98.github.io/anwbontheroad/" target="_blank">Link naar website</a>
                     </div>
                     <div class="col-offset-1 col-1">
                         <div class="project-data">
@@ -47,7 +47,7 @@
                     <div class="col-1">
                         <div class="project-data">
                             <div class="title">Jaar</div>
-                            <div class="desc">2022</div>
+                            <div class="desc">2021</div>
                         </div>
                         <div class="project-data">
                             <div class="title">Onder leiding van</div>
@@ -83,7 +83,7 @@
                             <div class="title">Meer informatie</div>
                         </div>
                         <div class="body">
-                            <p>Hier komt het proces van Wecollect!</p>
+                            <p>Hier komt het proces van Superspeurders!</p>
                         </div>
                     </li>
                     <li>
@@ -101,27 +101,72 @@
                                         <li>Trello</li>
                                     </ul>
                                 </div>
-
-                                <div class="col-2"><span class="label">Methodes</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="head">
+                            <div class="title">Methodes</div>
+                        </div>
+                        <div class="body">
+                            <div class="grid">
+                                <div class="col-2"><span class="label">Discover</span>
                                     <ul class="striped inside">
-                                        <li>Deskresearch</li>
+                                        <li>SWOT-analyse</li>
                                         <li>Destep Context Map</li>
-                                        <li>Statements Cards</li>
-                                        <li>Google Form onderzoek</li>
-                                        <li>Creatieve sessie H.G. Wells</li>
-                                        <li>Pecha Kucka presentatie</li>
-                                        <li>Reframing</li>
-                                        <li>Ontwerprichtlijnen</li>
+                                        <li>Deskresearch</li>
+                                        <li>Interviews</li>
+                                        <li>Observeren</li>
+                                        <li>Expert interview</li>
                                         <li>Stakeholder Map</li>
-                                        <li>Conclusie</li>
-                                        <li>Overbrug het gat methode</li>
+                                        <li>Provisional Persona</li>
+                                        <li>Insight Cards</li>
+                                        <li>Empathy Map</li>
+                                        <li>Debrief</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-2"><span class="label">Define</span>
+                                    <ul class="striped inside">
+                                        <li>Framing Your Design Challenge</li>
+                                        <li>5 Why's</li>
+                                        <li>Job Stories</li>
+                                        <li>User Stories</li>
+                                        <li>Design Principles</li>
+                                        <li>4 Denkhoeden</li>
+                                        <li>Disney methode</li>
+                                        <li>The Mash Up</li>
+                                        <li>Toevalstreffer</li>
+                                        <li>COCD-Box</li>
+                                        <li>Solution Sketch</li>
+                                        <li>Design Principles vs. Concepten</li>
+                                        <li>Concept Cards</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-2"><span class="label">Design</span>
+                                    <ul class="striped inside">
+                                        <li>Concept test</li>
+                                        <li>Four Square Story</li>
+                                        <li>Flowchart</li>
+                                        <li>Golden Circle</li>
+                                        <li>Design Guidelines</li>
                                         <li>Sitemap</li>
-                                        <li>Moodboard</li>
+                                        <li>Paper prototype</li>
                                         <li>Wireframe</li>
-                                        <li>Testplan</li>
                                         <li>Prototype</li>
                                     </ul>
                                 </div>
+
+                                <div class="col-2"><span class="label">Deliver</span>
+                                    <ul class="striped inside">
+                                        <li>Design Crid</li>
+                                        <li>Usability Tests</li>
+                                        <li>A/B-test</li>
+                                        <li>Fly On The Wall</li>
+                                    </ul>
+                                </div>
+
                             </div>
                         </div>
                     </li>
