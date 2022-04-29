@@ -34,7 +34,7 @@
                     </a>
 
                     <!-- Project -->
-                    <a href="{{ route('project.wecollect') }}" class="school grid-item col-8">
+                    <a href="{{ route('project.superspeurders') }}" class="school grid-item col-8">
                         <div class="thumb">
                             <img src="{{ asset('website/images/project/superspeurders/project-image.jpg') }}">
                         </div>

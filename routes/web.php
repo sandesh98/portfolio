@@ -7,13 +7,14 @@ Route::namespace('Website')->group(function() {
 //        Route::get('/csr', 'ProjectsController@csr')->name('csr');
         Route::get('/dutchdiner', 'ProjectsController@dutchdiner')->name('dutchdiner');
 //        Route::get('/technischedienst', 'ProjectsController@technischedienst')->name('technischedienst');
-        Route::get('/dansacademie-natraj-flyer', 'ProjectsController@natrajFlyer')->name('natraj-flyer');
-        Route::get('/guess-and-win', 'ProjectsController@guessAndWin')->name('guess-and-win');
-        Route::get('/de-cafe-koers', 'ProjectsController@deCafeKoers')->name('de-cafe-koers');
+        Route::get('dansacademie-natraj-flyer', 'ProjectsController@natrajFlyer')->name('natraj-flyer');
+        Route::get('guess-and-win', 'ProjectsController@guessAndWin')->name('guess-and-win');
+        Route::get('de-cafe-koers', 'ProjectsController@deCafeKoers')->name('de-cafe-koers');
         Route::get('sportmaatje', 'ProjectsController@sportmaatje')->name('sportmaatje');
         Route::get('abc-hulplijn', 'ProjectsController@abchulplijn')->name('abc-hulplijn');
         Route::get('pscateringservices', 'ProjectsController@pscateringservices')->name('pscateringservices');
         Route::get('wecollect', 'ProjectsController@wecollect')->name('wecollect');
+        Route::get('superspeurders', 'ProjectsController@superspeurders')->name('superspeurders');
 //	Route::get('/brand-in-nederland', 'ProjectsController@brandInNederland')->name('brand-in-nederland');
 
     });

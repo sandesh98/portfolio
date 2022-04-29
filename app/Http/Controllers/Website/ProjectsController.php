@@ -76,4 +76,9 @@ class ProjectsController extends Controller
     {
         return view('website.project.projects.wecollect');
     }
+
+    public function superspeurders()
+    {
+        return view('website.project.projects.superspeurders');
+    }
 }
