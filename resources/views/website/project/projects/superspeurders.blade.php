@@ -178,16 +178,16 @@
                 <div class="grid content">
                     <div class="col-4">
                         <div class="vcenter link-container">
-                            <a href="{{ route('project.dutchdiner') }}" class="prev-link">
-                                <div class="project-title">Dutch Diner</div>
+                            <a href="{{ route('project.wecollect') }}" class="prev-link">
+                                <div class="project-title">WECOLLECT</div>
                                 <div class="link-title">Vorige project</div>
                             </a>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="vcenter link-container text-right">
-                            <a href="{{ route('project.pscateringservices') }}" class="next-link">
-                                <div class="project-title">P.S. Catering Services</div>
+                            <a href="{{ route('project.abc-hulplijn') }}" class="next-link">
+                                <div class="project-title">ABC-Hulplijn</div>
                                 <div class="link-title">Volgende project</div>
                             </a>
                         </div>

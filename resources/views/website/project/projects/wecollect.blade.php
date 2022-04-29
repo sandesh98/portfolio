@@ -141,8 +141,8 @@
                     </div>
                     <div class="col-4">
                         <div class="vcenter link-container text-right">
-                            <a href="{{ route('project.pscateringservices') }}" class="next-link">
-                                <div class="project-title">P.S. Catering Services</div>
+                            <a href="{{ route('project.superspeurders') }}" class="next-link">
+                                <div class="project-title">Superspeurders</div>
                                 <div class="link-title">Volgende project</div>
                             </a>
                         </div>
