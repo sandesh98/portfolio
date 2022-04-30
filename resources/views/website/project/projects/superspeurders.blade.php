@@ -95,10 +95,14 @@
                                 <div class="col-2"><span class="label">Programma's</span>
                                     <ul class="striped inside">
                                         <li>Adobe Illustrator</li>
+                                        <li>Adobe Indesign</li>
+                                        <li>Adobe Photoshop</li>
+                                        <li>Adobe Premiere Pro</li>
                                         <li>Apple Keynote</li>
                                         <li>Figma</li>
                                         <li>Miro</li>
                                         <li>Trello</li>
+                                        <li>VSCode</li>
                                     </ul>
                                 </div>
                             </div>
