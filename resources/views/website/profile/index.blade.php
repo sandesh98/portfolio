@@ -168,7 +168,7 @@
                             <span class="label">Sep 2016 - Heden</span>
                             <ul class="striped">
                                 <li>Amac<br>
-                                    Medior Sales Adviser
+                                    Senior Sales Adviser
                                 </li>
                             </ul>
 
