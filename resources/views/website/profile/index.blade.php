@@ -22,12 +22,13 @@
                     <div class="col-3">
                         <div class="content-block">
                             <h2>Hi, mijn naam is Sandesh</h2>
-                            <p>Ik ben 23 jaar oud en woon in Spijkenisse. Mijn hobby’s zijn poolen, gamen met vrienden en programmeren. Eén van mijn eigenschap is dat ik een persoon ben die niet stil kan staan. Momenteel volg ik de opleiding Communicatie en Multimedia Design aan de Hogeschool Rotterdam. Een belangrijk onderdeel van de opleiding is het bedenken en uitwerken van mooie digitale producten die passen bij de behoefte van de gebruiker(s). Hier heb ik ook een grote passie voor. Daarom ben ik altijd druk bezig met het opzoeken van de laatste trends op het gebied van design en technologie.</p>
+                            <p>Ik ben 24 jaar oud en ik woon in Spijkenisse. Ik mijn vrije tijd hou ik ervan om te poolen met vrienden. Daarbij probeer ik ook regelmatig een bezoekje te brengen aan de sportschool. Een eigenschap van mij is dat ik er niet van hou om stil te zitten. Het grootste gedeelte van mijn tijd ben ik bezig met het optimale uit mijzelf te halen of ik ben druk met school of werk.</p>
                             <h3>School</h3>
-                            <p>Momenteel ben ik een derde jaar Communicatie en Multimedia Design student aan de Hogeschool Rotterdam. Eén van de leukste onderdelen van de opleiding buiten het bedenken en uitwerken van producten die passen bij de behoefte van de doelgroep is de samenwerking. Zowel samenwerken in teamverband waarbij ik met gemiddeld 3 andere studenten aan de slag om een ontwerpproces te doorlopen als samenwerken in de vorm van een co-creatie sessie, spreken mij erg aan op het vakgebied.</p>
-                            <p>Naar mijn mening zijn één van de leukste onderdelen binnen het ontwerpproces het afnemen van interviews, creëren van een prototype en deze prototypes doormiddel van allerlei creatieve methodes testen bij de gebruiker. In het derde leerjaar moet ik het eerste semester stagelopen bij een bedrijf dat zich bezighoudt met interactieve digitale producten waarbij de mens centraal staat. Tijdens mijn stageperiode hoop ik ook minimaal 1 van deze onderdelen te kunnen beoefenen. </p>
+                            <p>Momenteel ben ik een derde jaar Communicatie en Multimedia Design student aan Hogeschool Rotterdam. Het leukste aan mijn opleiding vind ik onderzoek doen naar een probleem en hier toffe en mooie toepassingen voor bedenken. Tijdens de projecten ben ik een echte teamspeler en vind ik samen nieuwe ideeën bedenken met de doelgroep ontzettend motiverend. </p>
+                            <p>Tijdens mijn stageperiode in het vierde leerjaar ben ik opzoek naar een bedrijf dat zich verdiept in UX en UI design voor mobiele applicaties. Door mijn affiniteit met Apple en mijn interesse in technologie weet ik veel over telefoon en de hardware. In mijn ontwerp probeer ik dit ook altijd te werken. Een voorbeeld hiervan is een recent project
+                                <a class="undefined" href="https://sandeshboedhoe.nl/wecollect">Wecollect</a>.</p>
                             <h3>Werk</h3>
-                            <p>Ik ben bijna vijf jaar in dienst bij Amac in Spijkenisse. Amac de grootste Apple Premium Reseller van Europa. Het leukste aan mijn werk naar mijn mening is dat ik premium producten mag verkopen aan klanten. Mijn motivatie haal ik contact met mensen en mijn collega’s. Het achterhalen van de wensen en behoefte van een klant geeft mij kick. Hetzelfde geldt voor interviews afnemen bij de doelgroep en stakeholders.</p>
+                            <p>Ik ben bijna vijf jaar in dienst bij Amac in Spijkenisse. Amac de grootste Apple Premium Reseller van Europa. Het leukste aan mijn werk naar mijn mening is dat ik premium producten mag verkopen aan klanten. Mijn motivatie haal ik contact met mensen en mijn collega’s. Het achterhalen van de wensen en behoefte van een klant geeft mij kick.</p>
                         </div>
                         <div class="content-block">
                             <h4>Extra weetjes</h4>
@@ -141,20 +142,27 @@
                         </div>
 
                         <div class="list-block">
+                            <h3 class="stripe">Designing</h3>
+                            <ul class="striped">
+                                <span class="label">Mijn specialisatie</span>
+                                <li>User Experience Design</li>
+                                <li>User Interface Design</li>
+                            </ul>
+                        </div>
+
+                        <div class="list-block">
                             <h3 class="stripe">Coding</h3>
                             <ul class="striped">
                                 <span class="label">Comfortabel met</span>
                                 <li>Laravel</li>
                                 <li>PHP</li>
                                 <li>MySQL</li>
-                                <li>Bootstrap</li>
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>Javascript</li>
                                 <div class="mt-20">
                                     <span class="label">In aanraking gekomen met</span>
                                     <li>Vue</li>
-                                    <li>LiveWire</li>
                                     <li>Flutter</li>
                                 </div>
                             </ul>
