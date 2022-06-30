@@ -4,7 +4,7 @@
     <div id="inner">
         <section class="mb-xl">
             <div class="hero behind-header small">
-                <div style="background-image: url({{ asset('website/images/profile/sandeshboedhoe.jpeg') }}); background-position: center top;" class="bg faded"></div>
+                <div style="background-image: url({{ asset('website/images/profile/sandesh.jpeg') }}); background-position: center center;" class="bg faded"></div>
                 <div class="vbottom">
                     <div class="container">
                         <div class="grid mb-md">
