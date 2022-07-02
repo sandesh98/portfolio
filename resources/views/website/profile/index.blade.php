@@ -29,6 +29,8 @@
                                 <a class="undefined" href="https://sandeshboedhoe.nl/wecollect">Wecollect</a>.</p>
                             <h3>Werk</h3>
                             <p>Ik ben bijna vijf jaar in dienst bij Amac in Spijkenisse. Amac de grootste Apple Premium Reseller van Europa. Het leukste aan mijn werk naar mijn mening is dat ik premium producten mag verkopen aan klanten. Mijn motivatie haal ik contact met mensen en mijn collega’s. Het achterhalen van de wensen en behoefte van een klant geeft mij kick.</p>
+                            <a href="https://www.linkedin.com/in/sandesh98/" target="_blank"><i class="fa fa-linkedin fa-social-icons-sm mt-20"></i></a>
+                            <a href="https://github.com/sandesh98" target="_blank"><i class="fa fa-github fa-social-icons-sm mt-20"></i></a>
                         </div>
                         <div class="content-block">
                             <h4>Extra weetjes</h4>
@@ -147,6 +149,12 @@
                                 <span class="label">Mijn specialisatie</span>
                                 <li>User Experience Design</li>
                                 <li>User Interface Design</li>
+                                <div class="mt-20">
+                                    <span class="label">Programma's</span>
+                                    <li>Figma</li>
+                                    <li>Adobe Photoshop</li>
+                                    <li>Adobe Illustrator</li>
+                                </div>
                             </ul>
                         </div>
 

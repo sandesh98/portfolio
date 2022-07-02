@@ -78,3 +78,20 @@ input, input:before, input:after {
     color: #979797;
 }
 
+.fa-social-icons {
+    width: 2em;
+    height: 2em;
+    font-size: 2.5em;
+    transition: 0.3s;
+}
+
+.fa-social-icons:hover, .fa-social-icons-sm:hover{
+    color: #979797;
+}
+
+.fa-social-icons-sm {
+    width: 1.4em;
+    font-size: 1.8em;
+    transition: 0.3s;
+}
+

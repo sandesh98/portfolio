@@ -97,7 +97,6 @@
                                 <li class="text-muted">Een inruil punt vinden om het product te brengen en verkopen.</li>
                                 <li class="text-muted">Het product verkopen via bijvoorbeeld Marktplaats en Facebook.</li>
                                 <li class="text-muted">Instructies om het product terug te zetten naar fabrieksinstellingen.</li>
-
                             </ul>
 
                         </div>
