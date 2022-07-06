@@ -92,6 +92,9 @@
                                 Het concept is een interactieve speurtocht die kinderen te voet uitvoeren in hun eigen stad Rotterdam. We hebben expres voor een speurtocht te voet gekozen omdat wij de kinderen niet een fiets kunnen geven en verwachten dat ze allemaal kunnen fietsen. De kinderen lopen een voor uitgestippelde route door hun eigen stad. Zij krijgen een routekaart mee zodat zij precies weten hoe ze moeten lopen. Om ervoor te zorgen dat de kinderen de juiste route blijven volgen worden er checkpunten ingezet. Checkpunten kunnen bijvoorbeeld winkels zijn maar ook speciaal opgezette karren. Bij aankomst van de checkpunt krijgen de kinderen ook stempel in hun paspoort.
                             </p>
                             <p>Tijdens het lopen van de lopen van de route kunnen de kinderen ook een in een zogeheten QR-code omgeving komen. Belangrijk is dan dat zij opzoek gaan naar de QR-code en de desbetreffende opdracht uitvoeren op hun telefoon. Deze Qr-code scannen zij aan de hand van een applicatie die al voor geïnstalleerd staat op de mobiele telefoons.</p>
+                            <p><b>Mijn rol</b><br>
+                                Mijn favoriete onderdeel tijdens het project was het bedenken van het concept aan de hand van verschillende creatieve sessies. Daarbij heb ik mij tijdens het project onderscheiden door het prototype dat gemaakt is te programmeren en te hosten. De web technologie dat ik gebruikt heb bestaat uit HTML, CSS en Alpine.js. Het programmeren van het prototype heeft geleid tot een betere gebruikerservaring voor de correspondenten tijdens het testen.
+                            </p>
                         </div>
                     </li>
                     <li>

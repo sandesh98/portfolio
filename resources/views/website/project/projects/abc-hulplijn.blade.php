@@ -95,6 +95,9 @@
                                 <li>De tweede functie is de spellingscontrole. Hier kan de leerling een woord in tikken zoals hij of zij denkt dat deze geschreven moet worden. De spellingscontrole corrigeert de fout en laat het betekenis zien van het woord.</li>
                                 <li>De laatste functie is de nakijker. Programma’s zoals Word arceren fout geschreven woorden. Echter is er geen spellingscontrole wanneer iets met pen en papier wordt geschreven. Met de nakijker scant de leerling een stuk geschreven tekst en de functie arceert spelfouten.</li>
                             </ol>
+                            <p><b>Mijn rol</b><br>
+                                Mijn rol tijdens het project was om alles in goede banen te leiden aangezien ik de teamcaptain was. Het was daarom belangrijk om een overzicht te houden van alle deadlines en mijn teamgenoten aan te sturen. Tijdens het project ben ik naar de mensen gestapt om interviews af te nemen en ik ben verantwoordelijk geweest voor het prototype ontwerpen en maken.
+                            </p>
                         </div>
                     </li>
                     <li>

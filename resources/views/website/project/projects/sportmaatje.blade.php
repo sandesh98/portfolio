@@ -98,6 +98,9 @@
                                     <ul class="striped inside">
                                         <li>Adobe XD</li>
                                         <li>Adobe Illustrator</li>
+                                        <li>Adobe Premiere</li>
+                                        <li>Microsoft Teams</li>
+                                        <li>Miro</li>
                                     </ul>
                                 </div>
                                 <div class="col-2"><span class="label">Projectleden</span>

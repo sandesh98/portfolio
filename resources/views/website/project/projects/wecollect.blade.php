@@ -89,7 +89,7 @@
                             </p>
                             <p>Eerst ben ik begonnen met deskresearch doen aan de hand van een paar vragen die ik van tevoren had bedacht. Tijdens het onderzoek kwamen erg interessante punten naar boven: Zo is de leeftijd waarop kinderen een telefoon krijgen steeds jonger en jonger en dat ongeveer 10% van alle e-waste tussen het grofvuil beland omdat mensen simpelweg niet weten wat zij met deze apparaten kunnen doen. Deze inzichten heb ik samen met andere inzichten die bijvoorbeeld ook uit mijn Google Form zijn gekomen verwerkt in Statement Cards.</p>
                             <p>Tijdens het project heb ik samen met een paar klasgenoten een aantal creatieve brainstormsessies (methode van H.G Wells, tijdmachine) gedaan om tot een veelheid aan ideeën te komen. Vervolgens heb ik samen met deze klasgenoot het beste idee gekozen. Om eens goed na te denken over de stappen die ik moet doorlopen om het idee tot een werkelijkheid te maken ben ik in contact geraakt met een Bedrijfskunde student. Samen met haar heb ik de methode: Overbrug het gat, uitgevoerd om na te denken over deze stappen.</p>
-                            <p>Het concept:<br>
+                            <p><b>Het concept:</b><br>
                                 Uit eindelijk ben ik tot het concept Wecollect gekomen. Aan de hand van een netwerk scan kunnen consumenten inzichtelijk krijgen welke apparaten actief en inactief zijn op hun netwerk. Wanneer zij op een apparaat drukken zien zij informatie over het apparaat en wat de mogelijkheden zijn om het apparaat op een verantwoorde manier weg te doen. Na de opties bekeken te hebben als een consument ligt het balletje wel bij hen om vervolgens de stap te nemen om het product daadwerkelijk weg te doen. De stappen die men kan ondernemen zijn als volgt:
                             </p>
                             <ul>
@@ -98,7 +98,11 @@
                                 <li class="text-muted">Het product verkopen via bijvoorbeeld Marktplaats en Facebook.</li>
                                 <li class="text-muted">Instructies om het product terug te zetten naar fabrieksinstellingen.</li>
                             </ul>
+                            <br>
 
+                            <p><b>Mijn rol</b><br>
+                                Het leukste tijdens het project vond ik het onderzoek doen naar het onderwerp en het prototype van de app. Tijdens het project heb ik mijn skills verder uit weten te breiden door o.a. CBS-statistieken te filteren en wetenschappelijke onderzoeken te lezen. Ook heb ik samen met een ervaren designer gezeten en hebben wij samen de app ontworpen.
+                            </p>
                         </div>
                     </li>
                     <li>
